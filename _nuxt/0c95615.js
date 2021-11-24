@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{936:function(t,n,e){"use strict";e.r(n);var l={layout:"chat"},c=e(11),component=Object(c.a)(l,(function(){var t=this.$createElement;return(this._self._c||t)("nuxt-child")}),[],!1,null,null,null);n.default=component.exports}}]);
