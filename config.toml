@@ -1,4 +1,4 @@
 baseURL = 'https://devstools.github.io/public'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Developer Blog'
 theme="ananke"
