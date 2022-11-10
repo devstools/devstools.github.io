@@ -12,12 +12,12 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "Ananke"
+    title = "Developer Golang"
     weight = 1
     contentDir = "content/en"
     # languageDirection = 'rtl' for Right-To-Left languages
   [languages.vi]
-    title = "Ananke Vi"
+    title = "Developer Golang"
     weight = 2
     contentDir = "content/vi"
 
@@ -35,7 +35,8 @@ enableRobotsTXT = true
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   recent_posts_number = 3
+  text-algin = "left"
 
 [[params.ananke_socials]]
-name = "twitter"
+name = "facebook"
 url = "https://fb.com/biccv"
