@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://devstools.github.io/public/about/</loc>
-    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/</loc>
-    <lastmod>2022-11-10T10:45:15+07:00</lastmod>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/posts/my-first-post/</loc>
-    <lastmod>2022-11-10T10:45:15+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/posts/</loc>
-    <lastmod>2022-11-10T10:45:15+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/categories/</loc>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://devstools.github.io/public/en/sitemap.xml</loc>
+    
+      <lastmod>2022-11-10T10:45:15+07:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://devstools.github.io/public/vi/sitemap.xml</loc>
+    
+      <lastmod>2022-11-10T10:45:15+07:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

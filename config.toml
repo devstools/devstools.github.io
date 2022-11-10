@@ -1,7 +1,7 @@
 baseURL = 'https://devstools.github.io/public'
 languageCode = 'en-us'
 title = 'Developer Blog'
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = ["ananke"]
 resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
