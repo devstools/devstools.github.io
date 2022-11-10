@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://devstools.github.io/</link>
+    <link>https://devstools.github.io/public/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Nov 2022 10:45:15 +0700</lastBuildDate><atom:link href="https://devstools.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 10:45:15 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://devstools.github.io/about/</link>
+      <link>https://devstools.github.io/public/about/</link>
       <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
       
-      <guid>https://devstools.github.io/about/</guid>
+      <guid>https://devstools.github.io/public/about/</guid>
       <description>sdjasdlsajl</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://devstools.github.io/posts/my-first-post/</link>
+      <link>https://devstools.github.io/public/posts/my-first-post/</link>
       <pubDate>Thu, 10 Nov 2022 10:45:15 +0700</pubDate>
       
-      <guid>https://devstools.github.io/posts/my-first-post/</guid>
+      <guid>https://devstools.github.io/public/posts/my-first-post/</guid>
       <description>phan trong</description>
     </item>
     
