@@ -18,7 +18,8 @@
 2 - PERFORMANCE TESTING: Auto Cannon
 3 - AUTOMATION TESTING: Selenium
 4 - GRPC UI: Evans
-5 - PROXY TO CHECK API APP: Whistle</description>
+5 - PROXY TO CHECK API APP: Whistle
+6 - DOCUMENT API: SwaggerUI</description>
     </item>
     
   </channel>

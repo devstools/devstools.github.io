@@ -46,12 +46,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://devstools.github.io/public/tags/tools/</loc>
+    <loc>https://devstools.github.io/public/tools/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://devstools.github.io/public/tools/</loc>
+    <loc>https://devstools.github.io/public/tags/tools/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

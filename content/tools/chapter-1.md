@@ -13,10 +13,12 @@ Today I will talk about some function I wish I know it soon.
 If you want to create object user by calling api user and random name of user.
 you can write in postman:
 
->{
->    "username": "{{$randomFullName}}"
->    "age": "{{$randomAge}}"
->}
+```
+{
+    "username": "{{$randomFullName}}"
+    "age": "{{$randomAge}}"
+}
+```
 
 
 there are many different variable in document you can check it [here](https://learning.postman.com/docs/writing-scripts/script-references/variables-list/)

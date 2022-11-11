@@ -36,7 +36,7 @@ tags: ["development"]
 
 1 - Networking: TCP, HTTP, gRPC
 
-2 - Message queue: Kafka, Redis
+2 - Message queue: RabbitMQ, Kafka, Redis
 
 3 - Caching with Redis.
 

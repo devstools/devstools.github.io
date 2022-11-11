@@ -15,7 +15,7 @@
       <guid>https://devstools.github.io/public/development/chapter-2/</guid>
       <description>Design Pattern
 In Software Development , We have many desgin pattern but you don&amp;rsquo;t know all. You only need one of design pattern in main category
-Createation Pattern: Builder Structural Pattern: Facade Behavior: Chain of Responsibility I will expain this in future.
+ Createation Pattern: Builder Structural Pattern: Facade Behavior: Chain of Responsibility  I will expain this in future.
 TODO: Add design pattern, and expain each group design pattern What, When, How. </description>
     </item>
     
@@ -27,7 +27,7 @@ TODO: Add design pattern, and expain each group design pattern What, When, How. 
       <guid>https://devstools.github.io/public/development/chapter-1/</guid>
       <description>Hi, today I want to talk about SOLID in developement software this is the first lesson my boss teach me and tell me, if you want to go far in major software development. You have knowledge about SOLID and alway follow SOLID Principle.
 1 - S: Single Responsibility Principle
-As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.</description>
+ As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ Design Pattern 1 - Builder
 3 - Inversion Of Control
 Clean Architecture 1 - Clean Architecture Expain Follow My Mind
 Networking 1 - Networking: TCP, HTTP, gRPC
-2 - Message queue: Kafka, Redis</description>
+2 - Message queue: RabbitMQ, Kafka, Redis</description>
     </item>
     
   </channel>
