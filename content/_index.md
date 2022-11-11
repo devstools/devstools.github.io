@@ -6,7 +6,8 @@ featured_image: "/images/banner_home.png"
 ## Hi everyone 👋 
 
 💬 Ask me about: https://fb.com/biccv
-* [About me](/public/about)
+
+- [About me](/public/about)
 
 ## Resource 
 
