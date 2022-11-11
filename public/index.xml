@@ -8,6 +8,28 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Resource</title>
+      <link>https://devstools.github.io/public/development/resource/</link>
+      <pubDate>Fri, 11 Nov 2022 15:39:07 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/development/resource/</guid>
+      <description>Each version product software, you should follow sematic version
+ https://semver.org/  </description>
+    </item>
+    
+    <item>
+      <title>Golang Tools</title>
+      <link>https://devstools.github.io/public/golang/golang-tools/</link>
+      <pubDate>Fri, 11 Nov 2022 15:36:15 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/golang/golang-tools/</guid>
+      <description>This page group resource all tool related golang maybe you need it
+  Release version in golang: https://goreleaser.com/quick-start/
+  Host static resource in a binary https://github.com/rakyll/statik
+  </description>
+    </item>
+    
+    <item>
       <title>Chapter II: Performance Testing AutoCannon</title>
       <link>https://devstools.github.io/public/tools/chapter-2/</link>
       <pubDate>Fri, 11 Nov 2022 12:07:25 +0700</pubDate>

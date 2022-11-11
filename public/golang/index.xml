@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Golang Tools</title>
+      <link>https://devstools.github.io/public/golang/golang-tools/</link>
+      <pubDate>Fri, 11 Nov 2022 15:36:15 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/golang/golang-tools/</guid>
+      <description>This page group resource all tool related golang maybe you need it
+  Release version in golang: https://goreleaser.com/quick-start/
+  Host static resource in a binary https://github.com/rakyll/statik
+  </description>
+    </item>
+    
+    <item>
       <title>Chapter I: golang</title>
       <link>https://devstools.github.io/public/golang/chapter-1/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
