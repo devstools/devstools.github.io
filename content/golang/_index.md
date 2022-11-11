@@ -1,6 +1,8 @@
 ---
 title: "golang"
 date: 2022-11-10T10:46:43+07:00
+featured_image: "/images/banner_golang.png"
+tags: ["golang"]
 ---
 
 Golang Post
@@ -9,4 +11,4 @@ Golang Post
 
 1 - Basic Syntax
 
-2 -
+2 - MindSet

@@ -6,7 +6,18 @@
     <description>Recent content in golang on Developer Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>golang</title>
+      <link>https://devstools.github.io/public/golang/</link>
+      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/golang/</guid>
+      <description>Golang Post
+Foundation 1 - Basic Syntax
+2 - MindSet</description>
+    </item>
+    
     <item>
       <title>Chapter I: golang</title>
       <link>https://devstools.github.io/public/golang/chapter-1/</link>

@@ -82,12 +82,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://devstools.github.io/public/tags/golang/</loc>
+    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://devstools.github.io/public/golang/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://devstools.github.io/public/tags/python/</loc>
+    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://devstools.github.io/public/python/</loc>
+    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/selenium/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -128,21 +143,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://devstools.github.io/public/tags/devops/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/golang/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/python/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/selenium/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
