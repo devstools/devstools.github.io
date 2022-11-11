@@ -7,7 +7,15 @@
 
 Đây là khu vực dành cho tài liệu và khuyến khích học ở các nguồn này.
 
-### 👉 Series Developer Series
+### 👉 Series Development
+
+1 - [SOLID](/public/development/chapter-1/)
+
+2 - [Clean Architecture](https://fb.com/biccv)
+
+3 - [Software Architecture](https://fb.com/biccv)
+
+### 👉 Series Tool Helpful Developer
 
 1 - [SOLID](https://fb.com/biccv)
 
@@ -15,41 +23,3 @@
 
 3 - [Software Architecture](https://fb.com/biccv)
 
-### 👉 Series Golang Series
-
-1 - [SOLID](https://fb.com/biccv)
-
-2 - [Clean Architecture](https://fb.com/biccv)
-
-3 - [Software Architecture](https://fb.com/biccv)
-
-### 👉 Series Python Series
-
-1 - [SOLID](https://fb.com/biccv)
-
-2 - [Clean Architecture](https://fb.com/biccv)
-
-3 - [Software Architecture](https://fb.com/biccv)
-
-### 👉 Series Selenium Series
-
-1 - [SOLID](https://fb.com/biccv)
-
-2 - [Clean Architecture](https://fb.com/biccv)
-
-3 - [Software Architecture](https://fb.com/biccv)
-### 👉 Series Devops Series
-
-1 - [SOLID](https://fb.com/biccv)
-
-2 - [Clean Architecture](https://fb.com/biccv)
-
-3 - [Software Architecture](https://fb.com/biccv)
-
-### 👉 Series Linux Series
-
-1 - [SOLID](https://fb.com/biccv)
-
-2 - [Clean Architecture](https://fb.com/biccv)
-
-3 - [Software Architecture](https://fb.com/biccv)

@@ -2,6 +2,7 @@
 title: "Chapter 2"
 date: 2022-11-11T12:07:25+07:00
 draft: false
+title: "Chapter II: Performance Testing AutoCannon"
 ---
 
 How many tester can send multi request in the same time, this issue I meet when I work in my old company,

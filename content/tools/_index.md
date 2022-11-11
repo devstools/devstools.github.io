@@ -1,6 +1,9 @@
 ---
 date: 2022-11-11T11:43:56+07:00
-title: "tools"
+title: "Tools"
+date: 2022-11-11T11:43:56+07:00
+featured_image: "/images/tools.png"
+tags: ["tools"]
 ---
 
 Tools Post

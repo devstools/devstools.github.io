@@ -1,12 +1,15 @@
 ---
+description: "Development"
 title: "development"
 date: 2022-11-11T11:43:56+07:00
+featured_image: "/images/development.png"
+tags: ["development"]
 ---
 ## Xin chào m.n 👋 
 
 💬 Ask me about: https://fb.com/biccv
 
-## [SOLID](/development/chapter-1/)
+## [SOLID](/public/development/chapter-1/)
 
 1 - Single Responsibility Principle
 
@@ -31,9 +34,9 @@ date: 2022-11-11T11:43:56+07:00
 
 ## Networking
 
-- Networking: TCP, HTTP, gRPC
+1 - Networking: TCP, HTTP, gRPC
 
-- Message queue: Kafka, Redis
+2 - Message queue: Kafka, Redis
 
-- Caching with Redis.
+3 - Caching with Redis.
 

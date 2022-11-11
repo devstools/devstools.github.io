@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on Developer Blog</title>
+    <link>https://devstools.github.io/public/tags/tools/</link>
+    <description>Recent content in tools on Developer Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools</title>
+      <link>https://devstools.github.io/public/tools/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/tools/</guid>
+      <description>Tools Post
+1 - API TESTING: API Testing Postman
+2 - PERFORMANCE TESTING: Auto Cannon
+3 - AUTOMATION TESTING: Selenium
+4 - GRPC UI: Evans
+5 - PROXY TO CHECK API APP: Whistle</description>
+    </item>
+    
+  </channel>
+</rss>

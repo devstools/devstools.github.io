@@ -30,5 +30,25 @@ TODO: Add design pattern, and expain each group design pattern What, When, How. 
 As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.</description>
     </item>
     
+    <item>
+      <title>development</title>
+      <link>https://devstools.github.io/public/development/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/development/</guid>
+      <description>Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+SOLID 1 - Single Responsibility Principle
+2 - Open | Close Principle
+3 - Liskov&amp;rsquo;s Subsitution Principle
+4 - Interface Segregation Principle
+5 - Dependency Inversion Principle
+Design Pattern 1 - Builder
+2 - Factory
+3 - Inversion Of Control
+Clean Architecture 1 - Clean Architecture Expain Follow My Mind
+Networking 1 - Networking: TCP, HTTP, gRPC
+2 - Message queue: Kafka, Redis</description>
+    </item>
+    
   </channel>
 </rss>
