@@ -1,11 +1,16 @@
-## Xin chào m.n 👋 
+---
+date: 2022-11-11T11:43:56+07:00
+featured_image: "/images/banner_home.png"
+---
+
+## Hi everyone 👋 
 
 💬 Ask me about: https://fb.com/biccv
 * [About me](/public/about)
 
-## Tài nguyên học 
+## Resource 
 
-Đây là khu vực dành cho tài liệu và khuyến khích học ở các nguồn này.
+This area show site map, you can see anything in my blog
 
 ### 👉 Series Development
 
