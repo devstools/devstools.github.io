@@ -6,7 +6,64 @@
     <description>Recent content on Developer Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 12:07:25 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 2</title>
+      <link>https://devstools.github.io/public/tools/chapter-2/</link>
+      <pubDate>Fri, 11 Nov 2022 12:07:25 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/tools/chapter-2/</guid>
+      <description>How many tester can send multi request in the same time, this issue I meet when I work in my old company,
+We don&amp;rsquo;t know to test performance send multi request same time by CLI or by Code. And I don&amp;rsquo;t know keyword to find it. Now I find a tool can help me do it. Auto cannon
+You can install it from npm. https://www.npmjs.com/package/autocannon
+npm i -g autocannon
+example</description>
+    </item>
+    
+    <item>
+      <title>Chapter I: API Testing PostMan</title>
+      <link>https://devstools.github.io/public/tools/chapter-1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:58:53 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/tools/chapter-1/</guid>
+      <description>Postman: I think if you working in major software development you can hear this name atleast one times Because this tool help you can call api and have many function have you checking what happen when you call api.
+Today I will talk about some function I wish I know it soon.
+If you want to create object user by calling api user and random name of user. you can write in postman:</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3</title>
+      <link>https://devstools.github.io/public/development/chapter-3/</link>
+      <pubDate>Fri, 11 Nov 2022 11:46:30 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/development/chapter-3/</guid>
+      <description>Clean Architecture
+Explain each layer in clean architecture and how to implement in golang Why we need to follow solid because if U want your application can code unit test, you have to mock each layer to testing it but if you initial concrete class too difficult to mock class for unit test,&amp;hellip; </description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
+      <link>https://devstools.github.io/public/development/chapter-2/</link>
+      <pubDate>Fri, 11 Nov 2022 11:44:57 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/development/chapter-2/</guid>
+      <description>Design Pattern
+In Software Development , We have many desgin pattern but you don&amp;rsquo;t know all. You only need one of design pattern in main category
+Createation Pattern: Builder Structural Pattern: Facade Behavior: Chain of Responsibility I will expain this in future.
+TODO: Add design pattern, and expain each group design pattern What, When, How. </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: Development</title>
+      <link>https://devstools.github.io/public/development/chapter-1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:44:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/development/chapter-1/</guid>
+      <description>Hi, today I want to talk about SOLID in developement software this is the first lesson my boss teach me and tell me, if you want to go far in major software development. You have knowledge about SOLID and alway follow SOLID Principle.
+1 - S: Single Responsibility Principle
+As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://devstools.github.io/public/about/</link>
@@ -17,41 +74,11 @@
     </item>
     
     <item>
-      <title>Chapter 2: Development</title>
-      <link>https://devstools.github.io/public/development/chapter-2/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://devstools.github.io/public/development/chapter-2/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
-    </item>
-    
-    <item>
-      <title>Chapter 3: Development</title>
-      <link>https://devstools.github.io/public/development/chapter-3/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://devstools.github.io/public/development/chapter-3/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
-    </item>
-    
-    <item>
       <title>Chapter I: Articles</title>
       <link>https://devstools.github.io/public/articles/chapter-1/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
       <guid>https://devstools.github.io/public/articles/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
-    </item>
-    
-    <item>
-      <title>Chapter I: Development</title>
-      <link>https://devstools.github.io/public/development/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://devstools.github.io/public/development/chapter-1/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
@@ -92,26 +119,6 @@ The sixth of January, 1482, is not, however, a day of which history has preserve
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
       <guid>https://devstools.github.io/public/selenium/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
-    </item>
-    
-    <item>
-      <title>Chapter I: solid</title>
-      <link>https://devstools.github.io/public/solid/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://devstools.github.io/public/solid/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
-    </item>
-    
-    <item>
-      <title>Chapter I: tools</title>
-      <link>https://devstools.github.io/public/tools/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://devstools.github.io/public/tools/chapter-1/</guid>
       <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>

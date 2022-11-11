@@ -3,8 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://devstools.github.io/public/</loc>
-    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
+    <lastmod>2022-11-11T12:07:25+07:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/tools/chapter-2/</loc>
+    <lastmod>2022-11-11T12:07:25+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/tools/chapter-1/</loc>
+    <lastmod>2022-11-11T11:58:53+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/development/chapter-3/</loc>
+    <lastmod>2022-11-11T11:46:30+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/development/chapter-2/</loc>
+    <lastmod>2022-11-11T11:44:57+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/development/</loc>
+    <lastmod>2022-11-11T11:44:57+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/</loc>
+    <lastmod>2022-11-11T11:44:57+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/development/chapter-1/</loc>
+    <lastmod>2022-11-11T11:44:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/development/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/tools/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://devstools.github.io/public/about/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
@@ -12,11 +57,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://devstools.github.io/public/articles/</loc>
-    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/development/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -41,37 +81,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://devstools.github.io/public/solid/</loc>
-    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/tools/</loc>
-    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://devstools.github.io/public/tags/artcles/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://devstools.github.io/public/development/chapter-2/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/development/chapter-3/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://devstools.github.io/public/articles/chapter-1/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/development/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -96,21 +111,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://devstools.github.io/public/solid/chapter-1/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/tools/chapter-1/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/development/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://devstools.github.io/public/tags/devops/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -127,21 +127,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://devstools.github.io/public/tags/selenium/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/solid/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/tools/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

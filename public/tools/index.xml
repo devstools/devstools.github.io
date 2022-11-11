@@ -6,15 +6,29 @@
     <description>Recent content in tools on Developer Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter I: tools</title>
+      <title>Chapter 2</title>
+      <link>https://devstools.github.io/public/tools/chapter-2/</link>
+      <pubDate>Fri, 11 Nov 2022 12:07:25 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/tools/chapter-2/</guid>
+      <description>How many tester can send multi request in the same time, this issue I meet when I work in my old company,
+We don&amp;rsquo;t know to test performance send multi request same time by CLI or by Code. And I don&amp;rsquo;t know keyword to find it. Now I find a tool can help me do it. Auto cannon
+You can install it from npm. https://www.npmjs.com/package/autocannon
+npm i -g autocannon
+example</description>
+    </item>
+    
+    <item>
+      <title>Chapter I: API Testing PostMan</title>
       <link>https://devstools.github.io/public/tools/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      <pubDate>Fri, 11 Nov 2022 11:58:53 +0700</pubDate>
       
       <guid>https://devstools.github.io/public/tools/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
+      <description>Postman: I think if you working in major software development you can hear this name atleast one times Because this tool help you can call api and have many function have you checking what happen when you call api.
+Today I will talk about some function I wish I know it soon.
+If you want to create object user by calling api user and random name of user. you can write in postman:</description>
     </item>
     
   </channel>

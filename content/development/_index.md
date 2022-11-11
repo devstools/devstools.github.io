@@ -1,5 +1,39 @@
 ---
 title: "development"
-date: 2022-11-10T10:46:43+07:00
+date: 2022-11-11T11:43:56+07:00
 ---
-Development Post
+## Xin chào m.n 👋 
+
+💬 Ask me about: https://fb.com/biccv
+
+## [SOLID](/development/chapter-1/)
+
+1 - Single Responsibility Principle
+
+2 - Open | Close Principle
+
+3 - Liskov's Subsitution Principle
+
+4 - Interface Segregation Principle
+
+5 - Dependency Inversion Principle
+## [Design Pattern](/)
+
+1 - Builder
+
+2 - Factory
+
+3 - Inversion Of Control
+
+## [Clean Architecture](/)
+
+1 - Clean Architecture Expain Follow My Mind
+
+## Networking
+
+- Networking: TCP, HTTP, gRPC
+
+- Message queue: Kafka, Redis
+
+- Caching with Redis.
+
