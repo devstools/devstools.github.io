@@ -5,7 +5,9 @@ featured_image: "/images/banner_golang.png"
 tags: ["golang"]
 ---
 
-Golang Post
+Golang Overview
+
+Go language was developed in the year 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google and publicly announced in 2009. It was officially released in 2012 as an open-source programming language.
 
 ## Foundation
 

@@ -13,7 +13,8 @@
       <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
       
       <guid>https://devstools.github.io/public/golang/</guid>
-      <description>Golang Post
+      <description>Golang Overview
+Go language was developed in the year 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google and publicly announced in 2009. It was officially released in 2012 as an open-source programming language.
 Foundation 1 - Basic Syntax
 2 - MindSet</description>
     </item>
@@ -24,8 +25,15 @@ Foundation 1 - Basic Syntax
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
       <guid>https://devstools.github.io/public/golang/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
+      <description>Install Golang Windows Go to website and download the latest Golang version: https://go.dev/doc/install
+Install
+Setting GOPATH Environment
+Environmental Variables under Control Panel &amp;gt; System and Security &amp;gt; System &amp;gt; Advanced Settings &amp;gt; Environmental Variables
+Syntax Each Statement ends with a line break.
+To comment block code &amp;rsquo;&amp;rsquo;&#39; /* This is block comment in go */ &amp;rsquo;&#39;&#39;
+Comment line
+&amp;rsquo;&amp;rsquo;&#39; // This is single line comment &amp;rsquo;&#39;&#39;
+Function &amp;rsquo;&amp;rsquo;&#39; func Display() { fmt.</description>
     </item>
     
   </channel>

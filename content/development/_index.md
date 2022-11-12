@@ -9,6 +9,22 @@ tags: ["development"]
 
 💬 Ask me about: https://fb.com/biccv
 
+## [OOP]
+
+1 - Basic OOP
+
+2 - Abstraction
+
+3 - Encapsulation
+
+4 - Inheritance
+
+5 - Polimorphism
+
+6 - Method Overriding
+
+7 - Methid Hiding
+
 ## [SOLID](/public/development/chapter-1/)
 
 1 - Single Responsibility Principle
