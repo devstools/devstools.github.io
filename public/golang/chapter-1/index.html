@@ -39,7 +39,7 @@
 <meta itemprop="name" content="Chapter I: golang">
 <meta itemprop="description" content="golang"><meta itemprop="datePublished" content="2017-04-09T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2017-04-09T10:58:08-04:00" />
-<meta itemprop="wordCount" content="87">
+<meta itemprop="wordCount" content="280">
 <meta itemprop="keywords" content="golang," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Chapter I: golang"/>
 <meta name="twitter:description" content="golang"/>
@@ -222,15 +222,97 @@ This is block comment in go
 <p>&rsquo;&rsquo;'
 // This is single line comment
 &rsquo;''</p>
-<p>Function
-&rsquo;&rsquo;'
-func Display() {
-fmt.Println(SayHi(&ldquo;Trongpq&rdquo;))
-}</p>
-<p>func SayHi(name string) {
-msg := fmt.Sprintf(&ldquo;Hello, %v. Welcome!&rdquo;, name)
-return msg
+<p>Variable</p>
+<p>&rsquo;&rsquo;'
+var variable-name datatype = value
+&rsquo;''</p>
+<p>Condition</p>
+<p>&rsquo;&rsquo;'
+if(condition) {
+//code block to be executed when if condition evaluates to true
 }
+&rsquo;''</p>
+<p>Switch Case</p>
+<p>&rsquo;&rsquo;'
+switch expression {
+case 1:
+//code block 1
+case 2:
+//code block 2
+case 3:
+//code block 3
+default:
+//default code block
+}<br>
+&rsquo;''</p>
+<p>Loop</p>
+<p>&rsquo;&rsquo;'
+for initialization; condition; increment {
+//code block</p>
+<p>}</p>
+<p>for num, val := range myArray {
+// statements
+}
+&rsquo;''</p>
+<p>Function</p>
+<p>&rsquo;''</p>
+<p>&rsquo;&rsquo;'
+Function
+&rsquo;&rsquo;'
+func functionName ([inputParameters]) [returnType] {
+//function body
+}
+&rsquo;''</p>
+<p>Array</p>
+<p>&rsquo;&rsquo;'
+var arrayName[length] datatype
+var arrayName = [length] datatype{ values }
+var arrayName = [&hellip;] datatype{ values }
+&rsquo;''</p>
+<p>Slice</p>
+<p>&rsquo;&rsquo;'
+sliceName := []datatype { value1, value2, value3,&hellip;valueN }
+&rsquo;''</p>
+<p>Struct</p>
+<p>&rsquo;&rsquo;'
+type &lt;struct_name&gt; struct {
+&lt;field_name1&gt; datatype
+&lt;field_name2&gt; datatype
+&lt;field_name3&gt; datatype
+&hellip;
+&lt;field_nameN&gt; datatype
+}
+&rsquo;''</p>
+<p>Function In Struct</p>
+<p>&rsquo;&rsquo;'
+package main</p>
+<p>import &ldquo;fmt&rdquo;</p>
+<p>type Student struct {
+id int
+name string
+grade int
+}</p>
+<p>func (s Student) Display(){
+fmt.Println(s)
+}</p>
+<p>func main() {
+var s2 = Student{2, &ldquo;Steffi&rdquo;, 10}
+s2.Display()</p>
+<pre><code>var s3 = Student{id:3, name:&quot;Steve&quot; } 
+s3.Display() //output: {3 Steve 0}
+</code></pre>
+<p>}</p>
+<p>&rsquo;''</p>
+<p>Map</p>
+<p>&rsquo;&rsquo;'
+// Using var keyword
+var mymap = map[TypeOfKey] TypeOfValue { key1:value1, key2:value2,&hellip;}</p>
+<p>// shorthand syntax
+mymap :=  map[TypeOfKey] TypeOfValue { key1:value1, key2:value2,&hellip;}
+&rsquo;''</p>
+<p>Pointer</p>
+<p>&rsquo;&rsquo;'
+var mypointer *int
 &rsquo;''</p>
 <ul class="pa0">
   

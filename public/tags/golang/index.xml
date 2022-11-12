@@ -33,7 +33,8 @@ Syntax Each Statement ends with a line break.
 To comment block code &amp;rsquo;&amp;rsquo;&#39; /* This is block comment in go */ &amp;rsquo;&#39;&#39;
 Comment line
 &amp;rsquo;&amp;rsquo;&#39; // This is single line comment &amp;rsquo;&#39;&#39;
-Function &amp;rsquo;&amp;rsquo;&#39; func Display() { fmt.</description>
+Variable
+&amp;rsquo;&amp;rsquo;&#39; var variable-name datatype = value &amp;rsquo;&#39;&#39;</description>
     </item>
     
   </channel>
