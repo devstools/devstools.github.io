@@ -130,11 +130,11 @@ Install
 Setting GOPATH Environment
 Environmental Variables under Control Panel &amp;gt; System and Security &amp;gt; System &amp;gt; Advanced Settings &amp;gt; Environmental Variables
 Syntax Each Statement ends with a line break.
-To comment block code &amp;rsquo;&amp;rsquo;&#39; /* This is block comment in go */ &amp;rsquo;&#39;&#39;
-Comment line
-&amp;rsquo;&amp;rsquo;&#39; // This is single line comment &amp;rsquo;&#39;&#39;
-Variable
-&amp;rsquo;&amp;rsquo;&#39; var variable-name datatype = value &amp;rsquo;&#39;&#39;</description>
+To comment block code
+/* This is block comment in go */ Comment line
+// This is single line comment Variable
+var variable-name datatype = value Condition
+if(condition) { //code block to be executed when if condition evaluates to true } Switch Case</description>
     </item>
     
     <item>

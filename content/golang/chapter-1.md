@@ -23,35 +23,35 @@ Environmental Variables under Control Panel > System and Security > System > Adv
 Each Statement ends with a line break.
 
 To comment block code
-'''
+```
 /* 
 This is block comment in go
 */
-'''
+```
 
 Comment line
 
-'''
+```
 // This is single line comment
-'''
+```
 
 Variable
 
-'''
+```
 var variable-name datatype = value
-'''
+```
 
 Condition
 
-'''
+```
 if(condition) {
     //code block to be executed when if condition evaluates to true
 } 
-'''
+```
 
 Switch Case
 
-'''
+```
 switch expression {
 	case 1:
 		//code block 1
@@ -62,11 +62,11 @@ switch expression {
 	default:
 		//default code block
 }  
-'''
+```
 
 Loop
 
-'''
+```
 for initialization; condition; increment {
 //code block
 
@@ -75,38 +75,38 @@ for initialization; condition; increment {
 for num, val := range myArray {
     // statements
 }
-'''
+```
 
 
 Function 
 
-'''
+```
 
-'''
+```
 Function
-'''
+```
 func functionName ([inputParameters]) [returnType] {
 	//function body
 } 
-'''
+```
 
 Array
 
-'''
+```
 var arrayName[length] datatype
 var arrayName = [length] datatype{ values }
 var arrayName = [...] datatype{ values }
-'''
+```
 
 Slice
 
-'''
+```
 sliceName := []datatype { value1, value2, value3,...valueN }
-'''
+```
 
 Struct 
 
-'''
+```
 type <struct_name> struct {
     <field_name1> datatype
     <field_name2> datatype
@@ -114,11 +114,11 @@ type <struct_name> struct {
     ...
     <field_nameN> datatype
 }
-'''
+```
 
 Function In Struct
 
-'''
+```
 package main
 
 import "fmt"
@@ -141,20 +141,20 @@ func main() {
     s3.Display() //output: {3 Steve 0}
 }
 
-'''
+```
 
 Map
 
-'''
+```
 // Using var keyword
 var mymap = map[TypeOfKey] TypeOfValue { key1:value1, key2:value2,...}
 
 // shorthand syntax
 mymap :=  map[TypeOfKey] TypeOfValue { key1:value1, key2:value2,...}
-'''
+```
 
 Pointer
 
-'''
+```
 var mypointer *int
-'''
+```
