@@ -21,6 +21,10 @@ This area show site map, you can see anything in my blog
 
 3 - [Software Architecture](/public/development/chapter-3/)
 
+### 👉 Series Golang 
+
+1 - [Basic Syntax](/public/golang/chapter-1/)
+
 ### 👉 Series Tool Helpful Developer
 
 1 - [API Testing Postman](/public/tools/chapter-1/)
