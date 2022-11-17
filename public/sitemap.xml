@@ -7,7 +7,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://devstools.github.io/public/architecture-software/chapter-1/</loc>
+    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://devstools.github.io/public/tags/development/</loc>
+    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/software-development/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -57,7 +67,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://devstools.github.io/public/tags/database/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/databases/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://devstools.github.io/public/development/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/software-architecture/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/architecture-software/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

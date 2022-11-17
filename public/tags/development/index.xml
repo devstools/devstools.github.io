@@ -55,15 +55,14 @@ As the name of this principle, one class has only one responsibility and one rea
 4 - Inheritance
 5 - Polimorphism
 6 - Method Overriding
-7 - Methid Hiding
+7 - Method Hiding
 SOLID 1 - Single Responsibility Principle
 2 - Open | Close Principle
 3 - Liskov&amp;rsquo;s Subsitution Principle
 4 - Interface Segregation Principle
 5 - Dependency Inversion Principle
-Design Pattern 1 - Builder
-2 - Factory
-3 - Inversion Of Control</description>
+6 - you aren&amp;rsquo;t gonna need it
+7 - Do one thing and do it right</description>
     </item>
     
   </channel>

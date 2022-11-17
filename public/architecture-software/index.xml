@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software architecture on Developer Blog</title>
+    <link>https://devstools.github.io/public/architecture-software/</link>
+    <description>Recent content in software architecture on Developer Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/architecture-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter I: System Performance</title>
+      <link>https://devstools.github.io/public/architecture-software/chapter-1/</link>
+      <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/architecture-software/chapter-1/</guid>
+      <description>System Performance Understand Performance
+Problems
+Measurement
+Principle
+Latency
+CPU
+Memory
+Network
+Disk
+Concurrency
+Locking
+Pessimistic
+Optimistic
+Cohence
+Caching
+Static Data
+Dynamic Data
+What is performance?
+performance is responsive time of a system
+Performance proble is the result of some queue building somewhere
+Reasons:
+Ineffecient slow processing
+Serial resource access
+Limit resource capacity</description>
+    </item>
+    
+  </channel>
+</rss>

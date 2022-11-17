@@ -23,7 +23,7 @@ tags: ["development"]
 
 6 - Method Overriding
 
-7 - Methid Hiding
+7 - Method Hiding
 
 ## [SOLID](/public/development/chapter-1/)
 
@@ -36,6 +36,11 @@ tags: ["development"]
 4 - Interface Segregation Principle
 
 5 - Dependency Inversion Principle
+
+6 - you aren't gonna need it
+
+7 - Do one thing and do it right
+
 ## [Design Pattern](/)
 
 1 - Builder
