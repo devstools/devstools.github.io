@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kubenates on Developer Blog</title>
+    <link>https://devstools.github.io/public/tags/kubenates/</link>
+    <description>Recent content in kubenates on Developer Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/kubenates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kubenates</title>
+      <link>https://devstools.github.io/public/kubenates/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/kubenates/</guid>
+      <description>Kubenates
+Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
+Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
+Cài đặt kubectl là kubenates client để tương tác với kubenates
+Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
+Kiểm tra có các node nào đang chạy trên máy: kubectl get node
+Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.</description>
+    </item>
+    
+  </channel>
+</rss>

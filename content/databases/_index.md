@@ -14,3 +14,11 @@ tags: ["database"]
 1 - 4 properties of database sql
 
 2 - 4 Level Isolate Transaction 
+
+Unread commited
+
+Read commited
+
+phantom ...
+
+serializable

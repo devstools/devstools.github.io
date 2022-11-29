@@ -147,8 +147,9 @@ The sixth of January, 1482, is not, however, a day of which history has preserve
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
       <guid>https://devstools.github.io/public/devops/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
+      <description>Foundation and tip tricks linux
+link file: ln -S &amp;lt;file_link&amp;gt; &amp;lt;file_root&amp;gt; file_link: you want to create a new file here file_root: the content of this file will be link to file_link, if file root have any change it will change at file link too.
+https://docs.lnav.org/en/latest/intro.html#viewing-logs: view log navigation </description>
     </item>
     
     <item>
