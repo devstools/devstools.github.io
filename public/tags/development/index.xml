@@ -13,10 +13,10 @@
       <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
       
       <guid>https://devstools.github.io/public/development/chapter-1/</guid>
-      <description>OOP Object-oriented programing is a way to develop software application using real-world terminologies to create entities that interact with one another using objects. 4 Componenet of object-oriented:
-Class: define the structure using methods and properties to describle real-world entity
-Methods: A method represents a particular behavior, this is action of real-world entity example Human class can have method: talk, speak, doTask&amp;hellip;
-Properties: properties hold the data temporarily during the execution of an application</description>
+      <description>OOP  Object-oriented programing is a way to develop software application using real-world terminologies to create entities that interact with one another using objects.  4 Componenet of object-oriented:
+  Class: define the structure using methods and properties to describle real-world entity
+  Methods: A method represents a particular behavior, this is action of real-world entity example Human class can have method: talk, speak, doTask&amp;hellip;
+  Properties: properties hold the data temporarily during the execution of an application</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@ Properties: properties hold the data temporarily during the execution of an appl
       <guid>https://devstools.github.io/public/development/chapter-3/</guid>
       <description>Design Pattern
 In Software Development , We have many desgin pattern but you don&amp;rsquo;t know all. You only need one of design pattern in main category
-Createation Pattern: Builder Structural Pattern: Facade Behavior: Chain of Responsibility I will expain this in future.
+ Createation Pattern: Builder Structural Pattern: Facade Behavior: Chain of Responsibility  I will expain this in future.
 TODO: Add design pattern, and expain each group design pattern What, When, How. </description>
     </item>
     
@@ -39,7 +39,7 @@ TODO: Add design pattern, and expain each group design pattern What, When, How. 
       <guid>https://devstools.github.io/public/development/chapter-2/</guid>
       <description>Hi, today I want to talk about SOLID in developement software this is the first lesson my boss teach me and tell me, if you want to go far in major software development. You have knowledge about SOLID and alway follow SOLID Principle.
 1 - S: Single Responsibility Principle
-As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.</description>
+ As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.</description>
     </item>
     
     <item>

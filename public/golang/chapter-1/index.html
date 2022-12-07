@@ -7,7 +7,7 @@
     <title>Chapter I: golang | Developer Blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="golang">
-    <meta name="generator" content="Hugo 0.105.0">
+    <meta name="generator" content="Hugo 0.92.2" />
     
     
     
@@ -118,8 +118,8 @@
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/public/selenium/" title="selenium page">
-              selenium
+            <a class="hover-white no-underline white-90" href="/public/selenium/" title="selenium &amp; appium page">
+              selenium &amp; appium
             </a>
           </li>
           
@@ -263,7 +263,8 @@ for num, val := range myArray {
     // statements
 }
 </code></pre><p>Function</p>
-<pre tabindex="0"><code></code></pre><p>Function</p>
+<pre tabindex="0"><code>
+</code></pre><p>Function</p>
 <pre tabindex="0"><code>func functionName ([inputParameters]) [returnType] {
 	//function body
 } 
@@ -284,7 +285,7 @@ var arrayName = [...] datatype{ values }
 </code></pre><p>Function In Struct</p>
 <pre tabindex="0"><code>package main
 
-import &#34;fmt&#34;
+import &quot;fmt&quot;
 
 type Student struct {
 	id int
@@ -297,12 +298,13 @@ func (s Student) Display(){
 }
 
 func main() {
-    var s2 = Student{2, &#34;Steffi&#34;, 10} 
+    var s2 = Student{2, &quot;Steffi&quot;, 10} 
     s2.Display()
 
-    var s3 = Student{id:3, name:&#34;Steve&#34; } 
+    var s3 = Student{id:3, name:&quot;Steve&quot; } 
     s3.Display() //output: {3 Steve 0}
 }
+
 </code></pre><p>Map</p>
 <pre tabindex="0"><code>// Using var keyword
 var mymap = map[TypeOfKey] TypeOfValue { key1:value1, key2:value2,...}

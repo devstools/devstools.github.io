@@ -13,30 +13,24 @@
       <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
       
       <guid>https://devstools.github.io/public/architecture-software/chapter-1/</guid>
-      <description>System Performance Understand Performance
-Problems
-Measurement
-Principle
-Latency
-CPU
-Memory
-Network
-Disk
-Concurrency
-Locking
-Pessimistic
-Optimistic
-Cohence
-Caching
-Static Data
-Dynamic Data
-What is performance?
-performance is responsive time of a system
-Performance proble is the result of some queue building somewhere
-Reasons:
-Ineffecient slow processing
-Serial resource access
-Limit resource capacity</description>
+      <description>System Performance   Understand Performance
+  Problems
+  Measurement
+  Principle
+    Latency
+  CPU
+  Memory
+  Network
+  Disk
+    Concurrency
+  Locking
+  Pessimistic
+  Optimistic
+    Cohence
+    Caching
+  Static Data
+  Dynamic Data
+    What is performance?</description>
     </item>
     
   </channel>
