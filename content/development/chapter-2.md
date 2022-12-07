@@ -4,7 +4,7 @@ draft: false
 description: "Development"
 featured_image: "/images/banner.png"
 tags: ["development"]
-title: "Chapter I: Development"
+title: "Chapter II: Development"
 ---
 
 Hi, today I want to talk about SOLID in developement software this is the first lesson my boss teach me and tell me,
