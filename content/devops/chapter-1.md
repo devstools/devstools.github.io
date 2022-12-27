@@ -14,3 +14,6 @@ file_link: you want to create a new file here
 file_root: the content of this file will be link to file_link, if file root have any change it will change at file link too.
 
 - https://docs.lnav.org/en/latest/intro.html#viewing-logs: view log navigation
+
+- Config dockerize react app, build production, hot reload.
+https://mherman.org/blog/dockerizing-a-react-app/
