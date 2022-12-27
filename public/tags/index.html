@@ -7,7 +7,7 @@
     <title>Developer Blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="The last theme you&#39;ll ever need. Maybe.">
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.105.0">
     
     
     
@@ -189,10 +189,10 @@
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      OOP  Object-oriented programing is a way to develop software application using real-world terminologies to create entities that interact with one another using objects.  4 Componenet of object-oriented:
-  Class: define the structure using methods and properties to describle real-world entity
-  Methods: A method represents a particular behavior, this is action of real-world entity example Human class can have method: talk, speak, doTask&hellip;
-  Properties: properties hold the data temporarily during the execution of an application
+      OOP Object-oriented programing is a way to develop software application using real-world terminologies to create entities that interact with one another using objects. 4 Componenet of object-oriented:
+Class: define the structure using methods and properties to describle real-world entity
+Methods: A method represents a particular behavior, this is action of real-world entity example Human class can have method: talk, speak, doTask&hellip;
+Properties: properties hold the data temporarily during the execution of an application
     </div>
   </div>
 </div>
@@ -209,7 +209,7 @@
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       Design Pattern
 In Software Development , We have many desgin pattern but you don&rsquo;t know all. You only need one of design pattern in main category
- Createation Pattern: Builder Structural Pattern: Facade Behavior: Chain of Responsibility  I will expain this in future.
+Createation Pattern: Builder Structural Pattern: Facade Behavior: Chain of Responsibility I will expain this in future.
 TODO: Add design pattern, and expain each group design pattern What, When, How. 
     </div>
   </div>
@@ -227,7 +227,7 @@ TODO: Add design pattern, and expain each group design pattern What, When, How.
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       Hi, today I want to talk about SOLID in developement software this is the first lesson my boss teach me and tell me, if you want to go far in major software development. You have knowledge about SOLID and alway follow SOLID Principle.
 1 - S: Single Responsibility Principle
- As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.
+As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.
     </div>
   </div>
 </div>
@@ -278,24 +278,30 @@ SOLID 1 - Single Responsibility Principle
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      System Performance   Understand Performance
-  Problems
-  Measurement
-  Principle
-    Latency
-  CPU
-  Memory
-  Network
-  Disk
-    Concurrency
-  Locking
-  Pessimistic
-  Optimistic
-    Cohence
-    Caching
-  Static Data
-  Dynamic Data
-    What is performance?
+      System Performance Understand Performance
+Problems
+Measurement
+Principle
+Latency
+CPU
+Memory
+Network
+Disk
+Concurrency
+Locking
+Pessimistic
+Optimistic
+Cohence
+Caching
+Static Data
+Dynamic Data
+What is performance?
+performance is responsive time of a system
+Performance proble is the result of some queue building somewhere
+Reasons:
+Ineffecient slow processing
+Serial resource access
+Limit resource capacity
     </div>
   </div>
 </div>
@@ -347,11 +353,11 @@ serializable
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       Kubenates
 Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
-  Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
-  Cài đặt kubectl là kubenates client để tương tác với kubenates
-  Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
-  Kiểm tra có các node nào đang chạy trên máy: kubectl get node
-  Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe   &quot;&quot;&quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
+Cài đặt kubectl là kubenates client để tương tác với kubenates
+Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
+Kiểm tra có các node nào đang chạy trên máy: kubectl get node
+Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &quot;&quot;&quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
     </div>
   </div>
 </div>
@@ -493,14 +499,16 @@ Foundation 1 - Basic Syntax
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Install Golang Windows   Go to website and download the latest Golang version: https://go.dev/doc/install
-  Install
-  Setting GOPATH Environment
-  Environmental Variables under Control Panel &gt; System and Security &gt; System &gt; Advanced Settings &gt; Environmental Variables
+      Install Golang Windows Go to website and download the latest Golang version: https://go.dev/doc/install
+Install
+Setting GOPATH Environment
+Environmental Variables under Control Panel &gt; System and Security &gt; System &gt; Advanced Settings &gt; Environmental Variables
 Syntax Each Statement ends with a line break.
 To comment block code
 /* This is block comment in go */ Comment line
 // This is single line comment Variable
+var variable-name datatype = value Condition
+if(condition) { //code block to be executed when if condition evaluates to true } Switch Case
     </div>
   </div>
 </div>
@@ -622,8 +630,8 @@ The sixth of January, 1482, is not, however, a day of which history has preserve
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       Foundation and tip tricks linux
- link file: ln -S &lt;file_link&gt; &lt;file_root&gt;  file_link: you want to create a new file here file_root: the content of this file will be link to file_link, if file root have any change it will change at file link too.
- https://docs.lnav.org/en/latest/intro.html#viewing-logs: view log navigation  
+link file: ln -S &lt;file_link&gt; &lt;file_root&gt; file_link: you want to create a new file here file_root: the content of this file will be link to file_link, if file root have any change it will change at file link too.
+https://docs.lnav.org/en/latest/intro.html#viewing-logs: view log navigation 
     </div>
   </div>
 </div>

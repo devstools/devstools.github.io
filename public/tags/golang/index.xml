@@ -38,14 +38,16 @@ Foundation 1 - Basic Syntax
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
       <guid>https://devstools.github.io/public/golang/chapter-1/</guid>
-      <description>Install Golang Windows   Go to website and download the latest Golang version: https://go.dev/doc/install
-  Install
-  Setting GOPATH Environment
-  Environmental Variables under Control Panel &amp;gt; System and Security &amp;gt; System &amp;gt; Advanced Settings &amp;gt; Environmental Variables
+      <description>Install Golang Windows Go to website and download the latest Golang version: https://go.dev/doc/install
+Install
+Setting GOPATH Environment
+Environmental Variables under Control Panel &amp;gt; System and Security &amp;gt; System &amp;gt; Advanced Settings &amp;gt; Environmental Variables
 Syntax Each Statement ends with a line break.
 To comment block code
 /* This is block comment in go */ Comment line
-// This is single line comment Variable</description>
+// This is single line comment Variable
+var variable-name datatype = value Condition
+if(condition) { //code block to be executed when if condition evaluates to true } Switch Case</description>
     </item>
     
   </channel>
