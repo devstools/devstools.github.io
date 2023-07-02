@@ -5,7 +5,7 @@
 
 [[main]]
   name = "Tools"
-  url = "tools/"
+  url = "post/tools/"
   weight = -111
 
 [[main]]
@@ -15,11 +15,11 @@
 [[main]]
   parent = "program"
   name = "Golang"
-  url = "program/golang/"
+  url = "post/program/golang/"
 [[main]]
   parent = "program"
   name = "Python"
-  url = "program/python/"
+  url = "post/program/python/"
 
 [[main]]
   name = "Devops"
@@ -28,19 +28,19 @@
 [[main]]
   parent = "devops"
   name = "Nomad"
-  url = "devops/nomad/"
+  url = "post/devops/nomad/"
 [[main]]
   parent = "devops"
   name = "Kubenates"
-  url = "devops/kubenates/"
+  url = "post/devops/kubenates/"
 [[main]]
   parent = "devops"
   name = "Docker"
-  url = "devops/docker/"
+  url = "post/devops/docker/"
 [[main]]
   parent = "devops"
   name = "Terraform"
-  url = "devops/terraform/"
+  url = "post/devops/terraform/"
 
 [[main]]
   name = "Testing"
@@ -49,11 +49,11 @@
 [[main]]
   parent = "testing"
   name = "Automation"
-  url = "testing/automation/"
+  url = "post/testing/automation/"
 [[main]]
   parent = "testing"
   name = "Performance"
-  url = "testing/performance/"
+  url = "post/testing/performance/"
 
 [[main]]
   name = "About"
