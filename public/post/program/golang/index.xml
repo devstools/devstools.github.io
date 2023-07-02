@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang Trang Chủ on Trongpq</title>
+    <link>https://devstools.github.io/public/post/program/golang/</link>
+    <description>Recent content in Golang Trang Chủ on Trongpq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://devstools.github.io/public/post/program/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang Cơ Bản</title>
+      <link>https://devstools.github.io/public/post/program/golang/content/chapter-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/program/golang/content/chapter-2/</guid>
+      <description>
+        
+          
+            Install Golang Windows Go to website and download the latest Golang version: https://go.dev/doc/install
+Install
+Setting GOPATH Environment
+Environmental Variables under Control Panel &amp;gt; System and Security &amp;gt; System &amp;gt; Advanced Settings &amp;gt; Environmental Variables
+Syntax Each Statement ends with a line break.
+To comment block code
+1/* 2This is block comment in go 3*/ Comment line
+1// This is single line comment Variable
+1var variable-name datatype = value Condition
+1if(condition) { 2 //code block to be executed when if condition evaluates to true 3} Switch Case
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://devstools.github.io/public/post/program/golang/content/chapter-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/program/golang/content/chapter-1/</guid>
+      <description>
+        
+          
+            Golang Overview
+Go language was developed in the year 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google and publicly announced in 2009. It was officially released in 2012 as an open-source programming language.
+Foundation 1 - Foundation
+2 - Syntax - Naming Convention Uber
+3 - HTTP - API
+4 - GRPC
+5 - GRPC Gateway
+6 - Tutorial Build a Project
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://devstools.github.io/public/post/program/golang/content/chapter-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/program/golang/content/chapter-10/</guid>
+      <description>
+        
+          
+            This page group resource all tool related golang maybe you need it
+Release version in golang: https://goreleaser.com/quick-start/
+Host static resource in a binary https://github.com/rakyll/statik
+Go-mansory: Framework
+Go-Fx: Dependency Injection
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

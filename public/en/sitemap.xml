@@ -84,7 +84,7 @@
     <loc>https://devstools.github.io/public/tags/development/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/program/</loc>
+    <loc>https://devstools.github.io/public/post/program/backup/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/kubenates/</loc>
@@ -133,6 +133,12 @@
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/golang/</loc>
+    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/python/</loc>
+    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/program/python/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/selenium/</loc>
@@ -276,9 +282,20 @@
                 href="https://devstools.github.io/public/about/"
                 />
   </url><url>
+    <loc>https://devstools.github.io/public/post/program/python/chapter-1/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+  </url><url>
     <loc>https://devstools.github.io/public/post/testing/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
+    <loc>https://devstools.github.io/public/post/program/golang/content/chapter-2/</loc>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/program/golang/</loc>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/program/golang/content/chapter-1/</loc>
+  </url><url>
     <loc>https://devstools.github.io/public/search/</loc>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/program/golang/content/chapter-10/</loc>
   </url>
 </urlset>
