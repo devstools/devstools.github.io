@@ -97,7 +97,7 @@ enforceLightMode = false
 languageMenuName = "🌐"
 
 # Title separator, default to |.
-# titleSeparator = "|"
+titleSeparator = "|"
 
 # Enable or disable comments globally. Default to true.
 comments = true
@@ -135,7 +135,7 @@ comments = true
 
 # website author
 [author]
-name = "Jane Doe"
+name = "Trong PQ"
 # photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
