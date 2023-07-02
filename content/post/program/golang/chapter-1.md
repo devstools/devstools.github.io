@@ -1,6 +1,6 @@
 ---
 tags: ["golang"]
-title: "Overview"
+title: "chapter-1"
 description: "Tổng Quát Golang"
 ---
 
@@ -14,9 +14,9 @@ Go language was developed in the year 2007 by Robert Griesemer, Rob Pike, and Ke
 
 ## Foundation
 
-1 - Foundation
+1 - Foundation Golang
 
-2 - Syntax - Naming Convention Uber
+2 - Syntax - Naming Convention Uber ok
 
 3 - HTTP - API
 

@@ -8,11 +8,34 @@
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://devstools.github.io/public/post/program/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Golang Cơ Bản</title>
-      <link>https://devstools.github.io/public/post/program/golang/content/chapter-2/</link>
+      <title>chapter-1</title>
+      <link>https://devstools.github.io/public/post/program/golang/chapter-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://devstools.github.io/public/post/program/golang/content/chapter-2/</guid>
+      <guid>https://devstools.github.io/public/post/program/golang/chapter-1/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+Golang Overview
+Go language was developed in the year 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google and publicly announced in 2009. It was officially released in 2012 as an open-source programming language.
+Foundation 1 - Foundation Golang
+2 - Syntax - Naming Convention Uber ok
+3 - HTTP - API
+4 - GRPC
+5 - GRPC Gateway
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>chapter-2</title>
+      <link>https://devstools.github.io/public/post/program/golang/chapter-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/program/golang/chapter-2/</guid>
       <description>
         
           
@@ -33,34 +56,11 @@ To comment block code
     </item>
     
     <item>
-      <title>Overview</title>
-      <link>https://devstools.github.io/public/post/program/golang/content/chapter-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/program/golang/content/chapter-1/</guid>
-      <description>
-        
-          
-            Golang Overview
-Go language was developed in the year 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google and publicly announced in 2009. It was officially released in 2012 as an open-source programming language.
-Foundation 1 - Foundation
-2 - Syntax - Naming Convention Uber
-3 - HTTP - API
-4 - GRPC
-5 - GRPC Gateway
-6 - Tutorial Build a Project
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Tools</title>
-      <link>https://devstools.github.io/public/post/program/golang/content/chapter-10/</link>
+      <link>https://devstools.github.io/public/post/program/golang/chapter-10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://devstools.github.io/public/post/program/golang/content/chapter-10/</guid>
+      <guid>https://devstools.github.io/public/post/program/golang/chapter-10/</guid>
       <description>
         
           

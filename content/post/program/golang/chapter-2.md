@@ -1,6 +1,6 @@
 ---
 tags: ["golang"]
-title: "Golang Cơ Bản"
+title: "chapter-2"
 description: "Golang Cơ Bản"
 ---
 
