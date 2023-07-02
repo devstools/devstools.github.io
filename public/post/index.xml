@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2023 22:48:27 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2</title>
+      <link>https://devstools.github.io/public/post/devops/terraform/2/</link>
+      <pubDate>Sun, 02 Jul 2023 22:48:27 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/terraform/2/</guid>
+      <description>
+        
+          
+            Insert Lead paragraph here.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Chapter II: Performance Testing AutoCannon</title>
       <link>https://devstools.github.io/public/post/tools/3/</link>

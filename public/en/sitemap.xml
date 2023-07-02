@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://devstools.github.io/public/</loc>
-    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+    <lastmod>2023-07-02T22:48:27+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -15,17 +15,24 @@
                 href="https://devstools.github.io/public/"
                 />
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/chapter-1/</loc>
-    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+    <loc>https://devstools.github.io/public/post/devops/terraform/2/</loc>
+    <lastmod>2023-07-02T22:48:27+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/solution-architecture/chapter-1/</loc>
-    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/development/</loc>
-    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+    <loc>https://devstools.github.io/public/categories/</loc>
+    <lastmod>2023-07-02T22:48:27+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://devstools.github.io/public/pt/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://devstools.github.io/public/categories/"
+                />
   </url><url>
     <loc>https://devstools.github.io/public/post/</loc>
-    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+    <lastmod>2023-07-02T22:48:27+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -37,11 +44,14 @@
                 href="https://devstools.github.io/public/post/"
                 />
   </url><url>
-    <loc>https://devstools.github.io/public/tags/software-development/</loc>
-    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+    <loc>https://devstools.github.io/public/tags/tag_name1/</loc>
+    <lastmod>2023-07-02T22:48:27+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/tag_name2/</loc>
+    <lastmod>2023-07-02T22:48:27+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/</loc>
-    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+    <lastmod>2023-07-02T22:48:27+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -52,6 +62,21 @@
                 hreflang="en"
                 href="https://devstools.github.io/public/tags/"
                 />
+  </url><url>
+    <loc>https://devstools.github.io/public/categories/technology/</loc>
+    <lastmod>2023-07-02T22:48:27+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/programming/chapter-1/</loc>
+    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/solution-architecture/chapter-1/</loc>
+    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/development/</loc>
+    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/software-development/</loc>
+    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/programming/resource/</loc>
     <lastmod>2022-11-11T15:39:07+07:00</lastmod>
@@ -145,19 +170,6 @@
   </url><url>
     <loc>https://devstools.github.io/public/tags/testing/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/categories/</loc>
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://devstools.github.io/public/pt/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://devstools.github.io/public/categories/"
-                />
   </url><url>
     <loc>https://devstools.github.io/public/tags/hugo/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
