@@ -1,9 +1,7 @@
 ---
-date: 2017-04-09T10:58:08-04:00
-description: "golang"
-featured_image: "/images/banner.png"
 tags: ["golang"]
-title: "I: Foundation"
+title: "Golang Cơ Bản"
+description: "Golang Cơ Bản"
 ---
 
 ## Install Golang
