@@ -10,10 +10,10 @@
     <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter I: Development</title>
-      <link>https://devstools.github.io/public/post/development/chapter-1/</link>
+      <link>https://devstools.github.io/public/post/programming/chapter-1/</link>
       <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/development/chapter-1/</guid>
+      <guid>https://devstools.github.io/public/post/programming/chapter-1/</guid>
       <description>
         
           
@@ -68,10 +68,10 @@ Limit resource capacity
     
     <item>
       <title>Resource</title>
-      <link>https://devstools.github.io/public/post/development/resource/</link>
+      <link>https://devstools.github.io/public/post/programming/resource/</link>
       <pubDate>Fri, 11 Nov 2022 15:39:07 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/development/resource/</guid>
+      <guid>https://devstools.github.io/public/post/programming/resource/</guid>
       <description>
         
           
@@ -85,10 +85,10 @@ https://semver.org/
     
     <item>
       <title>Golang Tools</title>
-      <link>https://devstools.github.io/public/post/development/golang/10/</link>
+      <link>https://devstools.github.io/public/post/programming/golang/10/</link>
       <pubDate>Fri, 11 Nov 2022 15:36:15 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/development/golang/10/</guid>
+      <guid>https://devstools.github.io/public/post/programming/golang/10/</guid>
       <description>
         
           
@@ -105,10 +105,10 @@ Go-Fx: Dependency Injection
     
     <item>
       <title>Chapter II: Performance Testing AutoCannon</title>
-      <link>https://devstools.github.io/public/post/tools/chapter-2/</link>
+      <link>https://devstools.github.io/public/post/tools/3/</link>
       <pubDate>Fri, 11 Nov 2022 12:07:25 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/tools/chapter-2/</guid>
+      <guid>https://devstools.github.io/public/post/tools/3/</guid>
       <description>
         
           
@@ -125,10 +125,10 @@ example
     
     <item>
       <title>Chapter I: API Testing PostMan</title>
-      <link>https://devstools.github.io/public/post/tools/chapter-1/</link>
+      <link>https://devstools.github.io/public/post/tools/2/</link>
       <pubDate>Fri, 11 Nov 2022 11:58:53 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/tools/chapter-1/</guid>
+      <guid>https://devstools.github.io/public/post/tools/2/</guid>
       <description>
         
           
@@ -143,10 +143,10 @@ If you want to create object user by calling api user and random name of user. y
     
     <item>
       <title>Chapter IV:</title>
-      <link>https://devstools.github.io/public/post/development/chapter-4/</link>
+      <link>https://devstools.github.io/public/post/programming/chapter-4/</link>
       <pubDate>Fri, 11 Nov 2022 11:46:30 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/development/chapter-4/</guid>
+      <guid>https://devstools.github.io/public/post/programming/chapter-4/</guid>
       <description>
         
           
@@ -159,10 +159,10 @@ If you want to create object user by calling api user and random name of user. y
     
     <item>
       <title>Chapter III:</title>
-      <link>https://devstools.github.io/public/post/development/chapter-3/</link>
+      <link>https://devstools.github.io/public/post/programming/chapter-3/</link>
       <pubDate>Fri, 11 Nov 2022 11:44:57 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/development/chapter-3/</guid>
+      <guid>https://devstools.github.io/public/post/programming/chapter-3/</guid>
       <description>
         
           
@@ -178,10 +178,10 @@ TODO: Add design pattern, and expain each group design pattern What, When, How.
     
     <item>
       <title>Chapter II: Development</title>
-      <link>https://devstools.github.io/public/post/development/chapter-2/</link>
+      <link>https://devstools.github.io/public/post/programming/chapter-2/</link>
       <pubDate>Fri, 11 Nov 2022 11:44:56 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/development/chapter-2/</guid>
+      <guid>https://devstools.github.io/public/post/programming/chapter-2/</guid>
       <description>
         
           
@@ -195,11 +195,136 @@ As the name of this principle, one class has only one responsibility and one rea
     </item>
     
     <item>
-      <title>Overview</title>
-      <link>https://devstools.github.io/public/post/development/golang/1/</link>
+      <title>kubenates</title>
+      <link>https://devstools.github.io/public/post/devops/docker/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/docker/1/</guid>
+      <description>
+        
+          
+            Kubenates
+Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
+Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
+Cài đặt kubectl là kubenates client để tương tác với kubenates
+Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
+Kiểm tra có các node nào đang chạy trên máy: kubectl get node
+Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>kubenates</title>
+      <link>https://devstools.github.io/public/post/devops/kubenates/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/kubenates/1/</guid>
+      <description>
+        
+          
+            Kubenates
+Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
+Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
+Cài đặt kubectl là kubenates client để tương tác với kubenates
+Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
+Kiểm tra có các node nào đang chạy trên máy: kubectl get node
+Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>kubenates</title>
+      <link>https://devstools.github.io/public/post/devops/nomad/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/nomad/1/</guid>
+      <description>
+        
+          
+            Kubenates
+Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
+Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
+Cài đặt kubectl là kubenates client để tương tác với kubenates
+Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
+Kiểm tra có các node nào đang chạy trên máy: kubectl get node
+Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>kubenates</title>
+      <link>https://devstools.github.io/public/post/devops/terraform/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/terraform/1/</guid>
+      <description>
+        
+          
+            Kubenates
+Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
+Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
+Cài đặt kubectl là kubenates client để tương tác với kubenates
+Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
+Kiểm tra có các node nào đang chạy trên máy: kubectl get node
+Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://devstools.github.io/public/post/tools/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/tools/1/</guid>
+      <description>
+        
+          
+            Tools Post
+- API TESTING: API Testing Postman - PERFORMANCE TESTING: Auto Cannon, Hey Auto Cannon: https://www.npmjs.com/package/autocannon Hey: https://github.com/rakyll/hey - AUTOMATION TESTING: Selenium - GRPC UI: Evans https://github.com/ktr0731/evans - PROXY TO CHECK API APP: Whistle Whistle: https://github.com/avwo/whistle - DOCUMENT API: SwaggerUI 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://devstools.github.io/public/post/devops/1/</link>
       <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/development/golang/1/</guid>
+      <guid>https://devstools.github.io/public/post/devops/1/</guid>
+      <description>
+        
+          
+            Devops Post
+Linux 1 - Foundation Linux
+2 - Terminal Linux Zsh...
+3 - Docker - Docker Compose
+4 - WebServer Nginx
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://devstools.github.io/public/post/programming/golang/1/</link>
+      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/programming/golang/1/</guid>
       <description>
         
           
@@ -365,30 +490,11 @@ The sixth of January, 1482, is not, however, a day of which history has preserve
     </item>
     
     <item>
-      <title>Chapter I: Devops</title>
-      <link>https://devstools.github.io/public/post/devops/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/devops/chapter-1/</guid>
-      <description>
-        
-          
-            Foundation and tip tricks linux
-link file: ln -S &amp;lt;file_link&amp;gt; &amp;lt;file_root&amp;gt; file_link: you want to create a new file here file_root: the content of this file will be link to file_link, if file root have any change it will change at file link too.
-https://docs.lnav.org/en/latest/intro.html#viewing-logs: view log navigation
-Config dockerize react app, build production, hot reload. https://mherman.org/blog/dockerizing-a-react-app/
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Chapter I: python</title>
-      <link>https://devstools.github.io/public/post/development/python/chapter-1/</link>
+      <link>https://devstools.github.io/public/post/programming/python/chapter-1/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://devstools.github.io/public/post/development/python/chapter-1/</guid>
+      <guid>https://devstools.github.io/public/post/programming/python/chapter-1/</guid>
       <description>
         
           
@@ -419,10 +525,10 @@ The sixth of January, 1482, is not, however, a day of which history has preserve
     
     <item>
       <title>I: Foundation</title>
-      <link>https://devstools.github.io/public/post/development/golang/2/</link>
+      <link>https://devstools.github.io/public/post/programming/golang/2/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://devstools.github.io/public/post/development/golang/2/</guid>
+      <guid>https://devstools.github.io/public/post/programming/golang/2/</guid>
       <description>
         
           
@@ -436,6 +542,20 @@ To comment block code
 1// This is single line comment Variable
 1var variable-name datatype = value Condition
 1if(condition) { 2 //code block to be executed when if condition evaluates to true 3} Switch Case
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://devstools.github.io/public/post/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/1/</guid>
+      <description>
+        
           
           
         

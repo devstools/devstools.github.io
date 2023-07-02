@@ -9,6 +9,169 @@
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Chapter II: Performance Testing AutoCannon</title>
+      <link>https://devstools.github.io/public/post/tools/3/</link>
+      <pubDate>Fri, 11 Nov 2022 12:07:25 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/tools/3/</guid>
+      <description>
+        
+          
+            How many tester can send multi request in the same time, this issue I meet when I work in my old company,
+We don&#39;t know to test performance send multi request same time by CLI or by Code. And I don&#39;t know keyword to find it. Now I find a tool can help me do it. Auto cannon
+You can install it from npm. https://www.npmjs.com/package/autocannon
+npm i -g autocannon
+example
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: API Testing PostMan</title>
+      <link>https://devstools.github.io/public/post/tools/2/</link>
+      <pubDate>Fri, 11 Nov 2022 11:58:53 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/tools/2/</guid>
+      <description>
+        
+          
+            Postman: I think if you working in major software development you can hear this name atleast one times Because this tool help you can call api and have many function have you checking what happen when you call api.
+Today I will talk about some function I wish I know it soon.
+If you want to create object user by calling api user and random name of user. you can write in postman:
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>kubenates</title>
+      <link>https://devstools.github.io/public/post/devops/docker/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/docker/1/</guid>
+      <description>
+        
+          
+            Kubenates
+Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
+Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
+Cài đặt kubectl là kubenates client để tương tác với kubenates
+Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
+Kiểm tra có các node nào đang chạy trên máy: kubectl get node
+Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>kubenates</title>
+      <link>https://devstools.github.io/public/post/devops/kubenates/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/kubenates/1/</guid>
+      <description>
+        
+          
+            Kubenates
+Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
+Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
+Cài đặt kubectl là kubenates client để tương tác với kubenates
+Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
+Kiểm tra có các node nào đang chạy trên máy: kubectl get node
+Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>kubenates</title>
+      <link>https://devstools.github.io/public/post/devops/nomad/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/nomad/1/</guid>
+      <description>
+        
+          
+            Kubenates
+Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
+Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
+Cài đặt kubectl là kubenates client để tương tác với kubenates
+Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
+Kiểm tra có các node nào đang chạy trên máy: kubectl get node
+Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>kubenates</title>
+      <link>https://devstools.github.io/public/post/devops/terraform/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/terraform/1/</guid>
+      <description>
+        
+          
+            Kubenates
+Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
+Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
+Cài đặt kubectl là kubenates client để tương tác với kubenates
+Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
+Kiểm tra có các node nào đang chạy trên máy: kubectl get node
+Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://devstools.github.io/public/post/tools/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/tools/1/</guid>
+      <description>
+        
+          
+            Tools Post
+- API TESTING: API Testing Postman - PERFORMANCE TESTING: Auto Cannon, Hey Auto Cannon: https://www.npmjs.com/package/autocannon Hey: https://github.com/rakyll/hey - AUTOMATION TESTING: Selenium - GRPC UI: Evans https://github.com/ktr0731/evans - PROXY TO CHECK API APP: Whistle Whistle: https://github.com/avwo/whistle - DOCUMENT API: SwaggerUI 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://devstools.github.io/public/post/devops/1/</link>
+      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/1/</guid>
+      <description>
+        
+          
+            Devops Post
+Linux 1 - Foundation Linux
+2 - Terminal Linux Zsh...
+3 - Docker - Docker Compose
+4 - WebServer Nginx
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Using Hugo page bundles</title>
       <link>https://devstools.github.io/public/post/bundle/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
@@ -132,6 +295,20 @@ You use the notice shortcode, with the first parameter being one of note, info, 
         
           
             &lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://devstools.github.io/public/post/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/1/</guid>
+      <description>
+        
           
           
         
