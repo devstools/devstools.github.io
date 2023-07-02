@@ -45,6 +45,26 @@ https://semver.org/
     </item>
     
     <item>
+      <title>Golang Tools</title>
+      <link>https://devstools.github.io/public/post/development/golang/10/</link>
+      <pubDate>Fri, 11 Nov 2022 15:36:15 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/development/golang/10/</guid>
+      <description>
+        
+          
+            This page group resource all tool related golang maybe you need it
+Release version in golang: https://goreleaser.com/quick-start/
+Host static resource in a binary https://github.com/rakyll/statik
+Go-mansory: Framework
+Go-Fx: Dependency Injection
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Chapter IV:</title>
       <link>https://devstools.github.io/public/post/development/chapter-4/</link>
       <pubDate>Fri, 11 Nov 2022 11:46:30 +0700</pubDate>
@@ -91,6 +111,54 @@ TODO: Add design pattern, and expain each group design pattern What, When, How.
             Hi, today I want to talk about SOLID in developement software this is the first lesson my boss teach me and tell me, if you want to go far in major software development. You have knowledge about SOLID and alway follow SOLID Principle.
 1 - S: Single Responsibility Principle
 As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://devstools.github.io/public/post/development/golang/1/</link>
+      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/development/golang/1/</guid>
+      <description>
+        
+          
+            Golang Overview
+Go language was developed in the year 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google and publicly announced in 2009. It was officially released in 2012 as an open-source programming language.
+Foundation 1 - Foundation
+2 - Syntax - Naming Convention Uber
+3 - HTTP - API
+4 - GRPC
+5 - GRPC Gateway
+6 - Tutorial Build a Project
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: golang</title>
+      <link>https://devstools.github.io/public/post/development/golang/2/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/development/golang/2/</guid>
+      <description>
+        
+          
+            Install Golang Windows Go to website and download the latest Golang version: https://go.dev/doc/install
+Install
+Setting GOPATH Environment
+Environmental Variables under Control Panel &amp;gt; System and Security &amp;gt; System &amp;gt; Advanced Settings &amp;gt; Environmental Variables
+Syntax Each Statement ends with a line break.
+To comment block code
+1/* 2This is block comment in go 3*/ Comment line
+1// This is single line comment Variable
+1var variable-name datatype = value Condition
+1if(condition) { 2 //code block to be executed when if condition evaluates to true 3} Switch Case
           
           
         
