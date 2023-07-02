@@ -66,7 +66,7 @@
     <loc>https://devstools.github.io/public/categories/technology/</loc>
     <lastmod>2023-07-02T22:48:27+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/program/chapter-1/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/solution-architecture/chapter-1/</loc>
@@ -78,10 +78,10 @@
     <loc>https://devstools.github.io/public/tags/software-development/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/resource/</loc>
+    <loc>https://devstools.github.io/public/post/program/resource/</loc>
     <lastmod>2022-11-11T15:39:07+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/golang/10/</loc>
+    <loc>https://devstools.github.io/public/post/program/golang/10/</loc>
     <lastmod>2022-11-11T15:36:15+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/tools/3/</loc>
@@ -90,22 +90,22 @@
     <loc>https://devstools.github.io/public/post/tools/2/</loc>
     <lastmod>2022-11-11T11:58:53+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/chapter-4/</loc>
+    <loc>https://devstools.github.io/public/post/program/chapter-4/</loc>
     <lastmod>2022-11-11T11:46:30+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/chapter-3/</loc>
+    <loc>https://devstools.github.io/public/post/program/chapter-3/</loc>
     <lastmod>2022-11-11T11:44:57+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/chapter-2/</loc>
+    <loc>https://devstools.github.io/public/post/program/chapter-2/</loc>
     <lastmod>2022-11-11T11:44:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/database/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/databases/</loc>
+    <loc>https://devstools.github.io/public/post/databases/1/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/</loc>
+    <loc>https://devstools.github.io/public/post/program/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/kubenates/</loc>
@@ -141,9 +141,6 @@
     <loc>https://devstools.github.io/public/about/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/articles/</loc>
-    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
-  </url><url>
     <loc>https://devstools.github.io/public/tags/automation/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
@@ -153,19 +150,19 @@
     <loc>https://devstools.github.io/public/tags/golang/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/golang/1/</loc>
+    <loc>https://devstools.github.io/public/post/program/golang/1/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/python/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/python/</loc>
+    <loc>https://devstools.github.io/public/post/program/python/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/selenium/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/automation-testing/</loc>
+    <loc>https://devstools.github.io/public/post/testing/1/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/testing/</loc>
@@ -303,24 +300,14 @@
                 href="https://devstools.github.io/public/about/"
                 />
   </url><url>
-    <loc>https://devstools.github.io/public/tags/artcles/</loc>
+    <loc>https://devstools.github.io/public/post/program/python/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/articles/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/testing/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/programming/python/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/program/golang/2/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/post/automation-testing/chapter-1/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/post/programming/golang/2/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/index/</loc>
-  </url><url>
-    <loc>https://devstools.github.io/public/post/1/</loc>
   </url><url>
     <loc>https://devstools.github.io/public/search/</loc>
   </url>

@@ -63,6 +63,29 @@ If you want to create object user by calling api user and random name of user. y
     </item>
     
     <item>
+      <title>database</title>
+      <link>https://devstools.github.io/public/post/databases/1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/databases/1/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+[ Transaction ] 1 - 4 properties of database sql
+2 - 4 Level Isolate Transaction
+Unread commited
+Read commited
+phantom ...
+serializable
+trongpq
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>kubenates</title>
       <link>https://devstools.github.io/public/post/devops/docker/1/</link>
       <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
@@ -181,6 +204,22 @@ Linux 1 - Foundation Linux
 2 - Terminal Linux Zsh...
 3 - Docker - Docker Compose
 4 - WebServer Nginx
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>selenium</title>
+      <link>https://devstools.github.io/public/post/testing/1/</link>
+      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/testing/1/</guid>
+      <description>
+        
+          
+            Selenium Post
           
           
         
@@ -318,13 +357,16 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     </item>
     
     <item>
-      <title>Posts</title>
-      <link>https://devstools.github.io/public/post/1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Chapter I: selenium</title>
+      <link>https://devstools.github.io/public/post/testing/chapter-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://devstools.github.io/public/post/1/</guid>
+      <guid>https://devstools.github.io/public/post/testing/chapter-1/</guid>
       <description>
         
+          
+            Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
+The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.
           
           
         

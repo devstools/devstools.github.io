@@ -10,10 +10,10 @@
     <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter I: Development</title>
-      <link>https://devstools.github.io/public/post/programming/chapter-1/</link>
+      <link>https://devstools.github.io/public/post/program/chapter-1/</link>
       <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/programming/chapter-1/</guid>
+      <guid>https://devstools.github.io/public/post/program/chapter-1/</guid>
       <description>
         
           
@@ -29,10 +29,10 @@ Properties: properties hold the data temporarily during the execution of an appl
     
     <item>
       <title>Chapter III:</title>
-      <link>https://devstools.github.io/public/post/programming/chapter-3/</link>
+      <link>https://devstools.github.io/public/post/program/chapter-3/</link>
       <pubDate>Fri, 11 Nov 2022 11:44:57 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/programming/chapter-3/</guid>
+      <guid>https://devstools.github.io/public/post/program/chapter-3/</guid>
       <description>
         
           
@@ -48,10 +48,10 @@ TODO: Add design pattern, and expain each group design pattern What, When, How.
     
     <item>
       <title>Chapter II: Development</title>
-      <link>https://devstools.github.io/public/post/programming/chapter-2/</link>
+      <link>https://devstools.github.io/public/post/program/chapter-2/</link>
       <pubDate>Fri, 11 Nov 2022 11:44:56 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/programming/chapter-2/</guid>
+      <guid>https://devstools.github.io/public/post/program/chapter-2/</guid>
       <description>
         
           
@@ -66,10 +66,10 @@ As the name of this principle, one class has only one responsibility and one rea
     
     <item>
       <title>development</title>
-      <link>https://devstools.github.io/public/post/programming/</link>
+      <link>https://devstools.github.io/public/post/program/</link>
       <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/programming/</guid>
+      <guid>https://devstools.github.io/public/post/program/</guid>
       <description>
         
           

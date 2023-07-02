@@ -11,7 +11,7 @@
 [[main]]
   name = "Programming Language"
   identifier = "program"
-  weight = -108
+  weight = -109
 [[main]]
   parent = "program"
   name = "Golang"
@@ -45,7 +45,7 @@
 [[main]]
   name = "Testing"
   identifier = "testing"
-  weight = -108
+  weight = -107
 [[main]]
   parent = "testing"
   name = "Automation"
@@ -58,7 +58,7 @@
 [[main]]
   name = "About"
   url = "about/"
-  weight = -107
+  weight = -106
 
 # social menu links
 
