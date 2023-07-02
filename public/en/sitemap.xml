@@ -66,20 +66,11 @@
     <loc>https://devstools.github.io/public/categories/technology/</loc>
     <lastmod>2023-07-02T22:48:27+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/program/chapter-1/</loc>
-    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
-  </url><url>
     <loc>https://devstools.github.io/public/post/solution-architecture/chapter-1/</loc>
-    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/development/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/software-development/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/post/program/resource/</loc>
-    <lastmod>2022-11-11T15:39:07+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/tools/3/</loc>
     <lastmod>2022-11-11T12:07:25+07:00</lastmod>
@@ -87,28 +78,16 @@
     <loc>https://devstools.github.io/public/post/tools/2/</loc>
     <lastmod>2022-11-11T11:58:53+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/program/chapter-4/</loc>
-    <lastmod>2022-11-11T11:46:30+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/post/program/chapter-3/</loc>
-    <lastmod>2022-11-11T11:44:57+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/post/program/chapter-2/</loc>
-    <lastmod>2022-11-11T11:44:56+07:00</lastmod>
-  </url><url>
     <loc>https://devstools.github.io/public/tags/database/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/databases/1/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
+    <loc>https://devstools.github.io/public/tags/development/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
     <loc>https://devstools.github.io/public/post/program/</loc>
-    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/golang/</loc>
-    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/post/program/golang/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/kubenates/</loc>
@@ -150,10 +129,7 @@
     <loc>https://devstools.github.io/public/post/devops/1/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/tags/python/</loc>
-    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/post/program/python/</loc>
+    <loc>https://devstools.github.io/public/tags/golang/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/selenium/</loc>
@@ -296,9 +272,6 @@
                 hreflang="en"
                 href="https://devstools.github.io/public/about/"
                 />
-  </url><url>
-    <loc>https://devstools.github.io/public/post/program/python/chapter-1/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/testing/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>

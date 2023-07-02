@@ -7,37 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/golang/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>golang</title>
-      <link>https://devstools.github.io/public/post/program/golang/</link>
-      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/program/golang/</guid>
-      <description>
-        
-          
-            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
-[OOP] 1 - Basic OOP
-2 - Abstraction
-3 - Encapsulation
-4 - Inheritance
-5 - Polimorphism
-6 - Method Overriding
-7 - Method Hiding
-SOLID 1 - Single Responsibility Principle
-2 - Open | Close Principle
-3 - Liskov&#39;s Subsitution Principle
-4 - Interface Segregation Principle
-5 - Dependency Inversion Principle
-6 - you aren&#39;t gonna need it
-7 - Do one thing and do it right
-          
-          
-        
-      </description>
-    </item>
-    
+    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>devops</title>
       <link>https://devstools.github.io/public/post/devops/1/</link>
