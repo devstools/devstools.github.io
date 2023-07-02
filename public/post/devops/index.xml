@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops on Trongpq</title>
+    <link>https://example.com/post/devops/</link>
+    <description>Recent content in devops on Trongpq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://example.com/post/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter I: Devops</title>
+      <link>https://example.com/post/devops/chapter-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://example.com/post/devops/chapter-1/</guid>
+      <description>
+        
+          
+            Foundation and tip tricks linux
+link file: ln -S &amp;lt;file_link&amp;gt; &amp;lt;file_root&amp;gt; file_link: you want to create a new file here file_root: the content of this file will be link to file_link, if file root have any change it will change at file link too.
+https://docs.lnav.org/en/latest/intro.html#viewing-logs: view log navigation
+Config dockerize react app, build production, hot reload. https://mherman.org/blog/dockerizing-a-react-app/
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

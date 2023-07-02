@@ -15,14 +15,27 @@
                 href="https://example.com/"
                 />
   </url><url>
-    <loc>https://example.com/development/chapter-1/</loc>
+    <loc>https://example.com/post/development/chapter-1/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/architecture-software/chapter-1/</loc>
+    <loc>https://example.com/post/solution-architecture/chapter-1/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/development/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://example.com/pt/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/post/"
+                />
   </url><url>
     <loc>https://example.com/tags/software-development/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
@@ -40,104 +53,94 @@
                 href="https://example.com/tags/"
                 />
   </url><url>
-    <loc>https://example.com/development/resource/</loc>
+    <loc>https://example.com/post/development/resource/</loc>
     <lastmod>2022-11-11T15:39:07+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/golang/golang-tools/</loc>
+    <loc>https://example.com/post/development/golang/10/</loc>
     <lastmod>2022-11-11T15:36:15+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tools/chapter-2/</loc>
+    <loc>https://example.com/post/tools/chapter-2/</loc>
     <lastmod>2022-11-11T12:07:25+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tools/chapter-1/</loc>
+    <loc>https://example.com/post/tools/chapter-1/</loc>
     <lastmod>2022-11-11T11:58:53+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/development/chapter-4/</loc>
+    <loc>https://example.com/post/development/chapter-4/</loc>
     <lastmod>2022-11-11T11:46:30+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/development/chapter-3/</loc>
+    <loc>https://example.com/post/development/chapter-3/</loc>
     <lastmod>2022-11-11T11:44:57+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/development/chapter-2/</loc>
+    <loc>https://example.com/post/development/chapter-2/</loc>
     <lastmod>2022-11-11T11:44:56+07:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/database/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/databases/</loc>
+    <loc>https://example.com/post/databases/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/development/</loc>
+    <loc>https://example.com/post/development/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/kubenates/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/kubenates/</loc>
+    <loc>https://example.com/post/devops/kubenates/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/nomad/</loc>
+    <loc>https://example.com/post/devops/nomad/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/terraform/</loc>
+    <loc>https://example.com/post/devops/terraform/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/nomad/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://example.com/pt/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/post/"
-                />
-  </url><url>
-    <loc>https://example.com/tags/software-architecture/</loc>
+    <loc>https://example.com/post/solution-architecture/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/architecture-software/</loc>
+    <loc>https://example.com/tags/solution-architecture/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/tools/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tools/</loc>
+    <loc>https://example.com/post/tools/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://example.com/about/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/appium/</loc>
+    <loc>https://example.com/post/articles/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/articles/</loc>
+    <loc>https://example.com/tags/automation/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/devops/</loc>
+    <loc>https://example.com/post/devops/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/golang/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/golang/</loc>
+    <loc>https://example.com/post/development/golang/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/python/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/python/</loc>
+    <loc>https://example.com/post/development/python/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/selenium/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/selenium/</loc>
+    <loc>https://example.com/post/automation-testing/</loc>
+    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/testing/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/</loc>
@@ -178,10 +181,10 @@
     <loc>https://example.com/post/bundle/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/map/</loc>
+    <loc>https://example.com/post/backup/map/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/notices/</loc>
+    <loc>https://example.com/post/backup/notices/</loc>
     <lastmod>2021-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/archives/</loc>
@@ -229,17 +232,17 @@
                 href="https://example.com/tags/markdown/"
                 />
   </url><url>
-    <loc>https://example.com/post/markdown-syntax/</loc>
+    <loc>https://example.com/post/backup/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/post/markdown-syntax/"
+                href="https://example.com/pt/post/backup/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/post/markdown-syntax/"
+                href="https://example.com/post/backup/markdown-syntax/"
                 />
   </url><url>
     <loc>https://example.com/tags/themes/</loc>
@@ -251,25 +254,25 @@
     <loc>https://example.com/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/rich-content/</loc>
+    <loc>https://example.com/post/backup/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/placeholder-text/</loc>
+    <loc>https://example.com/post/backup/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/math-typesetting/</loc>
+    <loc>https://example.com/post/backup/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/emoji-support/</loc>
+    <loc>https://example.com/post/backup/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/about/</loc>
@@ -288,19 +291,19 @@
     <loc>https://example.com/tags/artcles/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/articles/chapter-1/</loc>
+    <loc>https://example.com/post/articles/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/devops/chapter-1/</loc>
+    <loc>https://example.com/post/devops/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/golang/chapter-1/</loc>
+    <loc>https://example.com/post/development/golang/2/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/python/chapter-1/</loc>
+    <loc>https://example.com/post/development/python/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/selenium/chapter-1/</loc>
+    <loc>https://example.com/post/automation-testing/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/devops/</loc>

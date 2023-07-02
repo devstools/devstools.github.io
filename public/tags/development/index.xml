@@ -1,12 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>development on Clarity</title>
+    <title>development on Trongpq</title>
     <link>https://example.com/tags/development/</link>
-    <description>Recent content in development on Clarity</description>
+    <description>Recent content in development on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://example.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter I: Development</title>
+      <link>https://example.com/post/development/chapter-1/</link>
+      <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/chapter-1/</guid>
+      <description>
+        
+          
+            OOP Object-oriented programing is a way to develop software application using real-world terminologies to create entities that interact with one another using objects. 4 Componenet of object-oriented:
+Class: define the structure using methods and properties to describle real-world entity
+Methods: A method represents a particular behavior, this is action of real-world entity example Human class can have method: talk, speak, doTask...
+Properties: properties hold the data temporarily during the execution of an application
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter III:</title>
+      <link>https://example.com/post/development/chapter-3/</link>
+      <pubDate>Fri, 11 Nov 2022 11:44:57 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/chapter-3/</guid>
+      <description>
+        
+          
+            Design Pattern
+In Software Development , We have many desgin pattern but you don&#39;t know all. You only need one of design pattern in main category
+Createation Pattern: Builder Structural Pattern: Facade Behavior: Chain of Responsibility I will expain this in future.
+TODO: Add design pattern, and expain each group design pattern What, When, How. 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter II: Development</title>
+      <link>https://example.com/post/development/chapter-2/</link>
+      <pubDate>Fri, 11 Nov 2022 11:44:56 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/chapter-2/</guid>
+      <description>
+        
+          
+            Hi, today I want to talk about SOLID in developement software this is the first lesson my boss teach me and tell me, if you want to go far in major software development. You have knowledge about SOLID and alway follow SOLID Principle.
+1 - S: Single Responsibility Principle
+As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://example.com/post/development/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+[OOP] 1 - Basic OOP
+2 - Abstraction
+3 - Encapsulation
+4 - Inheritance
+5 - Polimorphism
+6 - Method Overriding
+7 - Method Hiding
+SOLID 1 - Single Responsibility Principle
+2 - Open | Close Principle
+3 - Liskov&#39;s Subsitution Principle
+4 - Interface Segregation Principle
+5 - Dependency Inversion Principle
+6 - you aren&#39;t gonna need it
+7 - Do one thing and do it right
+          
+          
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>

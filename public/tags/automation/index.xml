@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>automation on Trongpq</title>
+    <link>https://example.com/tags/automation/</link>
+    <description>Recent content in automation on Trongpq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://example.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>selenium</title>
+      <link>https://example.com/post/automation-testing/</link>
+      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
+      
+      <guid>https://example.com/post/automation-testing/</guid>
+      <description>
+        
+          
+            Selenium Post
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

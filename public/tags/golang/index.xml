@@ -1,12 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>golang on Clarity</title>
+    <title>golang on Trongpq</title>
     <link>https://example.com/tags/golang/</link>
-    <description>Recent content in golang on Clarity</description>
+    <description>Recent content in golang on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://example.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>devops</title>
+      <link>https://example.com/post/devops/</link>
+      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
+      
+      <guid>https://example.com/post/devops/</guid>
+      <description>
+        
+          
+            Devops Post
+Linux 1 - Foundation Linux
+2 - Terminal Linux Zsh...
+3 - Docker - Docker Compose
+4 - WebServer Nginx
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://example.com/post/development/golang/</link>
+      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/golang/</guid>
+      <description>
+        
+          
+            Golang Overview
+Go language was developed in the year 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google and publicly announced in 2009. It was officially released in 2012 as an open-source programming language.
+Foundation 1 - Foundation
+2 - Syntax - Naming Convention Uber
+3 - HTTP - API
+4 - GRPC
+5 - GRPC Gateway
+6 - Tutorial Build a Project
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: golang</title>
+      <link>https://example.com/post/development/golang/2/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://example.com/post/development/golang/2/</guid>
+      <description>
+        
+          
+            Install Golang Windows Go to website and download the latest Golang version: https://go.dev/doc/install
+Install
+Setting GOPATH Environment
+Environmental Variables under Control Panel &amp;gt; System and Security &amp;gt; System &amp;gt; Advanced Settings &amp;gt; Environmental Variables
+Syntax Each Statement ends with a line break.
+To comment block code
+1/* 2This is block comment in go 3*/ Comment line
+1// This is single line comment Variable
+1var variable-name datatype = value Condition
+1if(condition) { 2 //code block to be executed when if condition evaluates to true 3} Switch Case
+          
+          
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>

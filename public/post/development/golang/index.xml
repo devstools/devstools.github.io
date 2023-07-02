@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on Trongpq</title>
+    <link>https://example.com/post/development/golang/</link>
+    <description>Recent content in golang on Trongpq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://example.com/post/development/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang Tools</title>
+      <link>https://example.com/post/development/golang/10/</link>
+      <pubDate>Fri, 11 Nov 2022 15:36:15 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/golang/10/</guid>
+      <description>
+        
+          
+            This page group resource all tool related golang maybe you need it
+Release version in golang: https://goreleaser.com/quick-start/
+Host static resource in a binary https://github.com/rakyll/statik
+Go-mansory: Framework
+Go-Fx: Dependency Injection
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: golang</title>
+      <link>https://example.com/post/development/golang/2/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://example.com/post/development/golang/2/</guid>
+      <description>
+        
+          
+            Install Golang Windows Go to website and download the latest Golang version: https://go.dev/doc/install
+Install
+Setting GOPATH Environment
+Environmental Variables under Control Panel &amp;gt; System and Security &amp;gt; System &amp;gt; Advanced Settings &amp;gt; Environmental Variables
+Syntax Each Statement ends with a line break.
+To comment block code
+1/* 2This is block comment in go 3*/ Comment line
+1// This is single line comment Variable
+1var variable-name datatype = value Condition
+1if(condition) { 2 //code block to be executed when if condition evaluates to true 3} Switch Case
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

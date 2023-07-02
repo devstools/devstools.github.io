@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Clarity</title>
+    <title>Posts on Trongpq</title>
     <link>https://example.com/post/</link>
-    <description>Recent content in Posts on Clarity</description>
+    <description>Recent content in Posts on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Hugo page bundles</title>
       <link>https://example.com/post/bundle/</link>
@@ -26,10 +26,10 @@
     
     <item>
       <title>Using OpenStreetMap</title>
-      <link>https://example.com/post/map/</link>
+      <link>https://example.com/post/backup/map/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/map/</guid>
+      <guid>https://example.com/post/backup/map/</guid>
       <description>
         
           
@@ -42,10 +42,10 @@
     
     <item>
       <title>Using Notices</title>
-      <link>https://example.com/post/notices/</link>
+      <link>https://example.com/post/backup/notices/</link>
       <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/notices/</guid>
+      <guid>https://example.com/post/backup/notices/</guid>
       <description>
         
           
@@ -60,10 +60,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://example.com/post/markdown-syntax/</link>
+      <link>https://example.com/post/backup/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/markdown-syntax/</guid>
+      <guid>https://example.com/post/backup/markdown-syntax/</guid>
       <description>
         
           
@@ -76,10 +76,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Rich Content</title>
-      <link>https://example.com/post/rich-content/</link>
+      <link>https://example.com/post/backup/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/rich-content/</guid>
+      <guid>https://example.com/post/backup/rich-content/</guid>
       <description>
         
           
@@ -92,10 +92,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://example.com/post/placeholder-text/</link>
+      <link>https://example.com/post/backup/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/placeholder-text/</guid>
+      <guid>https://example.com/post/backup/placeholder-text/</guid>
       <description>
         
           
@@ -108,10 +108,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://example.com/post/math-typesetting/</link>
+      <link>https://example.com/post/backup/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/math-typesetting/</guid>
+      <guid>https://example.com/post/backup/math-typesetting/</guid>
       <description>
         
           
@@ -124,10 +124,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Emoji Support</title>
-      <link>https://example.com/post/emoji-support/</link>
+      <link>https://example.com/post/backup/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/emoji-support/</guid>
+      <guid>https://example.com/post/backup/emoji-support/</guid>
       <description>
         
           

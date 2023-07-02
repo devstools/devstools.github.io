@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>database on Clarity</title>
+    <title>database on Trongpq</title>
     <link>https://example.com/tags/database/</link>
-    <description>Recent content in database on Clarity</description>
+    <description>Recent content in database on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://example.com/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>database</title>
+      <link>https://example.com/post/databases/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://example.com/post/databases/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+[ Transaction ] 1 - 4 properties of database sql
+2 - 4 Level Isolate Transaction
+Unread commited
+Read commited
+phantom ...
+serializable
+trongpq
+          
+          
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,13 +1,199 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Clarity</title>
+    <title>Trongpq</title>
     <link>https://example.com/</link>
-    <description>Recent content on Clarity</description>
+    <description>Recent content on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter I: Development</title>
+      <link>https://example.com/post/development/chapter-1/</link>
+      <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/chapter-1/</guid>
+      <description>
+        
+          
+            OOP Object-oriented programing is a way to develop software application using real-world terminologies to create entities that interact with one another using objects. 4 Componenet of object-oriented:
+Class: define the structure using methods and properties to describle real-world entity
+Methods: A method represents a particular behavior, this is action of real-world entity example Human class can have method: talk, speak, doTask...
+Properties: properties hold the data temporarily during the execution of an application
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: System Performance</title>
+      <link>https://example.com/post/solution-architecture/chapter-1/</link>
+      <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
+      
+      <guid>https://example.com/post/solution-architecture/chapter-1/</guid>
+      <description>
+        
+          
+            System Performance Understand Performance
+Problems
+Measurement
+Principle
+Latency
+CPU
+Memory
+Network
+Disk
+Concurrency
+Locking
+Pessimistic
+Optimistic
+Cohence
+Caching
+Static Data
+Dynamic Data
+What is performance?
+performance is responsive time of a system
+Performance proble is the result of some queue building somewhere
+Reasons:
+Ineffecient slow processing
+Serial resource access
+Limit resource capacity
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Resource</title>
+      <link>https://example.com/post/development/resource/</link>
+      <pubDate>Fri, 11 Nov 2022 15:39:07 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/resource/</guid>
+      <description>
+        
+          
+            Each version product software, you should follow sematic version
+https://semver.org/ 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Golang Tools</title>
+      <link>https://example.com/post/development/golang/10/</link>
+      <pubDate>Fri, 11 Nov 2022 15:36:15 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/golang/10/</guid>
+      <description>
+        
+          
+            This page group resource all tool related golang maybe you need it
+Release version in golang: https://goreleaser.com/quick-start/
+Host static resource in a binary https://github.com/rakyll/statik
+Go-mansory: Framework
+Go-Fx: Dependency Injection
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter II: Performance Testing AutoCannon</title>
+      <link>https://example.com/post/tools/chapter-2/</link>
+      <pubDate>Fri, 11 Nov 2022 12:07:25 +0700</pubDate>
+      
+      <guid>https://example.com/post/tools/chapter-2/</guid>
+      <description>
+        
+          
+            How many tester can send multi request in the same time, this issue I meet when I work in my old company,
+We don&#39;t know to test performance send multi request same time by CLI or by Code. And I don&#39;t know keyword to find it. Now I find a tool can help me do it. Auto cannon
+You can install it from npm. https://www.npmjs.com/package/autocannon
+npm i -g autocannon
+example
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: API Testing PostMan</title>
+      <link>https://example.com/post/tools/chapter-1/</link>
+      <pubDate>Fri, 11 Nov 2022 11:58:53 +0700</pubDate>
+      
+      <guid>https://example.com/post/tools/chapter-1/</guid>
+      <description>
+        
+          
+            Postman: I think if you working in major software development you can hear this name atleast one times Because this tool help you can call api and have many function have you checking what happen when you call api.
+Today I will talk about some function I wish I know it soon.
+If you want to create object user by calling api user and random name of user. you can write in postman:
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter IV:</title>
+      <link>https://example.com/post/development/chapter-4/</link>
+      <pubDate>Fri, 11 Nov 2022 11:46:30 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/chapter-4/</guid>
+      <description>
+        
+          
+            Clean Architecture Explain each layer in clean architecture and how to implement in golang Why we need to follow solid because if U want your application can code unit test, you have to mock each layer to testing it but if you initial concrete class too difficult to mock class for unit test,... 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter III:</title>
+      <link>https://example.com/post/development/chapter-3/</link>
+      <pubDate>Fri, 11 Nov 2022 11:44:57 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/chapter-3/</guid>
+      <description>
+        
+          
+            Design Pattern
+In Software Development , We have many desgin pattern but you don&#39;t know all. You only need one of design pattern in main category
+Createation Pattern: Builder Structural Pattern: Facade Behavior: Chain of Responsibility I will expain this in future.
+TODO: Add design pattern, and expain each group design pattern What, When, How. 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter II: Development</title>
+      <link>https://example.com/post/development/chapter-2/</link>
+      <pubDate>Fri, 11 Nov 2022 11:44:56 +0700</pubDate>
+      
+      <guid>https://example.com/post/development/chapter-2/</guid>
+      <description>
+        
+          
+            Hi, today I want to talk about SOLID in developement software this is the first lesson my boss teach me and tell me, if you want to go far in major software development. You have knowledge about SOLID and alway follow SOLID Principle.
+1 - S: Single Responsibility Principle
+As the name of this principle, one class has only one responsibility and one reason to update code in a class is the client change business.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Using Hugo page bundles</title>
       <link>https://example.com/post/bundle/</link>
@@ -26,10 +212,10 @@
     
     <item>
       <title>Using OpenStreetMap</title>
-      <link>https://example.com/post/map/</link>
+      <link>https://example.com/post/backup/map/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/map/</guid>
+      <guid>https://example.com/post/backup/map/</guid>
       <description>
         
           
@@ -42,10 +228,10 @@
     
     <item>
       <title>Using Notices</title>
-      <link>https://example.com/post/notices/</link>
+      <link>https://example.com/post/backup/notices/</link>
       <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/notices/</guid>
+      <guid>https://example.com/post/backup/notices/</guid>
       <description>
         
           
@@ -60,10 +246,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://example.com/post/markdown-syntax/</link>
+      <link>https://example.com/post/backup/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/markdown-syntax/</guid>
+      <guid>https://example.com/post/backup/markdown-syntax/</guid>
       <description>
         
           
@@ -76,10 +262,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Rich Content</title>
-      <link>https://example.com/post/rich-content/</link>
+      <link>https://example.com/post/backup/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/rich-content/</guid>
+      <guid>https://example.com/post/backup/rich-content/</guid>
       <description>
         
           
@@ -92,10 +278,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://example.com/post/placeholder-text/</link>
+      <link>https://example.com/post/backup/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/placeholder-text/</guid>
+      <guid>https://example.com/post/backup/placeholder-text/</guid>
       <description>
         
           
@@ -108,10 +294,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://example.com/post/math-typesetting/</link>
+      <link>https://example.com/post/backup/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/math-typesetting/</guid>
+      <guid>https://example.com/post/backup/math-typesetting/</guid>
       <description>
         
           
@@ -124,14 +310,109 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Emoji Support</title>
-      <link>https://example.com/post/emoji-support/</link>
+      <link>https://example.com/post/backup/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/emoji-support/</guid>
+      <guid>https://example.com/post/backup/emoji-support/</guid>
       <description>
         
           
             &lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: Articles</title>
+      <link>https://example.com/post/articles/chapter-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://example.com/post/articles/chapter-1/</guid>
+      <description>
+        
+          
+            Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
+The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: Devops</title>
+      <link>https://example.com/post/devops/chapter-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://example.com/post/devops/chapter-1/</guid>
+      <description>
+        
+          
+            Foundation and tip tricks linux
+link file: ln -S &amp;lt;file_link&amp;gt; &amp;lt;file_root&amp;gt; file_link: you want to create a new file here file_root: the content of this file will be link to file_link, if file root have any change it will change at file link too.
+https://docs.lnav.org/en/latest/intro.html#viewing-logs: view log navigation
+Config dockerize react app, build production, hot reload. https://mherman.org/blog/dockerizing-a-react-app/
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: golang</title>
+      <link>https://example.com/post/development/golang/2/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://example.com/post/development/golang/2/</guid>
+      <description>
+        
+          
+            Install Golang Windows Go to website and download the latest Golang version: https://go.dev/doc/install
+Install
+Setting GOPATH Environment
+Environmental Variables under Control Panel &amp;gt; System and Security &amp;gt; System &amp;gt; Advanced Settings &amp;gt; Environmental Variables
+Syntax Each Statement ends with a line break.
+To comment block code
+1/* 2This is block comment in go 3*/ Comment line
+1// This is single line comment Variable
+1var variable-name datatype = value Condition
+1if(condition) { 2 //code block to be executed when if condition evaluates to true 3} Switch Case
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: python</title>
+      <link>https://example.com/post/development/python/chapter-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://example.com/post/development/python/chapter-1/</guid>
+      <description>
+        
+          
+            Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
+The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chapter I: selenium</title>
+      <link>https://example.com/post/automation-testing/chapter-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://example.com/post/automation-testing/chapter-1/</guid>
+      <description>
+        
+          
+            Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
+The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.
           
           
         

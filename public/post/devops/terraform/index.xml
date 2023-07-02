@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kubenates on Trongpq</title>
+    <link>https://example.com/post/devops/terraform/</link>
+    <description>Recent content in kubenates on Trongpq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://example.com/post/devops/terraform/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
