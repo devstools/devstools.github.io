@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>database on Developer Blog</title>
-    <link>https://devstools.github.io/public/tags/database/</link>
-    <description>Recent content in database on Developer Blog</description>
+    <title>database on Clarity</title>
+    <link>https://example.com/tags/database/</link>
+    <description>Recent content in database on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/database/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>database</title>
-      <link>https://devstools.github.io/public/databases/</link>
-      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
-      
-      <guid>https://devstools.github.io/public/databases/</guid>
-      <description>Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
-[ Transaction ] 1 - 4 properties of database sql
-2 - 4 Level Isolate Transaction
-Unread commited
-Read commited
-phantom &amp;hellip;
-serializable
-trongpq</description>
-    </item>
-    
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://example.com/tags/database/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
