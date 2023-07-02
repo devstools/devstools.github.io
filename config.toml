@@ -15,6 +15,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
+  body_classes = "text-left"
   commentoEnable = true
   text_color = ""
   author = ""
