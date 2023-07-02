@@ -28,3 +28,25 @@ enableRobotsTXT = true
 [[params.ananke_socials]]
 name = "facebook"
 url = "https://fb.com/biccv"
+
+[menu]
+
+  [[menu.main]]
+    name = "Join Us"
+    weight = 1
+    identifier = "join_us"
+    url = "/join_us/"
+  
+
+  [[menu.main]]
+      name = "About"
+      weight = 3
+      identifier = "about"
+      url = "/about/"
+
+  [[menu.main]]
+      weight = 1
+      parent = "about"
+      name = "Code of Conduct"
+      identifier = "conduct"
+      url = "/about/conduct/"
