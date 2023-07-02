@@ -1,8 +1,6 @@
 ---
-description: "Development"
 title: "golang"
 date: 2022-11-11T11:43:56+07:00
-featured_image: "/images/development.png"
 tags: ["golang"]
 ---
 
