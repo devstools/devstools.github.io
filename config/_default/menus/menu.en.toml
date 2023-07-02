@@ -6,20 +6,20 @@
 [[main]]
   name = "Tools"
   url = "tools/"
-  weight = -110
+  weight = -111
 
 [[main]]
   name = "Programming Language"
-  identifier = "programming"
+  identifier = "program"
   weight = -108
 [[main]]
-  parent = "programming"
+  parent = "program"
   name = "Golang"
-  url = "programming/golang/"
+  url = "program/golang/"
 [[main]]
-  parent = "programming"
+  parent = "program"
   name = "Python"
-  url = "programming/python/"
+  url = "program/python/"
 
 [[main]]
   name = "Devops"
@@ -27,11 +27,11 @@
   weight = -108
 [[main]]
   parent = "devops"
-  name = "Golang"
+  name = "Nomad"
   url = "devops/nomad/"
 [[main]]
   parent = "devops"
-  name = "Python"
+  name = "Kubenates"
   url = "devops/kubenates/"
 [[main]]
   parent = "devops"
