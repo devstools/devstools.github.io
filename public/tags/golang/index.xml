@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang Trang Chủ</title>
+      <link>https://devstools.github.io/public/post/program/golang/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/program/golang/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+Học Golang Từ Zero Đến Hero Ngôn Ngữ Lập Trình Máy Tính Lịch sử của golang Terminal Setup Môi trường Ứng dụng Golang Đầu tiên Binary and Decimal Hexadecimal, octal, ASCII, UTF8, Unicode, Runes Variables, constants and basic types Control Statements Functions Packages and imports Package Initialization Types Methods Pointer type Interfaces Go modules Go Module Proxies Unit Tests Arrays Slices Maps Errors Anonymous functions &amp;amp; closures JSON and XML Basic HTTP Server Enum, Iota &amp;amp; Bitmask Dates and time Data storage : files and databases Concurrency Logging Templates Application Configuration Benchmarks Build an HTTP Client Program Profiling Context Generics An object oriented programming language ?
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>devops</title>
       <link>https://devstools.github.io/public/post/devops/1/</link>
@@ -22,23 +39,6 @@ Linux 1 - Foundation Linux
 2 - Terminal Linux Zsh...
 3 - Docker - Docker Compose
 4 - WebServer Nginx
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Golang Trang Chủ</title>
-      <link>https://devstools.github.io/public/post/program/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/program/golang/</guid>
-      <description>
-        
-          
-            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
-Học Golang Từ Zero Đến Hero Ngôn Ngữ Lập Trình Máy Tính Lịch sử của golang Terminal Setup Môi trường Ứng dụng Golang Đầu tiên Binary and Decimal Hexadecimal, octal, ASCII, UTF8, Unicode, Runes Variables, constants and basic types Control Statements Functions Packages and imports Package Initialization Types Methods Pointer type Interfaces Go modules Go Module Proxies Unit Tests Arrays Slices Maps Errors Anonymous functions &amp;amp; closures JSON and XML Basic HTTP Server Enum, Iota &amp;amp; Bitmask Dates and time Data storage : files and databases Concurrency Logging Templates Application Configuration Benchmarks Build an HTTP Client Program Profiling Context Generics An object oriented programming language ?
           
           
         

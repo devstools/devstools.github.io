@@ -1,7 +1,9 @@
 ---
-tags: ["golang"]
+description: "Development"
 title: "Golang Trang Chủ"
-description: "Trang Chủ"
+date: 2022-11-11T11:43:56+07:00
+featured_image: "/images/development.png"
+tags: ["golang"]
 ---
 
 ## Xin chào m.n 👋

@@ -103,6 +103,23 @@ trongpq
     </item>
     
     <item>
+      <title>Golang Trang Chủ</title>
+      <link>https://devstools.github.io/public/post/program/golang/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/program/golang/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+Học Golang Từ Zero Đến Hero Ngôn Ngữ Lập Trình Máy Tính Lịch sử của golang Terminal Setup Môi trường Ứng dụng Golang Đầu tiên Binary and Decimal Hexadecimal, octal, ASCII, UTF8, Unicode, Runes Variables, constants and basic types Control Statements Functions Packages and imports Package Initialization Types Methods Pointer type Interfaces Go modules Go Module Proxies Unit Tests Arrays Slices Maps Errors Anonymous functions &amp;amp; closures JSON and XML Basic HTTP Server Enum, Iota &amp;amp; Bitmask Dates and time Data storage : files and databases Concurrency Logging Templates Application Configuration Benchmarks Build an HTTP Client Program Profiling Context Generics An object oriented programming language ?
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>kubenates</title>
       <link>https://devstools.github.io/public/post/devops/docker/1/</link>
       <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
@@ -435,23 +452,6 @@ You use the notice shortcode, with the first parameter being one of note, info, 
           
             Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Golang Trang Chủ</title>
-      <link>https://devstools.github.io/public/post/program/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/program/golang/</guid>
-      <description>
-        
-          
-            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
-Học Golang Từ Zero Đến Hero Ngôn Ngữ Lập Trình Máy Tính Lịch sử của golang Terminal Setup Môi trường Ứng dụng Golang Đầu tiên Binary and Decimal Hexadecimal, octal, ASCII, UTF8, Unicode, Runes Variables, constants and basic types Control Statements Functions Packages and imports Package Initialization Types Methods Pointer type Interfaces Go modules Go Module Proxies Unit Tests Arrays Slices Maps Errors Anonymous functions &amp;amp; closures JSON and XML Basic HTTP Server Enum, Iota &amp;amp; Bitmask Dates and time Data storage : files and databases Concurrency Logging Templates Application Configuration Benchmarks Build an HTTP Client Program Profiling Context Generics An object oriented programming language ?
           
           
         
