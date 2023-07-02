@@ -97,6 +97,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://devstools.github.io/public/terraform/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/nomad/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://devstools.github.io/public/tags/software-architecture/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
     <changefreq>monthly</changefreq>
