@@ -100,26 +100,6 @@ https://semver.org/
     </item>
     
     <item>
-      <title>Golang Tools</title>
-      <link>https://devstools.github.io/public/post/program/golang/10/</link>
-      <pubDate>Fri, 11 Nov 2022 15:36:15 +0700</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/program/golang/10/</guid>
-      <description>
-        
-          
-            This page group resource all tool related golang maybe you need it
-Release version in golang: https://goreleaser.com/quick-start/
-Host static resource in a binary https://github.com/rakyll/statik
-Go-mansory: Framework
-Go-Fx: Dependency Injection
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Chapter II: Performance Testing AutoCannon</title>
       <link>https://devstools.github.io/public/post/tools/3/</link>
       <pubDate>Fri, 11 Nov 2022 12:07:25 +0700</pubDate>
@@ -227,6 +207,36 @@ Read commited
 phantom ...
 serializable
 trongpq
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://devstools.github.io/public/post/program/golang/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/program/golang/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+[OOP] 1 - Basic OOP
+2 - Abstraction
+3 - Encapsulation
+4 - Inheritance
+5 - Polimorphism
+6 - Method Overriding
+7 - Method Hiding
+SOLID 1 - Single Responsibility Principle
+2 - Open | Close Principle
+3 - Liskov&#39;s Subsitution Principle
+4 - Interface Segregation Principle
+5 - Dependency Inversion Principle
+6 - you aren&#39;t gonna need it
+7 - Do one thing and do it right
           
           
         
@@ -352,29 +362,6 @@ Linux 1 - Foundation Linux
 2 - Terminal Linux Zsh...
 3 - Docker - Docker Compose
 4 - WebServer Nginx
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Overview</title>
-      <link>https://devstools.github.io/public/post/program/golang/1/</link>
-      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/program/golang/1/</guid>
-      <description>
-        
-          
-            Golang Overview
-Go language was developed in the year 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google and publicly announced in 2009. It was officially released in 2012 as an open-source programming language.
-Foundation 1 - Foundation
-2 - Syntax - Naming Convention Uber
-3 - HTTP - API
-4 - GRPC
-5 - GRPC Gateway
-6 - Tutorial Build a Project
           
           
         
@@ -555,31 +542,6 @@ The sixth of January, 1482, is not, however, a day of which history has preserve
           
             Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
 The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>I: Foundation</title>
-      <link>https://devstools.github.io/public/post/program/golang/2/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/program/golang/2/</guid>
-      <description>
-        
-          
-            Install Golang Windows Go to website and download the latest Golang version: https://go.dev/doc/install
-Install
-Setting GOPATH Environment
-Environmental Variables under Control Panel &amp;gt; System and Security &amp;gt; System &amp;gt; Advanced Settings &amp;gt; Environmental Variables
-Syntax Each Statement ends with a line break.
-To comment block code
-1/* 2This is block comment in go 3*/ Comment line
-1// This is single line comment Variable
-1var variable-name datatype = value Condition
-1if(condition) { 2 //code block to be executed when if condition evaluates to true 3} Switch Case
           
           
         
