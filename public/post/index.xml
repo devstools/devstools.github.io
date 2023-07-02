@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Trongpq</title>
-    <link>https://example.com/post/</link>
+    <link>https://devstools.github.io/public/post/</link>
     <description>Recent content in Posts on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Hugo page bundles</title>
-      <link>https://example.com/post/bundle/</link>
+      <link>https://devstools.github.io/public/post/bundle/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/bundle/</guid>
+      <guid>https://devstools.github.io/public/post/bundle/</guid>
       <description>
         
           
@@ -26,10 +26,10 @@
     
     <item>
       <title>Using OpenStreetMap</title>
-      <link>https://example.com/post/backup/map/</link>
+      <link>https://devstools.github.io/public/post/backup/map/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/backup/map/</guid>
+      <guid>https://devstools.github.io/public/post/backup/map/</guid>
       <description>
         
           
@@ -42,10 +42,10 @@
     
     <item>
       <title>Using Notices</title>
-      <link>https://example.com/post/backup/notices/</link>
+      <link>https://devstools.github.io/public/post/backup/notices/</link>
       <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/backup/notices/</guid>
+      <guid>https://devstools.github.io/public/post/backup/notices/</guid>
       <description>
         
           
@@ -60,10 +60,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://example.com/post/backup/markdown-syntax/</link>
+      <link>https://devstools.github.io/public/post/backup/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/backup/markdown-syntax/</guid>
+      <guid>https://devstools.github.io/public/post/backup/markdown-syntax/</guid>
       <description>
         
           
@@ -76,10 +76,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Rich Content</title>
-      <link>https://example.com/post/backup/rich-content/</link>
+      <link>https://devstools.github.io/public/post/backup/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/backup/rich-content/</guid>
+      <guid>https://devstools.github.io/public/post/backup/rich-content/</guid>
       <description>
         
           
@@ -92,10 +92,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://example.com/post/backup/placeholder-text/</link>
+      <link>https://devstools.github.io/public/post/backup/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/backup/placeholder-text/</guid>
+      <guid>https://devstools.github.io/public/post/backup/placeholder-text/</guid>
       <description>
         
           
@@ -108,10 +108,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://example.com/post/backup/math-typesetting/</link>
+      <link>https://devstools.github.io/public/post/backup/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/backup/math-typesetting/</guid>
+      <guid>https://devstools.github.io/public/post/backup/math-typesetting/</guid>
       <description>
         
           
@@ -124,10 +124,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Emoji Support</title>
-      <link>https://example.com/post/backup/emoji-support/</link>
+      <link>https://devstools.github.io/public/post/backup/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/backup/emoji-support/</guid>
+      <guid>https://devstools.github.io/public/post/backup/emoji-support/</guid>
       <description>
         
           

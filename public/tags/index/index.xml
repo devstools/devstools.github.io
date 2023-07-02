@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Trongpq</title>
-    <link>https://example.com/tags/index/</link>
+    <link>https://devstools.github.io/public/tags/index/</link>
     <description>Recent content in index on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://example.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://devstools.github.io/public/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://example.com/post/</link>
+      <link>https://devstools.github.io/public/post/</link>
       <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
       
-      <guid>https://example.com/post/</guid>
+      <guid>https://devstools.github.io/public/post/</guid>
       <description>
         
           

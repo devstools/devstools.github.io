@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>solution architecture on Trongpq</title>
-    <link>https://example.com/tags/solution-architecture/</link>
+    <link>https://devstools.github.io/public/tags/solution-architecture/</link>
     <description>Recent content in solution architecture on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://example.com/tags/solution-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/solution-architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>software architecture</title>
-      <link>https://example.com/post/solution-architecture/</link>
+      <link>https://devstools.github.io/public/post/solution-architecture/</link>
       <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
       
-      <guid>https://example.com/post/solution-architecture/</guid>
+      <guid>https://devstools.github.io/public/post/solution-architecture/</guid>
       <description>
         
           

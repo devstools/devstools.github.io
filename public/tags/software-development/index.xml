@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software Development on Trongpq</title>
-    <link>https://example.com/tags/software-development/</link>
+    <link>https://devstools.github.io/public/tags/software-development/</link>
     <description>Recent content in Software Development on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://example.com/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Nov 2022 13:53:02 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter I: System Performance</title>
-      <link>https://example.com/post/solution-architecture/chapter-1/</link>
+      <link>https://devstools.github.io/public/post/solution-architecture/chapter-1/</link>
       <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
       
-      <guid>https://example.com/post/solution-architecture/chapter-1/</guid>
+      <guid>https://devstools.github.io/public/post/solution-architecture/chapter-1/</guid>
       <description>
         
           

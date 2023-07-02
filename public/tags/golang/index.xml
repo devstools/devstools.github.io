@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>golang on Trongpq</title>
-    <link>https://example.com/tags/golang/</link>
+    <link>https://devstools.github.io/public/tags/golang/</link>
     <description>Recent content in golang on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://example.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>devops</title>
-      <link>https://example.com/post/devops/</link>
+      <link>https://devstools.github.io/public/post/devops/</link>
       <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
       
-      <guid>https://example.com/post/devops/</guid>
+      <guid>https://devstools.github.io/public/post/devops/</guid>
       <description>
         
           
@@ -30,10 +30,10 @@ Linux 1 - Foundation Linux
     
     <item>
       <title>golang</title>
-      <link>https://example.com/post/development/golang/</link>
+      <link>https://devstools.github.io/public/post/development/golang/</link>
       <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
       
-      <guid>https://example.com/post/development/golang/</guid>
+      <guid>https://devstools.github.io/public/post/development/golang/</guid>
       <description>
         
           
@@ -53,10 +53,10 @@ Foundation 1 - Foundation
     
     <item>
       <title>Chapter I: golang</title>
-      <link>https://example.com/post/development/golang/2/</link>
+      <link>https://devstools.github.io/public/post/development/golang/2/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/post/development/golang/2/</guid>
+      <guid>https://devstools.github.io/public/post/development/golang/2/</guid>
       <description>
         
           

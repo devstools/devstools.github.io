@@ -2,315 +2,315 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://devstools.github.io/public/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/"
+                href="https://devstools.github.io/public/pt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://devstools.github.io/public/"
                 />
   </url><url>
-    <loc>https://example.com/post/development/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/development/chapter-1/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/solution-architecture/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/solution-architecture/chapter-1/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/development/</loc>
+    <loc>https://devstools.github.io/public/tags/development/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>https://devstools.github.io/public/post/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/post/"
+                href="https://devstools.github.io/public/pt/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/post/"
+                href="https://devstools.github.io/public/post/"
                 />
   </url><url>
-    <loc>https://example.com/tags/software-development/</loc>
+    <loc>https://devstools.github.io/public/tags/software-development/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://devstools.github.io/public/tags/</loc>
     <lastmod>2022-11-12T13:53:02+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/tags/"
+                href="https://devstools.github.io/public/pt/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/"
+                href="https://devstools.github.io/public/tags/"
                 />
   </url><url>
-    <loc>https://example.com/post/development/resource/</loc>
+    <loc>https://devstools.github.io/public/post/development/resource/</loc>
     <lastmod>2022-11-11T15:39:07+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/development/golang/10/</loc>
+    <loc>https://devstools.github.io/public/post/development/golang/10/</loc>
     <lastmod>2022-11-11T15:36:15+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/tools/chapter-2/</loc>
+    <loc>https://devstools.github.io/public/post/tools/chapter-2/</loc>
     <lastmod>2022-11-11T12:07:25+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/tools/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/tools/chapter-1/</loc>
     <lastmod>2022-11-11T11:58:53+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/development/chapter-4/</loc>
+    <loc>https://devstools.github.io/public/post/development/chapter-4/</loc>
     <lastmod>2022-11-11T11:46:30+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/development/chapter-3/</loc>
+    <loc>https://devstools.github.io/public/post/development/chapter-3/</loc>
     <lastmod>2022-11-11T11:44:57+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/development/chapter-2/</loc>
+    <loc>https://devstools.github.io/public/post/development/chapter-2/</loc>
     <lastmod>2022-11-11T11:44:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/database/</loc>
+    <loc>https://devstools.github.io/public/tags/database/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/databases/</loc>
+    <loc>https://devstools.github.io/public/post/databases/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/development/</loc>
+    <loc>https://devstools.github.io/public/post/development/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/kubenates/</loc>
+    <loc>https://devstools.github.io/public/tags/kubenates/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/devops/kubenates/</loc>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/devops/nomad/</loc>
+    <loc>https://devstools.github.io/public/post/devops/nomad/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/devops/terraform/</loc>
+    <loc>https://devstools.github.io/public/post/devops/terraform/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/nomad/</loc>
+    <loc>https://devstools.github.io/public/tags/nomad/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/solution-architecture/</loc>
+    <loc>https://devstools.github.io/public/post/solution-architecture/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/solution-architecture/</loc>
+    <loc>https://devstools.github.io/public/tags/solution-architecture/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/tools/</loc>
+    <loc>https://devstools.github.io/public/tags/tools/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/tools/</loc>
+    <loc>https://devstools.github.io/public/post/tools/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://devstools.github.io/public/about/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/articles/</loc>
+    <loc>https://devstools.github.io/public/post/articles/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/automation/</loc>
+    <loc>https://devstools.github.io/public/tags/automation/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/devops/</loc>
+    <loc>https://devstools.github.io/public/post/devops/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/golang/</loc>
+    <loc>https://devstools.github.io/public/tags/golang/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/development/golang/</loc>
+    <loc>https://devstools.github.io/public/post/development/golang/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/python/</loc>
+    <loc>https://devstools.github.io/public/tags/python/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/development/python/</loc>
+    <loc>https://devstools.github.io/public/post/development/python/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/selenium/</loc>
+    <loc>https://devstools.github.io/public/tags/selenium/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/automation-testing/</loc>
+    <loc>https://devstools.github.io/public/post/automation-testing/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/testing/</loc>
+    <loc>https://devstools.github.io/public/tags/testing/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://devstools.github.io/public/categories/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/categories/"
+                href="https://devstools.github.io/public/pt/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/"
+                href="https://devstools.github.io/public/categories/"
                 />
   </url><url>
-    <loc>https://example.com/tags/hugo/</loc>
+    <loc>https://devstools.github.io/public/tags/hugo/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/series/</loc>
+    <loc>https://devstools.github.io/public/series/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/series/"
+                href="https://devstools.github.io/public/pt/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/series/"
+                href="https://devstools.github.io/public/series/"
                 />
   </url><url>
-    <loc>https://example.com/categories/syntax/</loc>
+    <loc>https://devstools.github.io/public/categories/syntax/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/series/themes-guide/</loc>
+    <loc>https://devstools.github.io/public/series/themes-guide/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/bundle/</loc>
+    <loc>https://devstools.github.io/public/post/bundle/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/backup/map/</loc>
+    <loc>https://devstools.github.io/public/post/backup/map/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/backup/notices/</loc>
+    <loc>https://devstools.github.io/public/post/backup/notices/</loc>
     <lastmod>2021-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>https://devstools.github.io/public/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/css/</loc>
+    <loc>https://devstools.github.io/public/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/tags/css/"
+                href="https://devstools.github.io/public/pt/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/css/"
+                href="https://devstools.github.io/public/tags/css/"
                 />
   </url><url>
-    <loc>https://example.com/tags/featured/</loc>
+    <loc>https://devstools.github.io/public/tags/featured/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/html/</loc>
+    <loc>https://devstools.github.io/public/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/tags/html/"
+                href="https://devstools.github.io/public/pt/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/html/"
+                href="https://devstools.github.io/public/tags/html/"
                 />
   </url><url>
-    <loc>https://example.com/tags/markdown/</loc>
+    <loc>https://devstools.github.io/public/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/tags/markdown/"
+                href="https://devstools.github.io/public/pt/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/markdown/"
+                href="https://devstools.github.io/public/tags/markdown/"
                 />
   </url><url>
-    <loc>https://example.com/post/backup/markdown-syntax/</loc>
+    <loc>https://devstools.github.io/public/post/backup/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/post/backup/markdown-syntax/"
+                href="https://devstools.github.io/public/pt/post/backup/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/post/backup/markdown-syntax/"
+                href="https://devstools.github.io/public/post/backup/markdown-syntax/"
                 />
   </url><url>
-    <loc>https://example.com/tags/themes/</loc>
+    <loc>https://devstools.github.io/public/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/themes/</loc>
+    <loc>https://devstools.github.io/public/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/privacy/</loc>
+    <loc>https://devstools.github.io/public/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/backup/rich-content/</loc>
+    <loc>https://devstools.github.io/public/post/backup/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/shortcodes/</loc>
+    <loc>https://devstools.github.io/public/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/backup/placeholder-text/</loc>
+    <loc>https://devstools.github.io/public/post/backup/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/text/</loc>
+    <loc>https://devstools.github.io/public/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/backup/math-typesetting/</loc>
+    <loc>https://devstools.github.io/public/post/backup/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/emoji/</loc>
+    <loc>https://devstools.github.io/public/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/backup/emoji-support/</loc>
+    <loc>https://devstools.github.io/public/post/backup/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://devstools.github.io/public/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://example.com/pt/about/"
+                href="https://devstools.github.io/public/pt/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/about/"
+                href="https://devstools.github.io/public/about/"
                 />
   </url><url>
-    <loc>https://example.com/tags/artcles/</loc>
+    <loc>https://devstools.github.io/public/tags/artcles/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/articles/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/articles/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/devops/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/devops/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/development/golang/2/</loc>
+    <loc>https://devstools.github.io/public/post/development/golang/2/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/development/python/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/development/python/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/automation-testing/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/automation-testing/chapter-1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/devops/</loc>
+    <loc>https://devstools.github.io/public/tags/devops/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/index/</loc>
+    <loc>https://devstools.github.io/public/tags/index/</loc>
   </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>https://devstools.github.io/public/search/</loc>
   </url>
 </urlset>

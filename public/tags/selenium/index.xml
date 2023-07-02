@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>selenium on Trongpq</title>
-    <link>https://example.com/tags/selenium/</link>
+    <link>https://devstools.github.io/public/tags/selenium/</link>
     <description>Recent content in selenium on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://example.com/tags/selenium/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/selenium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>selenium</title>
-      <link>https://example.com/post/automation-testing/</link>
+      <link>https://devstools.github.io/public/post/automation-testing/</link>
       <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
       
-      <guid>https://example.com/post/automation-testing/</guid>
+      <guid>https://devstools.github.io/public/post/automation-testing/</guid>
       <description>
         
           
@@ -26,10 +26,10 @@
     
     <item>
       <title>Chapter I: selenium</title>
-      <link>https://example.com/post/automation-testing/chapter-1/</link>
+      <link>https://devstools.github.io/public/post/automation-testing/chapter-1/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://example.com/post/automation-testing/chapter-1/</guid>
+      <guid>https://devstools.github.io/public/post/automation-testing/chapter-1/</guid>
       <description>
         
           
