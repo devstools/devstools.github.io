@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 11:43:56 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>software architecture</title>
+      <link>https://devstools.github.io/public/post/testing/automation/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/testing/automation/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+[ Design Large System ] - Review Usecase - Design Interface - Design Business - Design Database [ Software Architecture ] - Performance - Scalability - Reliability - Security - Development - Technology Stack [ Performance ] - Testing 
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>selenium</title>
       <link>https://devstools.github.io/public/post/testing/1/</link>

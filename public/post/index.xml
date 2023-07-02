@@ -95,7 +95,7 @@ trongpq
         
           
             Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
-[Python] 
+[SOLID] 
           
           
         
@@ -184,6 +184,57 @@ Cài đặt kubectl là kubenates client để tương tác với kubenates
 Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
 Kiểm tra có các node nào đang chạy trên máy: kubectl get node
 Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>software architecture</title>
+      <link>https://devstools.github.io/public/post/solution-architecture/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/solution-architecture/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+[ Design Large System ] - Review Usecase - Design Interface - Design Business - Design Database [ Software Architecture ] - Performance - Scalability - Reliability - Security - Development - Technology Stack [ Performance ] - Testing 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>software architecture</title>
+      <link>https://devstools.github.io/public/post/testing/automation/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/testing/automation/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+[ Design Large System ] - Review Usecase - Design Interface - Design Business - Design Database [ Software Architecture ] - Performance - Scalability - Reliability - Security - Development - Technology Stack [ Performance ] - Testing 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>software architecture</title>
+      <link>https://devstools.github.io/public/post/testing/performance/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/testing/performance/</guid>
+      <description>
+        
+          
+            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
+[ Design Large System ] - Review Usecase - Design Interface - Design Business - Design Database [ Software Architecture ] - Performance - Scalability - Reliability - Security - Development - Technology Stack [ Performance ] - Testing 
           
           
         

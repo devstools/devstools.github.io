@@ -10,4 +10,4 @@ tags: ["development"]
 
 💬 Ask me about: https://fb.com/biccv
 
-## [Python]
+## [SOLID]
