@@ -1,18 +1,13 @@
 ---
-description: "Development"
 title: "Golang Trang Chủ"
 date: 2022-11-11T11:43:56+07:00
 featured_image: "/images/development.png"
 tags: ["golang"]
 ---
 
-## Xin chào m.n 👋
-
-💬 Ask me about: https://fb.com/biccv
-
 ## Học Golang Từ Zero Đến Hero
 
-1. Ngôn Ngữ Lập Trình Máy Tính
+1. Ngôn Ngữ Lập Trình Máy Tính(./post/chapter-1)
 2. Lịch sử của golang
 3. Terminal
 4. Setup Môi trường
