@@ -1,6 +1,7 @@
 ---
-title: "golang"
-date: 2022-11-11T11:43:56+07:00
+title: "Golang Overview"
+date: 2022-11-12T13:53:02+07:00
+description: "Development"
 tags: ["golang"]
 ---
 
