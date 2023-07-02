@@ -1,8 +1,9 @@
 ---
-title: "Golang Overview"
-date: 2022-11-12T13:53:02+07:00
-description: "Development"
+title: "golang"
+date: 2022-11-10T10:46:43+07:00
+featured_image: "/images/banner_golang.png"
 tags: ["golang"]
+title: "Overview"
 ---
 
 ## Xin chào m.n 👋
