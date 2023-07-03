@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>kubenates | Trongpq</title>
+<title>YAML | Trongpq</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,10 +24,10 @@
 <meta name="description" content="kubenates" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@janedoe">
-<meta name="twitter:title" content="kubenates" />
+<meta name="twitter:title" content="YAML" />
 <meta name="twitter:image" content="https://devstools.github.io/public/images/thumbnail.png"/>
 <meta property="og:url" content="https://devstools.github.io/public/post/devops/kubenates/1/" />
-<meta property="og:title" content="kubenates" />
+<meta property="og:title" content="YAML" />
 <meta property="og:description" content="kubenates" />
 <meta property="og:image" content="https://devstools.github.io/public/images/thumbnail.png" />
 
@@ -146,7 +146,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">kubenates</h1>
+    <h1 class="post_title">YAML</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -155,20 +155,20 @@
 </span>
     <span class="post_date">
       Nov 11, 2022</span>
-    <span class="post_time"> · 3 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/kubenates/' title="kubenates" class="post_tag button button_translucent">kubenates
+    <span class="post_time"> · 1 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/kubenetes/' title="kubenetes" class="post_tag button button_translucent">kubenetes
         </a>
     </span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=kubenates&url=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f1%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=YAML&url=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f1%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f1%2f&t=kubenates" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f1%2f&t=YAML" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -193,126 +193,22 @@
   </span>
   </div>
 
-    <div class="post_body"><p>Kubenates</p>
-<p>Nguồn: <a href="https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html">https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html</a></p>
-<ul>
-<li>
-<p>Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows</p>
-</li>
-<li>
-<p>Cài đặt kubectl là kubenates client để tương tác với kubenates</p>
-</li>
-<li>
-<p>Chạy lệnh  kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa</p>
-</li>
-<li>
-<p>Kiểm tra có các node nào đang chạy trên máy:
-kubectl get node</p>
-</li>
-<li>
-<p>Check thông tin node xem có bị quá tải gì ko bằng lệnh
-kubectl describe <Node></p>
-</li>
-</ul>
-<p>&quot;&quot;&quot;
-kubectl describe node/minikube                ✔ │ minikube ⎈  │ 10:42:24
-Name:               minikube
-Roles:              control-plane
-Labels:             beta.kubernetes.io/arch=amd64
-beta.kubernetes.io/os=linux
-kubernetes.io/arch=amd64
-kubernetes.io/hostname=minikube
-kubernetes.io/os=linux
-minikube.k8s.io/commit=986b1ebd987211ed16f8cc10aed7d2c42fc8392f
-minikube.k8s.io/name=minikube
-minikube.k8s.io/primary=true
-minikube.k8s.io/updated_at=2022_11_19T02_20_06_0700
-minikube.k8s.io/version=v1.28.0
-node-role.kubernetes.io/control-plane=
-node.kubernetes.io/exclude-from-external-load-balancers=
-Annotations:        kubeadm.alpha.kubernetes.io/cri-socket: unix:///var/run/cri-dockerd.sock
-node.alpha.kubernetes.io/ttl: 0
-volumes.kubernetes.io/controller-managed-attach-detach: true
-CreationTimestamp:  Sat, 19 Nov 2022 02:20:03 +0700
-Taints:             <none>
-Unschedulable:      false
-Lease:
-HolderIdentity:  minikube
-AcquireTime:     <unset>
-RenewTime:       Sat, 19 Nov 2022 10:42:55 +0700
-Conditions:</p>
-<h3 id="check-quá-tải-memmory-disk-process-ở-dưới-đây-status--false-là-không-có">Check quá tải memmory, disk, process ở dưới đây status = false là không có</h3>
-<p>Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message</p>
-<hr>
-<p>MemoryPressure   False   Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:03 +0700   KubeletHasSufficientMemory   kubelet has sufficient memory available
-DiskPressure     False   Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:03 +0700   KubeletHasNoDiskPressure     kubelet has no disk pressure
-PIDPressure      False   Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:03 +0700   KubeletHasSufficientPID      kubelet has sufficient PID available
-Ready            True    Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:06 +0700   KubeletReady                 kubelet is posting ready status
-Addresses:
-InternalIP:  192.168.49.2
-Hostname:    minikube
-Capacity:
-cpu:                12
-ephemeral-storage:  187805848Ki
-hugepages-1Gi:      0
-hugepages-2Mi:      0
-memory:             16239448Ki
-pods:               110
-Allocatable:
-cpu:                12
-ephemeral-storage:  187805848Ki
-hugepages-1Gi:      0
-hugepages-2Mi:      0
-memory:             16239448Ki
-pods:               110
-System Info:
-Machine ID:                 996614ec4c814b87b7ec8ebee3d0e8c9
-System UUID:                19ca53b7-42af-4dd6-90f5-9eaeccd257ad
-Boot ID:                    75274f03-f70e-411c-a13b-bc90748e9da9
-Kernel Version:             5.15.0-53-generic
-OS Image:                   Ubuntu 20.04.5 LTS
-Operating System:           linux
-Architecture:               amd64
-Container Runtime Version:  docker://20.10.20
-Kubelet Version:            v1.25.3
-Kube-Proxy Version:         v1.25.3
-PodCIDR:                      10.244.0.0/24
-PodCIDRs:                     10.244.0.0/24
-Non-terminated Pods:          (7 in total)
-Namespace                   Name                                CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age</p>
-<hr>
-<p>kube-system                 coredns-565d847f94-24fnc            100m (0%)     0 (0%)      70Mi (0%)        170Mi (1%)     8h
-kube-system                 etcd-minikube                       100m (0%)     0 (0%)      100Mi (0%)       0 (0%)         8h
-kube-system                 kube-apiserver-minikube             250m (2%)     0 (0%)      0 (0%)           0 (0%)         8h
-kube-system                 kube-controller-manager-minikube    200m (1%)     0 (0%)      0 (0%)           0 (0%)         8h
-kube-system                 kube-proxy-b28sg                    0 (0%)        0 (0%)      0 (0%)           0 (0%)         8h
-kube-system                 kube-scheduler-minikube             100m (0%)     0 (0%)      0 (0%)           0 (0%)         8h
-kube-system                 storage-provisioner                 0 (0%)        0 (0%)      0 (0%)           0 (0%)         8h
-Allocated resources:
-(Total limits may be over 100 percent, i.e., overcommitted.)
-Resource           Requests    Limits</p>
-<hr>
-<p>cpu                750m (6%)   0 (0%)
-memory             170Mi (1%)  170Mi (1%)
-ephemeral-storage  0 (0%)      0 (0%)
-hugepages-1Gi      0 (0%)      0 (0%)
-hugepages-2Mi      0 (0%)      0 (0%)
-Events:
-Type    Reason                   Age              From             Message</p>
-<hr>
-<p>Normal  Starting                 8h               kube-proxy    <br>
-Normal  NodeHasSufficientMemory  8h (x5 over 8h)  kubelet          Node minikube status is now: NodeHasSufficientMemory
-Normal  NodeHasNoDiskPressure    8h (x5 over 8h)  kubelet          Node minikube status is now: NodeHasNoDiskPressure
-Normal  NodeHasSufficientPID     8h (x5 over 8h)  kubelet          Node minikube status is now: NodeHasSufficientPID
-Normal  Starting                 8h               kubelet          Starting kubelet.
-Normal  NodeAllocatableEnforced  8h               kubelet          Updated Node Allocatable limit across pods
-Normal  NodeHasSufficientMemory  8h               kubelet          Node minikube status is now: NodeHasSufficientMemory
-Normal  NodeHasNoDiskPressure    8h               kubelet          Node minikube status is now: NodeHasNoDiskPressure
-Normal  NodeHasSufficientPID     8h               kubelet          Node minikube status is now: NodeHasSufficientPID
-Normal  NodeReady                8h               kubelet          Node minikube status is now: NodeReady
-Normal  RegisteredNode           8h               node-controller  Node minikube event: Registered Node minikube in Controller
-&quot;&quot;&quot;</p>
-
+    <div class="post_body"><h2 id="key-value">Key Value</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Fruit:Apple
+</span></span><span class="line"><span class="ln">2</span><span class="cl">Vegatable: Carrot
+</span></span><span class="line"><span class="ln">3</span><span class="cl">Liquid: Water
+</span></span><span class="line"><span class="ln">4</span><span class="cl">Meat: Chicken
+</span></span></code></pre></div><h2 id="array-list">Array List</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Fruits:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">- Orange
+</span></span><span class="line"><span class="ln">3</span><span class="cl">- Apple
+</span></span><span class="line"><span class="ln">4</span><span class="cl">- Banana
+</span></span></code></pre></div><h2 id="dictionary-map">Dictionary Map</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Banana:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">  Calories: 105
+</span></span><span class="line"><span class="ln">3</span><span class="cl">  Fat: 0.4g
+</span></span><span class="line"><span class="ln">4</span><span class="cl">  Carbs: 27g
+</span></span></code></pre></div>
     </div>
 <div class="post_comments">
   
@@ -370,16 +266,16 @@ Normal  RegisteredNode           8h               node-controller  Node minikube
         <a href="https://devstools.github.io/public/post/testing/tools/2/" class="nav-link" title="Chapter I: API Testing PostMan">Chapter I: API Testing PostMan</a>
       </li>
       <li>
+        <a href="https://devstools.github.io/public/post/devops/kubenates/2/" class="nav-link" title="Create POD With YAML">Create POD With YAML</a>
+      </li>
+      <li>
         <a href="https://devstools.github.io/public/post/databases/1/" class="nav-link" title="database">database</a>
       </li>
       <li>
-        <a href="https://devstools.github.io/public/post/program/backup/" class="nav-link" title="development">development</a>
+        <a href="https://devstools.github.io/public/post/devops/kubenates/4/" class="nav-link" title="Deployments">Deployments</a>
       </li>
       <li>
-        <a href="https://devstools.github.io/public/post/devops/docker/1/" class="nav-link" title="kubenates">kubenates</a>
-      </li>
-      <li>
-        <a href="https://devstools.github.io/public/post/devops/kubenates/1/" class="nav-link" title="kubenates">kubenates</a>
+        <a href="https://devstools.github.io/public/post/devops/kubenates/5/" class="nav-link" title="Deployments Update And Rollback">Deployments Update And Rollback</a>
       </li>
       <li>
         <a href="https://devstools.github.io/public/post/backup/markdown-syntax/" class="nav-link" title="Markdown Syntax Guide">Markdown Syntax Guide</a>
@@ -420,6 +316,11 @@ Normal  RegisteredNode           8h               node-controller  Node minikube
     <div>
       <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
       <nav class="tags_nav">
+        <a href='https://devstools.github.io/public/tags/kubenetes/' class="post_tag button button_translucent" title="kubenetes">
+          KUBENETES
+          <span class="button_tally">5</span>
+        </a>
+        
         <a href='https://devstools.github.io/public/tags/golang/' class="post_tag button button_translucent" title="golang">
           GOLANG
           <span class="button_tally">4</span>
@@ -485,11 +386,6 @@ Normal  RegisteredNode           8h               node-controller  Node minikube
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://devstools.github.io/public/tags/nomad/' class="post_tag button button_translucent" title="nomad">
-          NOMAD
-          <span class="button_tally">1</span>
-        </a>
-        
         
         <br>
         <div class="post_tags_toggle button">All Tags</div>
@@ -536,11 +432,11 @@ Normal  RegisteredNode           8h               node-controller  Node minikube
             </a>
             
             
-            <a href='https://devstools.github.io/public/tags/markdown/' class=" post_tag button button_translucent" data-position=2 title="markdown">MARKDOWN<span class="button_tally">2</span>
+            <a href='https://devstools.github.io/public/tags/kubenetes/' class=" post_tag button button_translucent" data-position=5 title="kubenetes">KUBENETES<span class="button_tally">5</span>
             </a>
             
             
-            <a href='https://devstools.github.io/public/tags/nomad/' class=" post_tag button button_translucent" data-position=1 title="nomad">NOMAD<span class="button_tally">1</span>
+            <a href='https://devstools.github.io/public/tags/markdown/' class=" post_tag button button_translucent" data-position=2 title="markdown">MARKDOWN<span class="button_tally">2</span>
             </a>
             
             

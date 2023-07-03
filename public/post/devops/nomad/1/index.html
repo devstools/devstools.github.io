@@ -155,7 +155,7 @@
 </span>
     <span class="post_date">
       Nov 11, 2022</span>
-    <span class="post_time"> · 3 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/nomad/' title="nomad" class="post_tag button button_translucent">nomad
+    <span class="post_time"> · 3 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/kubenates/' title="kubenates" class="post_tag button button_translucent">kubenates
         </a>
     </span>
     <span class="page_only">&nbsp;·
@@ -203,7 +203,7 @@
 <p>Cài đặt kubectl là kubenates client để tương tác với kubenates</p>
 </li>
 <li>
-<p>Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa</p>
+<p>Chạy lệnh  kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa</p>
 </li>
 <li>
 <p>Kiểm tra có các node nào đang chạy trên máy:
@@ -215,10 +215,10 @@ kubectl describe <Node></p>
 </li>
 </ul>
 <p>&quot;&quot;&quot;
-kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24
-Name: minikube
-Roles: control-plane
-Labels: beta.kubernetes.io/arch=amd64
+kubectl describe node/minikube                ✔ │ minikube ⎈  │ 10:42:24
+Name:               minikube
+Roles:              control-plane
+Labels:             beta.kubernetes.io/arch=amd64
 beta.kubernetes.io/os=linux
 kubernetes.io/arch=amd64
 kubernetes.io/hostname=minikube
@@ -230,87 +230,87 @@ minikube.k8s.io/updated_at=2022_11_19T02_20_06_0700
 minikube.k8s.io/version=v1.28.0
 node-role.kubernetes.io/control-plane=
 node.kubernetes.io/exclude-from-external-load-balancers=
-Annotations: kubeadm.alpha.kubernetes.io/cri-socket: unix:///var/run/cri-dockerd.sock
+Annotations:        kubeadm.alpha.kubernetes.io/cri-socket: unix:///var/run/cri-dockerd.sock
 node.alpha.kubernetes.io/ttl: 0
 volumes.kubernetes.io/controller-managed-attach-detach: true
-CreationTimestamp: Sat, 19 Nov 2022 02:20:03 +0700
-Taints: <none>
-Unschedulable: false
+CreationTimestamp:  Sat, 19 Nov 2022 02:20:03 +0700
+Taints:             <none>
+Unschedulable:      false
 Lease:
-HolderIdentity: minikube
-AcquireTime: <unset>
-RenewTime: Sat, 19 Nov 2022 10:42:55 +0700
+HolderIdentity:  minikube
+AcquireTime:     <unset>
+RenewTime:       Sat, 19 Nov 2022 10:42:55 +0700
 Conditions:</p>
 <h3 id="check-quá-tải-memmory-disk-process-ở-dưới-đây-status--false-là-không-có">Check quá tải memmory, disk, process ở dưới đây status = false là không có</h3>
-<p>Type Status LastHeartbeatTime LastTransitionTime Reason Message</p>
+<p>Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message</p>
 <hr>
-<p>MemoryPressure False Sat, 19 Nov 2022 10:42:56 +0700 Sat, 19 Nov 2022 02:20:03 +0700 KubeletHasSufficientMemory kubelet has sufficient memory available
-DiskPressure False Sat, 19 Nov 2022 10:42:56 +0700 Sat, 19 Nov 2022 02:20:03 +0700 KubeletHasNoDiskPressure kubelet has no disk pressure
-PIDPressure False Sat, 19 Nov 2022 10:42:56 +0700 Sat, 19 Nov 2022 02:20:03 +0700 KubeletHasSufficientPID kubelet has sufficient PID available
-Ready True Sat, 19 Nov 2022 10:42:56 +0700 Sat, 19 Nov 2022 02:20:06 +0700 KubeletReady kubelet is posting ready status
+<p>MemoryPressure   False   Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:03 +0700   KubeletHasSufficientMemory   kubelet has sufficient memory available
+DiskPressure     False   Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:03 +0700   KubeletHasNoDiskPressure     kubelet has no disk pressure
+PIDPressure      False   Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:03 +0700   KubeletHasSufficientPID      kubelet has sufficient PID available
+Ready            True    Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:06 +0700   KubeletReady                 kubelet is posting ready status
 Addresses:
-InternalIP: 192.168.49.2
-Hostname: minikube
+InternalIP:  192.168.49.2
+Hostname:    minikube
 Capacity:
-cpu: 12
-ephemeral-storage: 187805848Ki
-hugepages-1Gi: 0
-hugepages-2Mi: 0
-memory: 16239448Ki
-pods: 110
+cpu:                12
+ephemeral-storage:  187805848Ki
+hugepages-1Gi:      0
+hugepages-2Mi:      0
+memory:             16239448Ki
+pods:               110
 Allocatable:
-cpu: 12
-ephemeral-storage: 187805848Ki
-hugepages-1Gi: 0
-hugepages-2Mi: 0
-memory: 16239448Ki
-pods: 110
+cpu:                12
+ephemeral-storage:  187805848Ki
+hugepages-1Gi:      0
+hugepages-2Mi:      0
+memory:             16239448Ki
+pods:               110
 System Info:
-Machine ID: 996614ec4c814b87b7ec8ebee3d0e8c9
-System UUID: 19ca53b7-42af-4dd6-90f5-9eaeccd257ad
-Boot ID: 75274f03-f70e-411c-a13b-bc90748e9da9
-Kernel Version: 5.15.0-53-generic
-OS Image: Ubuntu 20.04.5 LTS
-Operating System: linux
-Architecture: amd64
-Container Runtime Version: docker://20.10.20
-Kubelet Version: v1.25.3
-Kube-Proxy Version: v1.25.3
-PodCIDR: 10.244.0.0/24
-PodCIDRs: 10.244.0.0/24
-Non-terminated Pods: (7 in total)
-Namespace Name CPU Requests CPU Limits Memory Requests Memory Limits Age</p>
+Machine ID:                 996614ec4c814b87b7ec8ebee3d0e8c9
+System UUID:                19ca53b7-42af-4dd6-90f5-9eaeccd257ad
+Boot ID:                    75274f03-f70e-411c-a13b-bc90748e9da9
+Kernel Version:             5.15.0-53-generic
+OS Image:                   Ubuntu 20.04.5 LTS
+Operating System:           linux
+Architecture:               amd64
+Container Runtime Version:  docker://20.10.20
+Kubelet Version:            v1.25.3
+Kube-Proxy Version:         v1.25.3
+PodCIDR:                      10.244.0.0/24
+PodCIDRs:                     10.244.0.0/24
+Non-terminated Pods:          (7 in total)
+Namespace                   Name                                CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age</p>
 <hr>
-<p>kube-system coredns-565d847f94-24fnc 100m (0%) 0 (0%) 70Mi (0%) 170Mi (1%) 8h
-kube-system etcd-minikube 100m (0%) 0 (0%) 100Mi (0%) 0 (0%) 8h
-kube-system kube-apiserver-minikube 250m (2%) 0 (0%) 0 (0%) 0 (0%) 8h
-kube-system kube-controller-manager-minikube 200m (1%) 0 (0%) 0 (0%) 0 (0%) 8h
-kube-system kube-proxy-b28sg 0 (0%) 0 (0%) 0 (0%) 0 (0%) 8h
-kube-system kube-scheduler-minikube 100m (0%) 0 (0%) 0 (0%) 0 (0%) 8h
-kube-system storage-provisioner 0 (0%) 0 (0%) 0 (0%) 0 (0%) 8h
+<p>kube-system                 coredns-565d847f94-24fnc            100m (0%)     0 (0%)      70Mi (0%)        170Mi (1%)     8h
+kube-system                 etcd-minikube                       100m (0%)     0 (0%)      100Mi (0%)       0 (0%)         8h
+kube-system                 kube-apiserver-minikube             250m (2%)     0 (0%)      0 (0%)           0 (0%)         8h
+kube-system                 kube-controller-manager-minikube    200m (1%)     0 (0%)      0 (0%)           0 (0%)         8h
+kube-system                 kube-proxy-b28sg                    0 (0%)        0 (0%)      0 (0%)           0 (0%)         8h
+kube-system                 kube-scheduler-minikube             100m (0%)     0 (0%)      0 (0%)           0 (0%)         8h
+kube-system                 storage-provisioner                 0 (0%)        0 (0%)      0 (0%)           0 (0%)         8h
 Allocated resources:
 (Total limits may be over 100 percent, i.e., overcommitted.)
-Resource Requests Limits</p>
+Resource           Requests    Limits</p>
 <hr>
-<p>cpu 750m (6%) 0 (0%)
-memory 170Mi (1%) 170Mi (1%)
-ephemeral-storage 0 (0%) 0 (0%)
-hugepages-1Gi 0 (0%) 0 (0%)
-hugepages-2Mi 0 (0%) 0 (0%)
+<p>cpu                750m (6%)   0 (0%)
+memory             170Mi (1%)  170Mi (1%)
+ephemeral-storage  0 (0%)      0 (0%)
+hugepages-1Gi      0 (0%)      0 (0%)
+hugepages-2Mi      0 (0%)      0 (0%)
 Events:
-Type Reason Age From Message</p>
+Type    Reason                   Age              From             Message</p>
 <hr>
-<p>Normal Starting 8h kube-proxy<br>
-Normal NodeHasSufficientMemory 8h (x5 over 8h) kubelet Node minikube status is now: NodeHasSufficientMemory
-Normal NodeHasNoDiskPressure 8h (x5 over 8h) kubelet Node minikube status is now: NodeHasNoDiskPressure
-Normal NodeHasSufficientPID 8h (x5 over 8h) kubelet Node minikube status is now: NodeHasSufficientPID
-Normal Starting 8h kubelet Starting kubelet.
-Normal NodeAllocatableEnforced 8h kubelet Updated Node Allocatable limit across pods
-Normal NodeHasSufficientMemory 8h kubelet Node minikube status is now: NodeHasSufficientMemory
-Normal NodeHasNoDiskPressure 8h kubelet Node minikube status is now: NodeHasNoDiskPressure
-Normal NodeHasSufficientPID 8h kubelet Node minikube status is now: NodeHasSufficientPID
-Normal NodeReady 8h kubelet Node minikube status is now: NodeReady
-Normal RegisteredNode 8h node-controller Node minikube event: Registered Node minikube in Controller
+<p>Normal  Starting                 8h               kube-proxy    <br>
+Normal  NodeHasSufficientMemory  8h (x5 over 8h)  kubelet          Node minikube status is now: NodeHasSufficientMemory
+Normal  NodeHasNoDiskPressure    8h (x5 over 8h)  kubelet          Node minikube status is now: NodeHasNoDiskPressure
+Normal  NodeHasSufficientPID     8h (x5 over 8h)  kubelet          Node minikube status is now: NodeHasSufficientPID
+Normal  Starting                 8h               kubelet          Starting kubelet.
+Normal  NodeAllocatableEnforced  8h               kubelet          Updated Node Allocatable limit across pods
+Normal  NodeHasSufficientMemory  8h               kubelet          Node minikube status is now: NodeHasSufficientMemory
+Normal  NodeHasNoDiskPressure    8h               kubelet          Node minikube status is now: NodeHasNoDiskPressure
+Normal  NodeHasSufficientPID     8h               kubelet          Node minikube status is now: NodeHasSufficientPID
+Normal  NodeReady                8h               kubelet          Node minikube status is now: NodeReady
+Normal  RegisteredNode           8h               node-controller  Node minikube event: Registered Node minikube in Controller
 &quot;&quot;&quot;</p>
 
     </div>
@@ -370,16 +370,16 @@ Normal RegisteredNode 8h node-controller Node minikube event: Registered Node mi
         <a href="https://devstools.github.io/public/post/testing/tools/2/" class="nav-link" title="Chapter I: API Testing PostMan">Chapter I: API Testing PostMan</a>
       </li>
       <li>
+        <a href="https://devstools.github.io/public/post/devops/kubenates/2/" class="nav-link" title="Create POD With YAML">Create POD With YAML</a>
+      </li>
+      <li>
         <a href="https://devstools.github.io/public/post/databases/1/" class="nav-link" title="database">database</a>
       </li>
       <li>
-        <a href="https://devstools.github.io/public/post/program/backup/" class="nav-link" title="development">development</a>
+        <a href="https://devstools.github.io/public/post/devops/kubenates/4/" class="nav-link" title="Deployments">Deployments</a>
       </li>
       <li>
-        <a href="https://devstools.github.io/public/post/devops/docker/1/" class="nav-link" title="kubenates">kubenates</a>
-      </li>
-      <li>
-        <a href="https://devstools.github.io/public/post/devops/kubenates/1/" class="nav-link" title="kubenates">kubenates</a>
+        <a href="https://devstools.github.io/public/post/devops/kubenates/5/" class="nav-link" title="Deployments Update And Rollback">Deployments Update And Rollback</a>
       </li>
       <li>
         <a href="https://devstools.github.io/public/post/backup/markdown-syntax/" class="nav-link" title="Markdown Syntax Guide">Markdown Syntax Guide</a>
@@ -420,6 +420,11 @@ Normal RegisteredNode 8h node-controller Node minikube event: Registered Node mi
     <div>
       <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
       <nav class="tags_nav">
+        <a href='https://devstools.github.io/public/tags/kubenetes/' class="post_tag button button_translucent" title="kubenetes">
+          KUBENETES
+          <span class="button_tally">5</span>
+        </a>
+        
         <a href='https://devstools.github.io/public/tags/golang/' class="post_tag button button_translucent" title="golang">
           GOLANG
           <span class="button_tally">4</span>
@@ -485,11 +490,6 @@ Normal RegisteredNode 8h node-controller Node minikube event: Registered Node mi
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://devstools.github.io/public/tags/nomad/' class="post_tag button button_translucent" title="nomad">
-          NOMAD
-          <span class="button_tally">1</span>
-        </a>
-        
         
         <br>
         <div class="post_tags_toggle button">All Tags</div>
@@ -536,11 +536,11 @@ Normal RegisteredNode 8h node-controller Node minikube event: Registered Node mi
             </a>
             
             
-            <a href='https://devstools.github.io/public/tags/markdown/' class=" post_tag button button_translucent" data-position=2 title="markdown">MARKDOWN<span class="button_tally">2</span>
+            <a href='https://devstools.github.io/public/tags/kubenetes/' class=" post_tag button button_translucent" data-position=5 title="kubenetes">KUBENETES<span class="button_tally">5</span>
             </a>
             
             
-            <a href='https://devstools.github.io/public/tags/nomad/' class=" post_tag button button_translucent" data-position=1 title="nomad">NOMAD<span class="button_tally">1</span>
+            <a href='https://devstools.github.io/public/tags/markdown/' class=" post_tag button button_translucent" data-position=2 title="markdown">MARKDOWN<span class="button_tally">2</span>
             </a>
             
             

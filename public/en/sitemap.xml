@@ -81,10 +81,19 @@
     <loc>https://devstools.github.io/public/tags/automation/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/2/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
     <loc>https://devstools.github.io/public/tags/database/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/databases/1/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/4/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/5/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/development/</loc>
@@ -99,16 +108,16 @@
     <loc>https://devstools.github.io/public/post/devops/docker/1/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/devops/kubenates/1/</loc>
-    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
-  </url><url>
     <loc>https://devstools.github.io/public/post/devops/nomad/1/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/tags/nomad/</loc>
+    <loc>https://devstools.github.io/public/tags/kubenetes/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/performance/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/3/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/solution-architecture/</loc>
@@ -142,6 +151,9 @@
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/testing/tools/1/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/1/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/about/</loc>
