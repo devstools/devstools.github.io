@@ -26,10 +26,10 @@
     
     <item>
       <title>Chapter II: Performance Testing AutoCannon</title>
-      <link>https://devstools.github.io/public/post/tools/3/</link>
+      <link>https://devstools.github.io/public/post/testing/tools/3/</link>
       <pubDate>Fri, 11 Nov 2022 12:07:25 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/tools/3/</guid>
+      <guid>https://devstools.github.io/public/post/testing/tools/3/</guid>
       <description>
         
           
@@ -46,10 +46,10 @@ example
     
     <item>
       <title>Chapter I: API Testing PostMan</title>
-      <link>https://devstools.github.io/public/post/tools/2/</link>
+      <link>https://devstools.github.io/public/post/testing/tools/2/</link>
       <pubDate>Fri, 11 Nov 2022 11:58:53 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/tools/2/</guid>
+      <guid>https://devstools.github.io/public/post/testing/tools/2/</guid>
       <description>
         
           
@@ -243,10 +243,10 @@ Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl descr
     
     <item>
       <title>tools</title>
-      <link>https://devstools.github.io/public/post/tools/1/</link>
+      <link>https://devstools.github.io/public/post/testing/tools/1/</link>
       <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/tools/1/</guid>
+      <guid>https://devstools.github.io/public/post/testing/tools/1/</guid>
       <description>
         
           

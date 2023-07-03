@@ -4,11 +4,6 @@
   weight = -110
 
 [[main]]
-  name = "Tools"
-  url = "post/tools/"
-  weight = -111
-
-[[main]]
   name = "Programming Language"
   identifier = "program"
   weight = -109
@@ -54,6 +49,10 @@
   parent = "testing"
   name = "Performance"
   url = "post/testing/performance/"
+[[main]]
+  parent = "testing"
+  name = "Tools"
+  url = "post/testing/tools/"
 
 [[main]]
   name = "About"
