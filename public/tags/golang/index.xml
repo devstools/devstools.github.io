@@ -6,28 +6,7 @@
     <description>Recent content in golang on Trongpq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Nov 2022 10:46:43 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/tags/golang/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>devops</title>
-      <link>https://devstools.github.io/public/post/devops/1/</link>
-      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/devops/1/</guid>
-      <description>
-        
-          
-            Devops Post
-Linux 1 - Foundation Linux
-2 - Terminal Linux Zsh...
-3 - Docker - Docker Compose
-4 - WebServer Nginx
-          
-          
-        
-      </description>
-    </item>
-    
+    <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://devstools.github.io/public/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>chapter-1</title>
       <link>https://devstools.github.io/public/post/program/golang/chapter-1/</link>

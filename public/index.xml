@@ -256,26 +256,6 @@ Terraform là ngôn ngữ infrastructure as Code do công ty Hashicorp tạo ra 
     </item>
     
     <item>
-      <title>devops</title>
-      <link>https://devstools.github.io/public/post/devops/1/</link>
-      <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/devops/1/</guid>
-      <description>
-        
-          
-            Devops Post
-Linux 1 - Foundation Linux
-2 - Terminal Linux Zsh...
-3 - Docker - Docker Compose
-4 - WebServer Nginx
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>selenium</title>
       <link>https://devstools.github.io/public/post/testing/1/</link>
       <pubDate>Thu, 10 Nov 2022 10:46:43 +0700</pubDate>

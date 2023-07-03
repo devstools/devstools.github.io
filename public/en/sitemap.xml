@@ -132,12 +132,6 @@
     <loc>https://devstools.github.io/public/about/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/devops/1/</loc>
-    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
-  </url><url>
-    <loc>https://devstools.github.io/public/tags/golang/</loc>
-    <lastmod>2022-11-10T10:46:43+07:00</lastmod>
-  </url><url>
     <loc>https://devstools.github.io/public/tags/selenium/</loc>
     <lastmod>2022-11-10T10:46:43+07:00</lastmod>
   </url><url>
@@ -291,6 +285,8 @@
     <loc>https://devstools.github.io/public/post/program/golang/chapter-1/</loc>
   </url><url>
     <loc>https://devstools.github.io/public/post/program/golang/chapter-2/</loc>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/golang/</loc>
   </url><url>
     <loc>https://devstools.github.io/public/post/program/golang/</loc>
   </url><url>
