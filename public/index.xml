@@ -25,6 +25,45 @@
     </item>
     
     <item>
+      <title>Chapter I: System Performance</title>
+      <link>https://devstools.github.io/public/post/solution-architecture/chapter-1/</link>
+      <pubDate>Sat, 12 Nov 2022 13:53:02 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/solution-architecture/chapter-1/</guid>
+      <description>
+        
+          
+            System Performance Understand Performance
+Problems
+Measurement
+Principle
+Latency
+CPU
+Memory
+Network
+Disk
+Concurrency
+Locking
+Pessimistic
+Optimistic
+Cohence
+Caching
+Static Data
+Dynamic Data
+What is performance?
+performance is responsive time of a system
+Performance proble is the result of some queue building somewhere
+Reasons:
+Ineffecient slow processing
+Serial resource access
+Limit resource capacity
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Chapter II: Performance Testing AutoCannon</title>
       <link>https://devstools.github.io/public/post/testing/tools/3/</link>
       <pubDate>Fri, 11 Nov 2022 12:07:25 +0700</pubDate>
@@ -170,10 +209,10 @@ Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl descr
     
     <item>
       <title>software architecture</title>
-      <link>https://devstools.github.io/public/post/solution-architecture/</link>
+      <link>https://devstools.github.io/public/post/testing/automation/1/</link>
       <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/solution-architecture/</guid>
+      <guid>https://devstools.github.io/public/post/testing/automation/1/</guid>
       <description>
         
           
@@ -187,27 +226,10 @@ Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl descr
     
     <item>
       <title>software architecture</title>
-      <link>https://devstools.github.io/public/post/testing/automation/</link>
+      <link>https://devstools.github.io/public/post/testing/performance/1/</link>
       <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
       
-      <guid>https://devstools.github.io/public/post/testing/automation/</guid>
-      <description>
-        
-          
-            Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
-[ Design Large System ] - Review Usecase - Design Interface - Design Business - Design Database [ Software Architecture ] - Performance - Scalability - Reliability - Security - Development - Technology Stack [ Performance ] - Testing 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>software architecture</title>
-      <link>https://devstools.github.io/public/post/testing/performance/</link>
-      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/testing/performance/</guid>
+      <guid>https://devstools.github.io/public/post/testing/performance/1/</guid>
       <description>
         
           
@@ -402,10 +424,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Chapter I: python</title>
-      <link>https://devstools.github.io/public/post/program/python/chapter-1/</link>
+      <link>https://devstools.github.io/public/post/program/python/1/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://devstools.github.io/public/post/program/python/chapter-1/</guid>
+      <guid>https://devstools.github.io/public/post/program/python/1/</guid>
       <description>
         
           

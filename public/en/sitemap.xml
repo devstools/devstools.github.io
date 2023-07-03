@@ -53,11 +53,11 @@
     <loc>https://devstools.github.io/public/categories/technology/</loc>
     <lastmod>2023-07-02T22:48:27+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/testing/tools/3/</loc>
-    <lastmod>2022-11-11T12:07:25+07:00</lastmod>
+    <loc>https://devstools.github.io/public/post/solution-architecture/chapter-1/</loc>
+    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/</loc>
-    <lastmod>2022-11-11T12:07:25+07:00</lastmod>
+    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -68,6 +68,12 @@
                 hreflang="en"
                 href="https://devstools.github.io/public/post/"
                 />
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/software-development/</loc>
+    <lastmod>2022-11-12T13:53:02+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/testing/tools/3/</loc>
+    <lastmod>2022-11-11T12:07:25+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/testing/tools/2/</loc>
     <lastmod>2022-11-11T11:58:53+07:00</lastmod>
@@ -108,10 +114,19 @@
     <loc>https://devstools.github.io/public/post/solution-architecture/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
+    <loc>https://devstools.github.io/public/post/testing/automation/1/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
     <loc>https://devstools.github.io/public/post/testing/automation/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
+    <loc>https://devstools.github.io/public/post/testing/performance/1/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
     <loc>https://devstools.github.io/public/post/testing/performance/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/testing/tools/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/solution-architecture/</loc>
@@ -273,7 +288,7 @@
                 href="https://devstools.github.io/public/about/"
                 />
   </url><url>
-    <loc>https://devstools.github.io/public/post/program/python/chapter-1/</loc>
+    <loc>https://devstools.github.io/public/post/program/python/1/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/testing/chapter-1/</loc>
@@ -282,7 +297,15 @@
     <loc>https://devstools.github.io/public/tags/python/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
+    <loc>https://devstools.github.io/public/post/devops/docker/</loc>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/</loc>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/nomad/</loc>
+  </url><url>
     <loc>https://devstools.github.io/public/post/devops/terraform/</loc>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/program/python/</loc>
   </url><url>
     <loc>https://devstools.github.io/public/post/program/golang/chapter-1/</loc>
   </url><url>
