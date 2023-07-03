@@ -99,9 +99,6 @@
     <loc>https://devstools.github.io/public/post/devops/nomad/1/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
-    <loc>https://devstools.github.io/public/post/devops/terraform/1/</loc>
-    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
-  </url><url>
     <loc>https://devstools.github.io/public/tags/nomad/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
@@ -118,6 +115,12 @@
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/solution-architecture/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/tags/terraform/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/terraform/1/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/tags/tools/</loc>

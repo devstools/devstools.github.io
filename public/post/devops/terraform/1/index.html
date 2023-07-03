@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>kubenates | Trongpq</title>
+<title>Terraform | Trongpq</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,14 +21,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="kubenates" />
+<meta name="description" content="Terraform" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@janedoe">
-<meta name="twitter:title" content="kubenates" />
+<meta name="twitter:title" content="Terraform" />
 <meta name="twitter:image" content="https://devstools.github.io/public/images/thumbnail.png"/>
 <meta property="og:url" content="https://devstools.github.io/public/post/devops/terraform/1/" />
-<meta property="og:title" content="kubenates" />
-<meta property="og:description" content="kubenates" />
+<meta property="og:title" content="Terraform" />
+<meta property="og:description" content="Terraform" />
 <meta property="og:image" content="https://devstools.github.io/public/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://devstools.github.io/public/icons/apple-touch-icon.png">
@@ -146,7 +146,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">kubenates</h1>
+    <h1 class="post_title">Terraform</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -155,20 +155,20 @@
 </span>
     <span class="post_date">
       Nov 11, 2022</span>
-    <span class="post_time"> · 3 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/kubenates/' title="kubenates" class="post_tag button button_translucent">kubenates
+    <span class="post_time"> · 2 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/terraform/' title="terraform" class="post_tag button button_translucent">terraform
         </a>
     </span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=kubenates&url=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fterraform%2f1%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Terraform&url=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fterraform%2f1%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fterraform%2f1%2f&t=kubenates" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fterraform%2f1%2f&t=Terraform" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -193,126 +193,71 @@
   </span>
   </div>
 
-    <div class="post_body"><p>Kubenates</p>
-<p>Nguồn: <a href="https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html">https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html</a></p>
+    <div class="post_body"><p>Terraform</p>
+<h1 id="terraform">Terraform</h1>
+<p>Xin Chào mọi người hôm nay mình sẽ tìm hiểu về terraform, blog này sinh ra với mục đích lưu lại những gì mình tìm hiểu hằng ngày để hệ thống kiến thức</p>
+<p>Terraform là ngôn ngữ infrastructure as Code do công ty Hashicorp tạo ra
+Terraform còn có tên gọi khác là Hashicorp Language</p>
+<p>Đầu tiên để khởi tạo dự án ta dùng lệnh (Giả định rằng các bạn đã cài terraform)
+terraform init</p>
+<p>một project terraform gồm những file như sau</p>
 <ul>
-<li>
-<p>Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows</p>
-</li>
-<li>
-<p>Cài đặt kubectl là kubenates client để tương tác với kubenates</p>
-</li>
-<li>
-<p>Chạy lệnh  kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa</p>
-</li>
-<li>
-<p>Kiểm tra có các node nào đang chạy trên máy:
-kubectl get node</p>
-</li>
-<li>
-<p>Check thông tin node xem có bị quá tải gì ko bằng lệnh
-kubectl describe <Node></p>
-</li>
+<li>job.tf : source code chính</li>
 </ul>
-<p>&quot;&quot;&quot;
-kubectl describe node/minikube                ✔ │ minikube ⎈  │ 10:42:24
-Name:               minikube
-Roles:              control-plane
-Labels:             beta.kubernetes.io/arch=amd64
-beta.kubernetes.io/os=linux
-kubernetes.io/arch=amd64
-kubernetes.io/hostname=minikube
-kubernetes.io/os=linux
-minikube.k8s.io/commit=986b1ebd987211ed16f8cc10aed7d2c42fc8392f
-minikube.k8s.io/name=minikube
-minikube.k8s.io/primary=true
-minikube.k8s.io/updated_at=2022_11_19T02_20_06_0700
-minikube.k8s.io/version=v1.28.0
-node-role.kubernetes.io/control-plane=
-node.kubernetes.io/exclude-from-external-load-balancers=
-Annotations:        kubeadm.alpha.kubernetes.io/cri-socket: unix:///var/run/cri-dockerd.sock
-node.alpha.kubernetes.io/ttl: 0
-volumes.kubernetes.io/controller-managed-attach-detach: true
-CreationTimestamp:  Sat, 19 Nov 2022 02:20:03 +0700
-Taints:             <none>
-Unschedulable:      false
-Lease:
-HolderIdentity:  minikube
-AcquireTime:     <unset>
-RenewTime:       Sat, 19 Nov 2022 10:42:55 +0700
-Conditions:</p>
-<h3 id="check-quá-tải-memmory-disk-process-ở-dưới-đây-status--false-là-không-có">Check quá tải memmory, disk, process ở dưới đây status = false là không có</h3>
-<p>Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message</p>
-<hr>
-<p>MemoryPressure   False   Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:03 +0700   KubeletHasSufficientMemory   kubelet has sufficient memory available
-DiskPressure     False   Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:03 +0700   KubeletHasNoDiskPressure     kubelet has no disk pressure
-PIDPressure      False   Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:03 +0700   KubeletHasSufficientPID      kubelet has sufficient PID available
-Ready            True    Sat, 19 Nov 2022 10:42:56 +0700   Sat, 19 Nov 2022 02:20:06 +0700   KubeletReady                 kubelet is posting ready status
-Addresses:
-InternalIP:  192.168.49.2
-Hostname:    minikube
-Capacity:
-cpu:                12
-ephemeral-storage:  187805848Ki
-hugepages-1Gi:      0
-hugepages-2Mi:      0
-memory:             16239448Ki
-pods:               110
-Allocatable:
-cpu:                12
-ephemeral-storage:  187805848Ki
-hugepages-1Gi:      0
-hugepages-2Mi:      0
-memory:             16239448Ki
-pods:               110
-System Info:
-Machine ID:                 996614ec4c814b87b7ec8ebee3d0e8c9
-System UUID:                19ca53b7-42af-4dd6-90f5-9eaeccd257ad
-Boot ID:                    75274f03-f70e-411c-a13b-bc90748e9da9
-Kernel Version:             5.15.0-53-generic
-OS Image:                   Ubuntu 20.04.5 LTS
-Operating System:           linux
-Architecture:               amd64
-Container Runtime Version:  docker://20.10.20
-Kubelet Version:            v1.25.3
-Kube-Proxy Version:         v1.25.3
-PodCIDR:                      10.244.0.0/24
-PodCIDRs:                     10.244.0.0/24
-Non-terminated Pods:          (7 in total)
-Namespace                   Name                                CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age</p>
-<hr>
-<p>kube-system                 coredns-565d847f94-24fnc            100m (0%)     0 (0%)      70Mi (0%)        170Mi (1%)     8h
-kube-system                 etcd-minikube                       100m (0%)     0 (0%)      100Mi (0%)       0 (0%)         8h
-kube-system                 kube-apiserver-minikube             250m (2%)     0 (0%)      0 (0%)           0 (0%)         8h
-kube-system                 kube-controller-manager-minikube    200m (1%)     0 (0%)      0 (0%)           0 (0%)         8h
-kube-system                 kube-proxy-b28sg                    0 (0%)        0 (0%)      0 (0%)           0 (0%)         8h
-kube-system                 kube-scheduler-minikube             100m (0%)     0 (0%)      0 (0%)           0 (0%)         8h
-kube-system                 storage-provisioner                 0 (0%)        0 (0%)      0 (0%)           0 (0%)         8h
-Allocated resources:
-(Total limits may be over 100 percent, i.e., overcommitted.)
-Resource           Requests    Limits</p>
-<hr>
-<p>cpu                750m (6%)   0 (0%)
-memory             170Mi (1%)  170Mi (1%)
-ephemeral-storage  0 (0%)      0 (0%)
-hugepages-1Gi      0 (0%)      0 (0%)
-hugepages-2Mi      0 (0%)      0 (0%)
-Events:
-Type    Reason                   Age              From             Message</p>
-<hr>
-<p>Normal  Starting                 8h               kube-proxy    <br>
-Normal  NodeHasSufficientMemory  8h (x5 over 8h)  kubelet          Node minikube status is now: NodeHasSufficientMemory
-Normal  NodeHasNoDiskPressure    8h (x5 over 8h)  kubelet          Node minikube status is now: NodeHasNoDiskPressure
-Normal  NodeHasSufficientPID     8h (x5 over 8h)  kubelet          Node minikube status is now: NodeHasSufficientPID
-Normal  Starting                 8h               kubelet          Starting kubelet.
-Normal  NodeAllocatableEnforced  8h               kubelet          Updated Node Allocatable limit across pods
-Normal  NodeHasSufficientMemory  8h               kubelet          Node minikube status is now: NodeHasSufficientMemory
-Normal  NodeHasNoDiskPressure    8h               kubelet          Node minikube status is now: NodeHasNoDiskPressure
-Normal  NodeHasSufficientPID     8h               kubelet          Node minikube status is now: NodeHasSufficientPID
-Normal  NodeReady                8h               kubelet          Node minikube status is now: NodeReady
-Normal  RegisteredNode           8h               node-controller  Node minikube event: Registered Node minikube in Controller
-&quot;&quot;&quot;</p>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">resource &#34;local_file&#34; &#34;pet&#34; {
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    filename = var.filename
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    content = &#34;${var.content.username} ${var.content.password} &#34;
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">}
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">resource &#34;random_pet&#34; &#34;my-pet&#34; {
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    prefix = var.prefix
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    separator = var.prefix
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">    length = var.length
+</span></span><span class="line"><span class="ln">10</span><span class="cl">}
+</span></span></code></pre></div><ul>
+<li>variables.tf: các giá trị của variable</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">// Variable
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">variable &#34;filename&#34; {
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    description = &#34;file name&#34;
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    type = string
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    default = &#34;./pets.txt&#34;
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">}
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">variable &#34;content&#34; {
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    description = &#34;content file&#34;
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">    type = object({
+</span></span><span class="line"><span class="ln">10</span><span class="cl">        username = string
+</span></span><span class="line"><span class="ln">11</span><span class="cl">        password = string
+</span></span><span class="line"><span class="ln">12</span><span class="cl">    })
+</span></span><span class="line"><span class="ln">13</span><span class="cl">    # default = &#34;We are love pets so much!&#34;
+</span></span><span class="line"><span class="ln">14</span><span class="cl">}
+</span></span><span class="line"><span class="ln">15</span><span class="cl">
+</span></span><span class="line"><span class="ln">16</span><span class="cl">variable &#34;prefix&#34; {
+</span></span><span class="line"><span class="ln">17</span><span class="cl">    description = &#34;prefix resource&#34;
+</span></span><span class="line"><span class="ln">18</span><span class="cl">    type = string
+</span></span><span class="line"><span class="ln">19</span><span class="cl">    default = &#34;Mrs&#34;
+</span></span><span class="line"><span class="ln">20</span><span class="cl">}
+</span></span><span class="line"><span class="ln">21</span><span class="cl">
+</span></span><span class="line"><span class="ln">22</span><span class="cl">variable &#34;separator&#34; {
+</span></span><span class="line"><span class="ln">23</span><span class="cl">    description = &#34;separator description&#34;
+</span></span><span class="line"><span class="ln">24</span><span class="cl">    type= string
+</span></span><span class="line"><span class="ln">25</span><span class="cl">    default = &#34;.&#34;
+</span></span><span class="line"><span class="ln">26</span><span class="cl">}
+</span></span><span class="line"><span class="ln">27</span><span class="cl">
+</span></span><span class="line"><span class="ln">28</span><span class="cl">variable &#34;length&#34; {
+</span></span><span class="line"><span class="ln">29</span><span class="cl">    description = &#34;length of the pet name&#34;
+</span></span><span class="line"><span class="ln">30</span><span class="cl">    type = number
+</span></span><span class="line"><span class="ln">31</span><span class="cl">    default = 1
+</span></span><span class="line"><span class="ln">32</span><span class="cl">}
+</span></span></code></pre></div><ul>
+<li>input.tfvars : định nghĩa input và kiểu dữ liệu</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">filename = &#34;trongpq&#34;
+</span></span><span class="line"><span class="ln">2</span><span class="cl">content = {
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    username = &#34;trongpqhehehe&#34;
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    password = &#34;password day ne&#34;
+</span></span><span class="line"><span class="ln">5</span><span class="cl">}
+</span></span></code></pre></div>
     </div>
 <div class="post_comments">
   
@@ -425,13 +370,13 @@ Normal  RegisteredNode           8h               node-controller  Node minikube
           <span class="button_tally">5</span>
         </a>
         
-        <a href='https://devstools.github.io/public/tags/kubenates/' class="post_tag button button_translucent" title="kubenates">
-          KUBENATES
-          <span class="button_tally">3</span>
-        </a>
-        
         <a href='https://devstools.github.io/public/tags/automation/' class="post_tag button button_translucent" title="automation">
           AUTOMATION
+          <span class="button_tally">2</span>
+        </a>
+        
+        <a href='https://devstools.github.io/public/tags/kubenates/' class="post_tag button button_translucent" title="kubenates">
+          KUBENATES
           <span class="button_tally">2</span>
         </a>
         
@@ -532,7 +477,7 @@ Normal  RegisteredNode           8h               node-controller  Node minikube
             </a>
             
             
-            <a href='https://devstools.github.io/public/tags/kubenates/' class=" post_tag button button_translucent" data-position=3 title="kubenates">KUBENATES<span class="button_tally">3</span>
+            <a href='https://devstools.github.io/public/tags/kubenates/' class=" post_tag button button_translucent" data-position=2 title="kubenates">KUBENATES<span class="button_tally">2</span>
             </a>
             
             
@@ -573,6 +518,10 @@ Normal  RegisteredNode           8h               node-controller  Node minikube
             
             
             <a href='https://devstools.github.io/public/tags/tag_name2/' class=" post_tag button button_translucent" data-position=1 title="tag_name2">TAG_NAME2<span class="button_tally">1</span>
+            </a>
+            
+            
+            <a href='https://devstools.github.io/public/tags/terraform/' class=" post_tag button button_translucent" data-position=1 title="terraform">TERRAFORM<span class="button_tally">1</span>
             </a>
             
             
