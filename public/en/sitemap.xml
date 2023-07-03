@@ -31,19 +31,6 @@
                 href="https://devstools.github.io/public/categories/"
                 />
   </url><url>
-    <loc>https://devstools.github.io/public/post/</loc>
-    <lastmod>2023-07-02T22:48:27+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://devstools.github.io/public/pt/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://devstools.github.io/public/post/"
-                />
-  </url><url>
     <loc>https://devstools.github.io/public/tags/tag_name1/</loc>
     <lastmod>2023-07-02T22:48:27+07:00</lastmod>
   </url><url>
@@ -68,6 +55,19 @@
   </url><url>
     <loc>https://devstools.github.io/public/post/testing/tools/3/</loc>
     <lastmod>2022-11-11T12:07:25+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/</loc>
+    <lastmod>2022-11-11T12:07:25+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://devstools.github.io/public/pt/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://devstools.github.io/public/post/"
+                />
   </url><url>
     <loc>https://devstools.github.io/public/post/testing/tools/2/</loc>
     <lastmod>2022-11-11T11:58:53+07:00</lastmod>
@@ -281,6 +281,8 @@
   </url><url>
     <loc>https://devstools.github.io/public/tags/python/</loc>
     <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/terraform/</loc>
   </url><url>
     <loc>https://devstools.github.io/public/post/program/golang/chapter-1/</loc>
   </url><url>

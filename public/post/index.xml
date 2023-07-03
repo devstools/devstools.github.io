@@ -7,23 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-2030, Trongpq and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 02 Jul 2023 22:48:27 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2</title>
-      <link>https://devstools.github.io/public/post/devops/terraform/2/</link>
-      <pubDate>Sun, 02 Jul 2023 22:48:27 +0700</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/devops/terraform/2/</guid>
-      <description>
-        
-          
-            Insert Lead paragraph here.
-          
-          
-        
-      </description>
-    </item>
-    
+    <lastBuildDate>Fri, 11 Nov 2022 12:07:25 +0700</lastBuildDate><atom:link href="https://devstools.github.io/public/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter II: Performance Testing AutoCannon</title>
       <link>https://devstools.github.io/public/post/testing/tools/3/</link>
@@ -213,25 +197,6 @@ Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl descr
           
             Xin chào m.n 👋 💬 Ask me about: https://fb.com/biccv
 [ Design Large System ] - Review Usecase - Design Interface - Design Business - Design Database [ Software Architecture ] - Performance - Scalability - Reliability - Security - Development - Technology Stack [ Performance ] - Testing 
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Terraform</title>
-      <link>https://devstools.github.io/public/post/devops/terraform/1/</link>
-      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
-      
-      <guid>https://devstools.github.io/public/post/devops/terraform/1/</guid>
-      <description>
-        
-          
-            Terraform
-Terraform Xin Chào mọi người hôm nay mình sẽ tìm hiểu về terraform, blog này sinh ra với mục đích lưu lại những gì mình tìm hiểu hằng ngày để hệ thống kiến thức
-Terraform là ngôn ngữ infrastructure as Code do công ty Hashicorp tạo ra Terraform còn có tên gọi khác là Hashicorp Language
-Đầu tiên để khởi tạo dự án ta dùng lệnh (Giả định rằng các bạn đã cài terraform) terraform init
           
           
         
