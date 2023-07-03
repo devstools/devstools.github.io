@@ -193,17 +193,14 @@
   </span>
   </div>
 
-    <div class="post_body"><p>Terraform</p>
-<h1 id="terraform">Terraform</h1>
+    <div class="post_body"><h1 id="terraform">Terraform</h1>
 <p>Xin Chào mọi người hôm nay mình sẽ tìm hiểu về terraform, blog này sinh ra với mục đích lưu lại những gì mình tìm hiểu hằng ngày để hệ thống kiến thức</p>
 <p>Terraform là ngôn ngữ infrastructure as Code do công ty Hashicorp tạo ra
 Terraform còn có tên gọi khác là Hashicorp Language</p>
 <p>Đầu tiên để khởi tạo dự án ta dùng lệnh (Giả định rằng các bạn đã cài terraform)
 terraform init</p>
 <p>một project terraform gồm những file như sau</p>
-<ul>
-<li>job.tf : source code chính</li>
-</ul>
+<h2 id="jobtf--source-code-chính">job.tf : source code chính</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">resource &#34;local_file&#34; &#34;pet&#34; {
 </span></span><span class="line"><span class="ln"> 2</span><span class="cl">    filename = var.filename
 </span></span><span class="line"><span class="ln"> 3</span><span class="cl">    content = &#34;${var.content.username} ${var.content.password} &#34;
@@ -214,9 +211,7 @@ terraform init</p>
 </span></span><span class="line"><span class="ln"> 8</span><span class="cl">    separator = var.prefix
 </span></span><span class="line"><span class="ln"> 9</span><span class="cl">    length = var.length
 </span></span><span class="line"><span class="ln">10</span><span class="cl">}
-</span></span></code></pre></div><ul>
-<li>variables.tf: các giá trị của variable</li>
-</ul>
+</span></span></code></pre></div><h2 id="variablestf-các-giá-trị-của-variable">variables.tf: các giá trị của variable</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">// Variable
 </span></span><span class="line"><span class="ln"> 2</span><span class="cl">variable &#34;filename&#34; {
 </span></span><span class="line"><span class="ln"> 3</span><span class="cl">    description = &#34;file name&#34;
@@ -249,15 +244,18 @@ terraform init</p>
 </span></span><span class="line"><span class="ln">30</span><span class="cl">    type = number
 </span></span><span class="line"><span class="ln">31</span><span class="cl">    default = 1
 </span></span><span class="line"><span class="ln">32</span><span class="cl">}
-</span></span></code></pre></div><ul>
-<li>input.tfvars : định nghĩa input và kiểu dữ liệu</li>
-</ul>
+</span></span></code></pre></div><h2 id="inputtfvars--định-nghĩa-input-và-kiểu-dữ-liệu">input.tfvars : định nghĩa input và kiểu dữ liệu</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">filename = &#34;trongpq&#34;
 </span></span><span class="line"><span class="ln">2</span><span class="cl">content = {
 </span></span><span class="line"><span class="ln">3</span><span class="cl">    username = &#34;trongpqhehehe&#34;
 </span></span><span class="line"><span class="ln">4</span><span class="cl">    password = &#34;password day ne&#34;
 </span></span><span class="line"><span class="ln">5</span><span class="cl">}
-</span></span></code></pre></div>
+</span></span></code></pre></div><p>sau khi tạo ra 3 file như thế này ta sẽ chạy lệnh</p>
+<ul>
+<li>terraform plan: để kiểm tra những operation</li>
+<li>terraform apply: để chạy terraform.</li>
+</ul>
+
     </div>
 <div class="post_comments">
   

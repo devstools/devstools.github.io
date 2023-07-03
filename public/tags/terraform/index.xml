@@ -17,8 +17,7 @@
       <description>
         
           
-            Terraform
-Terraform Xin Chào mọi người hôm nay mình sẽ tìm hiểu về terraform, blog này sinh ra với mục đích lưu lại những gì mình tìm hiểu hằng ngày để hệ thống kiến thức
+            Terraform Xin Chào mọi người hôm nay mình sẽ tìm hiểu về terraform, blog này sinh ra với mục đích lưu lại những gì mình tìm hiểu hằng ngày để hệ thống kiến thức
 Terraform là ngôn ngữ infrastructure as Code do công ty Hashicorp tạo ra Terraform còn có tên gọi khác là Hashicorp Language
 Đầu tiên để khởi tạo dự án ta dùng lệnh (Giả định rằng các bạn đã cài terraform) terraform init
           
