@@ -616,6 +616,204 @@ trongpq</p>
   <div class="excerpt">
     <div class="excerpt_header">
       <h3 class="post_link">
+        <a href="https://devstools.github.io/public/post/devops/kubenates/8-deploy-voting-app/" title="Deploy docker">Deploy docker</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Nov 11, 2022</span>
+    <span class="post_time"> · 1 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/kubenetes/' title="kubenetes" class="post_tag button button_translucent">kubenetes
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=Deploy%20docker&url=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f8-deploy-voting-app%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f8-deploy-voting-app%2f&t=Deploy%20docker" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://devstools.github.io/public/post/devops/kubenates/8-deploy-voting-app/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>Deploy Voting App Docker docker run --links 1docker run -d --name=redis redis 2docker run -d --name=db postgres:9.4 3docker run -d --name=vote -p 5000:80 --link redis:redis voting-app 4docker run -d --name=result -p 5001:80 --link db:db result-app 5docker run -d --name=worker --link redis:redis --link db:db worker</p>
+          
+          <br>
+          <a href="https://devstools.github.io/public/post/devops/kubenates/8-deploy-voting-app/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://devstools.github.io/public/post/devops/kubenates/10-deploy-voting-app-deployment/" title="Deploy k8s">Deploy k8s</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Nov 11, 2022</span>
+    <span class="post_time"> · 2 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/kubenetes/' title="kubenetes" class="post_tag button button_translucent">kubenetes
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=Deploy%20k8s&url=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f10-deploy-voting-app-deployment%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f10-deploy-voting-app-deployment%2f&t=Deploy%20k8s" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://devstools.github.io/public/post/devops/kubenates/10-deploy-voting-app-deployment/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>Deploy Voting App Kubenates Deployment voting-app-deployment.yaml 1apiVersion: v1 2kind: Deployment 3metadata: 4 name: voting-app-deploy 5 labels: 6 name: voting-app-deploy 7 app: demo-voting-app 8spec: 9 replicas: 1 10 selector: 11 matchLabels: 12 name: voting-app-pod 13 app: demo-voting-app 14 template: 15 metadata: …</p>
+          
+          <br>
+          <a href="https://devstools.github.io/public/post/devops/kubenates/10-deploy-voting-app-deployment/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="https://devstools.github.io/public/post/devops/kubenates/9-deploy-voting-app-k8s/" title="Deploy k8s">Deploy k8s</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Nov 11, 2022</span>
+    <span class="post_time"> · 2 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/kubenetes/' title="kubenetes" class="post_tag button button_translucent">kubenetes
+        </a>
+    </span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=Deploy%20k8s&url=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f9-deploy-voting-app-k8s%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f9-deploy-voting-app-k8s%2f&t=Deploy%20k8s" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="https://devstools.github.io/public/post/devops/kubenates/9-deploy-voting-app-k8s/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>Deploy Voting App Kubenates voting-app-pod.yaml 1apiVersion: v1 2kind: Pod 3metadata: 4 name: voting-app-pod 5 labels: 6 name: voting-app-pod 7 app: demo-voting-app 8spec: 9 containers: 10 - name: voting-app 11 image: kodekloud/examplevotingapp_vote:v1 12 ports: 13 - containerPort: 80 result-app-pod.yaml 1apiVersion: …</p>
+          
+          <br>
+          <a href="https://devstools.github.io/public/post/devops/kubenates/9-deploy-voting-app-k8s/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
         <a href="https://devstools.github.io/public/post/devops/kubenates/4/" title="Deployments">Deployments</a>
       </h3>
       
@@ -674,210 +872,6 @@ trongpq</p>
           
           <br>
           <a href="https://devstools.github.io/public/post/devops/kubenates/4/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devstools.github.io/public/post/devops/kubenates/5/" title="Deployments Update And Rollback">Deployments Update And Rollback</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 11, 2022</span>
-    <span class="post_time"> · 1 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/kubenetes/' title="kubenetes" class="post_tag button button_translucent">kubenetes
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    Share on:
-    <a href="https://twitter.com/intent/tweet?text=Deployments%20Update%20And%20Rollback&url=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f5%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fkubenates%2f5%2f&t=Deployments%20Update%20And%20Rollback" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://devstools.github.io/public/post/devops/kubenates/5/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p>Rollout Version We have two type deployment
-Recreated Rollout 1apiVersion: apps/v1 2kind: Deployment 3metadata: 4 name: myapp-deployment 5 labels: 6 tier: frontend 7 app: nginx 8spec: 9 selector: 10 matchLabels: 11 app: myapp 12 replicas: 4 13 template: 14 metadata: 15 name: nginx-2 16 labels: 17 app: myapp 18 spec: 19 …</p>
-          
-          <br>
-          <a href="https://devstools.github.io/public/post/devops/kubenates/5/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devstools.github.io/public/post/program/backup/" title="development">development</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 11, 2022</span>
-    <span class="post_time"> · 1 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/development/' title="development" class="post_tag button button_translucent">development
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    Share on:
-    <a href="https://twitter.com/intent/tweet?text=development&url=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fprogram%2fbackup%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fprogram%2fbackup%2f&t=development" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://devstools.github.io/public/post/program/backup/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p>Xin chào m.n 👋 💬 Ask me about: <a href="https://fb.com/biccv">https://fb.com/biccv</a>
-[SOLID]</p>
-          
-          <br>
-          <a href="https://devstools.github.io/public/post/program/backup/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://devstools.github.io/public/post/devops/docker/1/" title="kubenates">kubenates</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 11, 2022</span>
-    <span class="post_time"> · 3 min read</span><span>&nbsp;· <a href='https://devstools.github.io/public/tags/kubenates/' title="kubenates" class="post_tag button button_translucent">kubenates
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    Share on:
-    <a href="https://twitter.com/intent/tweet?text=kubenates&url=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fdocker%2f1%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdevstools.github.io%2fpublic%2fpost%2fdevops%2fdocker%2f1%2f&t=kubenates" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="https://devstools.github.io/public/post/devops/docker/1/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p>Kubenates
-Nguồn: <a href="https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html">https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html</a>
-Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
-Cài đặt kubectl là kubenates client để tương tác với kubenates
-Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config …</p>
-          
-          <br>
-          <a href="https://devstools.github.io/public/post/devops/docker/1/" title="Read More" class="excerpt_more button">Read More</a>
         </div>
       </div>
     </div>
@@ -965,10 +959,10 @@ Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt 
         <a href="https://devstools.github.io/public/post/databases/1/" class="nav-link" title="database">database</a>
       </li>
       <li>
-        <a href="https://devstools.github.io/public/post/devops/kubenates/4/" class="nav-link" title="Deployments">Deployments</a>
+        <a href="https://devstools.github.io/public/post/devops/kubenates/8-deploy-voting-app/" class="nav-link" title="Deploy docker">Deploy docker</a>
       </li>
       <li>
-        <a href="https://devstools.github.io/public/post/devops/kubenates/5/" class="nav-link" title="Deployments Update And Rollback">Deployments Update And Rollback</a>
+        <a href="https://devstools.github.io/public/post/devops/kubenates/10-deploy-voting-app-deployment/" class="nav-link" title="Deploy k8s">Deploy k8s</a>
       </li>
       <li>
         <a href="https://devstools.github.io/public/post/backup/markdown-syntax/" class="nav-link" title="Markdown Syntax Guide">Markdown Syntax Guide</a>
@@ -1011,7 +1005,7 @@ Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt 
       <nav class="tags_nav">
         <a href='https://devstools.github.io/public/tags/kubenetes/' class="post_tag button button_translucent" title="kubenetes">
           KUBENETES
-          <span class="button_tally">5</span>
+          <span class="button_tally">10</span>
         </a>
         
         <a href='https://devstools.github.io/public/tags/golang/' class="post_tag button button_translucent" title="golang">
@@ -1125,7 +1119,7 @@ Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt 
             </a>
             
             
-            <a href='https://devstools.github.io/public/tags/kubenetes/' class=" post_tag button button_translucent" data-position=5 title="kubenetes">KUBENETES<span class="button_tally">5</span>
+            <a href='https://devstools.github.io/public/tags/kubenetes/' class=" post_tag button button_translucent" data-position=10 title="kubenetes">KUBENETES<span class="button_tally">10</span>
             </a>
             
             

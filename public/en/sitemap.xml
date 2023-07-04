@@ -90,6 +90,15 @@
     <loc>https://devstools.github.io/public/post/databases/1/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/8-deploy-voting-app/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/10-deploy-voting-app-deployment/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/9-deploy-voting-app-k8s/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
     <loc>https://devstools.github.io/public/post/devops/kubenates/4/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
@@ -114,10 +123,16 @@
     <loc>https://devstools.github.io/public/tags/kubenetes/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/7-micro-service-architecture/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
     <loc>https://devstools.github.io/public/tags/performance/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/devops/kubenates/3/</loc>
+    <lastmod>2022-11-11T11:43:56+07:00</lastmod>
+  </url><url>
+    <loc>https://devstools.github.io/public/post/devops/kubenates/6/</loc>
     <lastmod>2022-11-11T11:43:56+07:00</lastmod>
   </url><url>
     <loc>https://devstools.github.io/public/post/solution-architecture/</loc>

@@ -29,6 +29,54 @@ To create a deployment using imperative command, use kubectl create:
     </item>
     
     <item>
+      <title>Deploy docker</title>
+      <link>https://devstools.github.io/public/post/devops/kubenates/8-deploy-voting-app/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/kubenates/8-deploy-voting-app/</guid>
+      <description>
+        
+          
+            Deploy Voting App Docker docker run --links 1docker run -d --name=redis redis 2docker run -d --name=db postgres:9.4 3docker run -d --name=vote -p 5000:80 --link redis:redis voting-app 4docker run -d --name=result -p 5001:80 --link db:db result-app 5docker run -d --name=worker --link redis:redis --link db:db worker 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Deploy k8s</title>
+      <link>https://devstools.github.io/public/post/devops/kubenates/10-deploy-voting-app-deployment/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/kubenates/10-deploy-voting-app-deployment/</guid>
+      <description>
+        
+          
+            Deploy Voting App Kubenates Deployment voting-app-deployment.yaml 1apiVersion: v1 2kind: Deployment 3metadata: 4 name: voting-app-deploy 5 labels: 6 name: voting-app-deploy 7 app: demo-voting-app 8spec: 9 replicas: 1 10 selector: 11 matchLabels: 12 name: voting-app-pod 13 app: demo-voting-app 14 template: 15 metadata: 16 name: voting-app-pod 17 labels: 18 name: voting-app-pod 19 app: demo-voting-app 20 spec: 21 containers: 22 - name: voting-app 23 image: kodekloud/examplevotingapp_vote:v1 24 ports: 25 - containerPort: 80 redis-deployment.yaml 1apiVersion: v1 2kind: Deployment 3metadata: 4 name: redis-deploy 5 labels: 6 name: redis-deploy 7 app: demo-voting-app 8spec: 9 replicas: 1 10 selector: 11 matchLabels: 12 name: redis-deploy 13 app: demo-voting-app 14 template: 15 metadata: 16 name: redis-pod 17 labels: 18 name: redis-pod 19 &amp;gt; app: demo-voting-app 20 spec: 21 containers: 22 - name: redis 23 image: redis 24 ports: 25 - containerPort: 6379 postgres-deployment.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Deploy k8s</title>
+      <link>https://devstools.github.io/public/post/devops/kubenates/9-deploy-voting-app-k8s/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/kubenates/9-deploy-voting-app-k8s/</guid>
+      <description>
+        
+          
+            Deploy Voting App Kubenates voting-app-pod.yaml 1apiVersion: v1 2kind: Pod 3metadata: 4 name: voting-app-pod 5 labels: 6 name: voting-app-pod 7 app: demo-voting-app 8spec: 9 containers: 10 - name: voting-app 11 image: kodekloud/examplevotingapp_vote:v1 12 ports: 13 - containerPort: 80 result-app-pod.yaml 1apiVersion: v1 2kind: Pod 3metadata: 4 name: result-app-pod 5 labels: 6 name: result-app-pod 7 &amp;gt; app: demo-voting-app 8spec: 9 containers: 10 - name: result-app 11 image: kodekloud/exampleresultapp_vote:v1 12 ports: 13 - containerPort: 80 redis-app-pod.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Deployments</title>
       <link>https://devstools.github.io/public/post/devops/kubenates/4/</link>
       <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
@@ -63,6 +111,22 @@ Recreated Rollout 1apiVersion: apps/v1 2kind: Deployment 3metadata: 4 name: myap
     </item>
     
     <item>
+      <title>Microservice Architecture</title>
+      <link>https://devstools.github.io/public/post/devops/kubenates/7-micro-service-architecture/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/kubenates/7-micro-service-architecture/</guid>
+      <description>
+        
+          
+            Microservice Architecture docker run --links 1docker run -d --name=redis redis 2docker run -d --name=db postgres:9.4 3docker run -d --name=vote -p 5000:80 --link redis:redis voting-app 4docker run -d --name=result -p 5001:80 --link db:db result-app 5docker run -d --name=worker --link redis:redis --link db:db worker 
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Replica Controller And ReplicaSets</title>
       <link>https://devstools.github.io/public/post/devops/kubenates/3/</link>
       <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
@@ -74,6 +138,25 @@ Recreated Rollout 1apiVersion: apps/v1 2kind: Deployment 3metadata: 4 name: myap
             Replication Controller Replication Sets Replication Controller đang được dần thay thế bởi replication Set Replication Sets được khuyến khích dùng để tạo ra các replication
 rc-defination.yml
 1apiVersion: v1 2kind: ReplicationCOntroller 3metadata: -&amp;gt; Replication Controller 4 name: myapp-rc 5 labels: 6 app: myapp 7 type: frontend 8spec: 9 template: 10 metadata: -&amp;gt; POD 11 name: myapp-prod 12 labels: 13 app: myapp 14 type: front-end 15 spec: 16 containers: 17 - name: nginx-container 18 image: nginx 19 replicas: 3 Run Command below to create replication controller 1kubectl create -f rc-defination.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://devstools.github.io/public/post/devops/kubenates/6/</link>
+      <pubDate>Fri, 11 Nov 2022 11:43:56 +0700</pubDate>
+      
+      <guid>https://devstools.github.io/public/post/devops/kubenates/6/</guid>
+      <description>
+        
+          
+            Service Version service-definition.yml
+1apiVersion: v1 2kind: Service 3metadata: 4 name: myapp-service 5spec: 6 type: NodePort 7 ports: 8 - targetPort: 80 9 port :80 10 nodePort: 30008 11 selector: 12 app: myapp 13 type: front-end kubectl create -f service-definition.yml kubectl get services
+curl http://192.168.1.2:30008
+1apiVersion: v1 2kind: Service 3metadata: 4 name: myapp-service 5spec: 6 type: LoadBalancer 7 ports: 8 - targetPort: 80 9 port :80 10 nodePort: 30008 11 selector: 12 app: myapp 13 type: front-end 
           
           
         
