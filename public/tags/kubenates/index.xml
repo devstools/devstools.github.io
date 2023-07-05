@@ -39,13 +39,7 @@ Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl descr
       <description>
         
           
-            Kubenates
-Nguồn: https://xuanthulab.net/gioi-thieu-va-cai-dat-kubernetes-cluster.html
-Cài đặt kubenates là kubemini ngoài ra có thể khởi tạo từ docker desktop của macos or windows
-Cài đặt kubectl là kubenates client để tương tác với kubenates
-Chạy lệnh kubectl cluster-info để kiểm tra xem quá trình cài đặt và config đúng chưa
-Kiểm tra có các node nào đang chạy trên máy: kubectl get node
-Check thông tin node xem có bị quá tải gì ko bằng lệnh kubectl describe &amp;quot;&amp;quot;&amp;quot; kubectl describe node/minikube  ✔ │ minikube ⎈ │ 10:42:24 Name: minikube Roles: control-plane Labels: beta.
+            Nomad là sản phẩm của hashicorp
           
           
         
