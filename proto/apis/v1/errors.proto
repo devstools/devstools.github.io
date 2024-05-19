@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package apis.v1;
+
+option go_package = "gitlab.com/ffa5592220/api_definations/proto/apis/v1";
+
+import "google/protobuf/struct.proto";
+
+message ApiErrorResponse { ApiError error = 1; }
+
+message ApiError {
+  // Type of error.
+  ErrorCode code = 1;
+  // Detail message of error
+  string message = 2;
+  // Type of error. In plain text.
+  string type = 3;
+  string trace_id = 4;
+  google.protobuf.Struct details = 5;
+}
+
+// ErrorCode
+enum ErrorCode {
+  // Default
+  ERROR_CODE_INVALID = 0;
+  // Unauthorized request
+  UNAUTHORIZED = 1;
+  // Bad request. Input parameters are malformed
+  BAD_REQUEST = 2;
+  NOT_FOUND = 4;
+  EMAIL_UNVERIFIED = 5;
+  UNKNOWN = 1000;
+}

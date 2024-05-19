@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package apis.v1;
+
+option go_package = "gitlab.com/ffa5592220/api_definations/proto/apis/v1";
+
+import "google/protobuf/wrappers.proto";
+
+// Here is the overall greeting service definition where we define all our endpoints
+message Profile {
+  string user_id = 1;
+  string display_name = 2;
+  string avatar = 3;
+  string cover_photo = 4;
+  string email = 5;
+  google.protobuf.BoolValue email_verified = 6;
+  google.protobuf.BoolValue verified = 7;
+}

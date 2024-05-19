@@ -1,0 +1,1145 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "APIs",
+    "version": "1.0.0-RC"
+  },
+  "tags": [
+    {
+      "name": "ProfileService"
+    }
+  ],
+  "host": "google.com",
+  "schemes": [
+    "https",
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/v1/passport/auth": {
+      "post": {
+        "operationId": "ProfileService_Authorize",
+        "responses": {
+          "200": {
+            "description": "A successful response.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "object",
+                      "properties": {
+                        "user_id": {
+                          "type": "string"
+                        },
+                        "display_name": {
+                          "type": "string"
+                        },
+                        "avatar": {
+                          "type": "string"
+                        },
+                        "cover_photo": {
+                          "type": "string"
+                        },
+                        "email": {
+                          "type": "string"
+                        },
+                        "email_verified": {
+                          "type": "boolean"
+                        },
+                        "verified": {
+                          "type": "boolean"
+                        }
+                      },
+                      "title": "Here is the overall greeting service definition where we define all our endpoints"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid parameters",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Returned when the resource does not exist.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Service error. Service may be temporary interrupted",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "An unexpected error response.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id_token": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "tags": [
+          "ProfileService"
+        ]
+      }
+    },
+    "/v1/profile": {
+      "put": {
+        "operationId": "ProfileService_UpdateProfile",
+        "responses": {
+          "200": {
+            "description": "A successful response.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid parameters",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Returned when the resource does not exist.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Service error. Service may be temporary interrupted",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "An unexpected error response.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "profile": {
+                  "type": "object",
+                  "properties": {
+                    "user_id": {
+                      "type": "string"
+                    },
+                    "display_name": {
+                      "type": "string"
+                    },
+                    "avatar": {
+                      "type": "string"
+                    },
+                    "cover_photo": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "email_verified": {
+                      "type": "boolean"
+                    },
+                    "verified": {
+                      "type": "boolean"
+                    }
+                  },
+                  "title": "Here is the overall greeting service definition where we define all our endpoints"
+                }
+              }
+            }
+          }
+        ],
+        "tags": [
+          "ProfileService"
+        ]
+      }
+    },
+    "/v1/profile/me": {
+      "get": {
+        "operationId": "ProfileService_GetMyProfile",
+        "responses": {
+          "200": {
+            "description": "A successful response.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "object",
+                      "properties": {
+                        "user_id": {
+                          "type": "string"
+                        },
+                        "display_name": {
+                          "type": "string"
+                        },
+                        "avatar": {
+                          "type": "string"
+                        },
+                        "cover_photo": {
+                          "type": "string"
+                        },
+                        "email": {
+                          "type": "string"
+                        },
+                        "email_verified": {
+                          "type": "boolean"
+                        },
+                        "verified": {
+                          "type": "boolean"
+                        }
+                      },
+                      "title": "Here is the overall greeting service definition where we define all our endpoints"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid parameters",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Returned when the resource does not exist.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Service error. Service may be temporary interrupted",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "An unexpected error response.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "error": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "ERROR_CODE_INVALID",
+                        "UNAUTHORIZED",
+                        "BAD_REQUEST",
+                        "NOT_FOUND",
+                        "EMAIL_UNVERIFIED",
+                        "UNKNOWN"
+                      ],
+                      "default": "ERROR_CODE_INVALID",
+                      "description": "Type of error.",
+                      "title": "ErrorCode"
+                    },
+                    "message": {
+                      "type": "string",
+                      "title": "Detail message of error"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Type of error. In plain text."
+                    },
+                    "trace_id": {
+                      "type": "string"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "ProfileService"
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "v1ApiError": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "enum": [
+            "ERROR_CODE_INVALID",
+            "UNAUTHORIZED",
+            "BAD_REQUEST",
+            "NOT_FOUND",
+            "EMAIL_UNVERIFIED",
+            "UNKNOWN"
+          ],
+          "default": "ERROR_CODE_INVALID",
+          "description": "Type of error.",
+          "title": "ErrorCode"
+        },
+        "message": {
+          "type": "string",
+          "title": "Detail message of error"
+        },
+        "type": {
+          "type": "string",
+          "description": "Type of error. In plain text."
+        },
+        "trace_id": {
+          "type": "string"
+        },
+        "details": {
+          "type": "object"
+        }
+      }
+    },
+    "v1ApiErrorResponse": {
+      "type": "object",
+      "properties": {
+        "error": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string",
+              "enum": [
+                "ERROR_CODE_INVALID",
+                "UNAUTHORIZED",
+                "BAD_REQUEST",
+                "NOT_FOUND",
+                "EMAIL_UNVERIFIED",
+                "UNKNOWN"
+              ],
+              "default": "ERROR_CODE_INVALID",
+              "description": "Type of error.",
+              "title": "ErrorCode"
+            },
+            "message": {
+              "type": "string",
+              "title": "Detail message of error"
+            },
+            "type": {
+              "type": "string",
+              "description": "Type of error. In plain text."
+            },
+            "trace_id": {
+              "type": "string"
+            },
+            "details": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "v1AuthorizeRequest": {
+      "type": "object",
+      "properties": {
+        "id_token": {
+          "type": "string"
+        }
+      }
+    },
+    "v1AuthorizeResponse": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "profile": {
+              "type": "object",
+              "properties": {
+                "user_id": {
+                  "type": "string"
+                },
+                "display_name": {
+                  "type": "string"
+                },
+                "avatar": {
+                  "type": "string"
+                },
+                "cover_photo": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "email_verified": {
+                  "type": "boolean"
+                },
+                "verified": {
+                  "type": "boolean"
+                }
+              },
+              "title": "Here is the overall greeting service definition where we define all our endpoints"
+            }
+          }
+        }
+      }
+    },
+    "v1AuthorizeResponseData": {
+      "type": "object",
+      "properties": {
+        "profile": {
+          "type": "object",
+          "properties": {
+            "user_id": {
+              "type": "string"
+            },
+            "display_name": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "string"
+            },
+            "cover_photo": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "email_verified": {
+              "type": "boolean"
+            },
+            "verified": {
+              "type": "boolean"
+            }
+          },
+          "title": "Here is the overall greeting service definition where we define all our endpoints"
+        }
+      }
+    },
+    "v1ErrorCode": {
+      "type": "string",
+      "enum": [
+        "ERROR_CODE_INVALID",
+        "UNAUTHORIZED",
+        "BAD_REQUEST",
+        "NOT_FOUND",
+        "EMAIL_UNVERIFIED",
+        "UNKNOWN"
+      ],
+      "default": "ERROR_CODE_INVALID",
+      "description": "- ERROR_CODE_INVALID: Default\n - UNAUTHORIZED: Unauthorized request\n - BAD_REQUEST: Bad request. Input parameters are malformed",
+      "title": "ErrorCode"
+    },
+    "v1GetMyProfileResponse": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "profile": {
+              "type": "object",
+              "properties": {
+                "user_id": {
+                  "type": "string"
+                },
+                "display_name": {
+                  "type": "string"
+                },
+                "avatar": {
+                  "type": "string"
+                },
+                "cover_photo": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "email_verified": {
+                  "type": "boolean"
+                },
+                "verified": {
+                  "type": "boolean"
+                }
+              },
+              "title": "Here is the overall greeting service definition where we define all our endpoints"
+            }
+          }
+        }
+      }
+    },
+    "v1GetMyProfileResponseData": {
+      "type": "object",
+      "properties": {
+        "profile": {
+          "type": "object",
+          "properties": {
+            "user_id": {
+              "type": "string"
+            },
+            "display_name": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "string"
+            },
+            "cover_photo": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "email_verified": {
+              "type": "boolean"
+            },
+            "verified": {
+              "type": "boolean"
+            }
+          },
+          "title": "Here is the overall greeting service definition where we define all our endpoints"
+        }
+      }
+    },
+    "v1Profile": {
+      "type": "object",
+      "properties": {
+        "user_id": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "avatar": {
+          "type": "string"
+        },
+        "cover_photo": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "email_verified": {
+          "type": "boolean"
+        },
+        "verified": {
+          "type": "boolean"
+        }
+      },
+      "title": "Here is the overall greeting service definition where we define all our endpoints"
+    },
+    "v1UpdateProfileRequest": {
+      "type": "object",
+      "properties": {
+        "profile": {
+          "type": "object",
+          "properties": {
+            "user_id": {
+              "type": "string"
+            },
+            "display_name": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "string"
+            },
+            "cover_photo": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "email_verified": {
+              "type": "boolean"
+            },
+            "verified": {
+              "type": "boolean"
+            }
+          },
+          "title": "Here is the overall greeting service definition where we define all our endpoints"
+        }
+      }
+    },
+    "v1UpdateProfileResponse": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "message": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "v1UpdateProfileResponseData": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "Bearer": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}

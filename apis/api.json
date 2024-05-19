@@ -1,0 +1,6 @@
+{
+    "$ref": "../public/swagger/apis.swagger.json",
+    "paths": {
+        "$ref#paths": "../public/swagger/apis.swagger.json#paths"
+    }
+}

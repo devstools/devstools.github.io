@@ -1,0 +1,147 @@
+syntax = "proto3";
+
+package apis.v1;
+
+option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
+  info : {title : "APIs" version : "1.0.0-RC"};
+schemes : HTTPS;
+schemes : HTTP;
+host : "google.com";
+consumes : "application/json";
+produces : "application/json";
+responses : {
+key:
+  "400" value : {
+  description:
+    "Invalid parameters" schema : {
+    json_schema : {
+    ref:
+      ".apis.v1.ApiErrorResponse"
+    }
+    }
+  }
+}
+responses : {
+key:
+  "401" value : {
+  description:
+    "Unauthorized" schema : {
+    json_schema : {
+    ref:
+      ".apis.v1.ApiErrorResponse"
+    }
+    }
+  }
+}
+responses : {
+key:
+  "404" value : {
+  description:
+    "Returned when the resource does not exist." schema : {
+    json_schema : {
+    ref:
+      ".apis.v1.ApiErrorResponse"
+    }
+    }
+  }
+}
+responses : {
+key:
+  "500" value : {
+  description:
+    "Service error. Service may be temporary interrupted" schema : {
+    json_schema : {
+    ref:
+      ".apis.v1.ApiErrorResponse"
+    }
+    }
+  }
+}
+responses : {
+key:
+  "default" value : {
+  description:
+    "An unexpected error response." schema : {
+    json_schema : {
+    ref:
+      ".apis.v1.ApiErrorResponse"
+    }
+    }
+  }
+}
+security_definitions : {
+    security : {
+        key:
+        "Bearer" value : {
+            type:
+                TYPE_API_KEY
+            name:
+                "Authorization" in : IN_HEADER
+        }
+    }
+}
+security :
+    [{security_requirement : {key : "Bearer"}}]
+}
+;
+
+option go_package = "gitlab.com/ffa5592220/api_definations/proto/apis/v1";
+
+import "protoc-gen-openapiv2/options/annotations.proto";
+import "google/api/annotations.proto";
+import "apis/v1/profile.proto";
+
+service ProfileService {
+    rpc Authorize(AuthorizeRequest) returns (AuthorizeResponse) {
+        option (google.api.http) = {
+            post: "/v1/passport/auth"
+            body: "*"
+        };
+    }
+   
+    rpc GetMyProfile(GetMyProfileRequest) returns (GetMyProfileResponse) {
+        option (google.api.http) = {
+            get: "/v1/profile/me"
+        };
+    }
+
+    rpc UpdateProfile(UpdateProfileRequest) returns (UpdateProfileResponse) {
+        option (google.api.http) = {
+            put: "/v1/profile"
+            body: "*"
+        };
+    }
+}
+
+message AuthorizeRequest {
+    string id_token = 1;
+}
+
+message AuthorizeResponse {
+    Data data = 1;
+    message Data {
+      Profile profile = 1;
+    }
+}
+
+message GetMyProfileRequest {
+}
+
+message GetMyProfileResponse {
+  Data data = 1;
+    message Data {
+      Profile profile = 1;
+    }
+}
+
+
+message UpdateProfileRequest {
+    Profile profile = 1;
+}
+
+message UpdateProfileResponse {
+    Data data = 1;
+    message Data {
+      string message = 1;
+    }
+}
